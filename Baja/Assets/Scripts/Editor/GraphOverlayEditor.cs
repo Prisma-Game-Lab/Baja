@@ -1,4 +1,4 @@
-﻿using UnityEditor;
+﻿/*using UnityEditor;
 using UnityEngine;
 
 [CustomEditor(typeof(GraphOverlay))]
@@ -35,4 +35,4 @@ public class GraphOverlayEditor : Editor {
 	        }
         }
     }
-}
+}*/

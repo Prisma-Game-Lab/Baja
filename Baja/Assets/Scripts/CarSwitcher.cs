@@ -25,12 +25,12 @@ public class CarSwitcher : MonoBehaviour
 
 			vehicles[m_VehicleId].SetActive(true);
 
-			var graph = GetComponent<GraphOverlay>();
-			if (graph)
-			{
-				graph.vehicleBody = vehicles[m_VehicleId].GetComponent<Rigidbody>();
-				graph.SetupWheelConfigs();
-			}
+//			var graph = GetComponent<GraphOverlay>();
+			//if (graph)
+			//{
+			//	graph.vehicleBody = vehicles[m_VehicleId].GetComponent<Rigidbody>();
+			//	graph.SetupWheelConfigs();
+			//}
 
 			// Setup the new one.
 			Transform vehicleT = vehicles[m_VehicleId].transform;
