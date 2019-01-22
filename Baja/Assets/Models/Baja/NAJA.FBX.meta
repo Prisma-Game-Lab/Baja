@@ -1,0 +1,2859 @@
+fileFormatVersion: 2
+guid: 45ae1721b460abd449b9ee87fb91780a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: <DIRECAO_Ball Joint 3-8 in_MT>-<Chanfro1>
+    100002: "<DIRECAO_Ball Joint 3-8 in_MT>-<Revolu\xE7\xE3o3>"
+    100004: <DIRECAO_Esfera Ball Joint 3-8 in_MH>-<Revolve1>
+    100006: "<DIRECAO_Espa\xE7ador 3-8 in_MH>-<Revolu\xE7\xE3o1>"
+    100008: "<DIRECAO_Espa\xE7ador 3-8 in_MH>-<Revolu\xE7\xE3o1> 1"
+    100010: "<DIRECAO_Suporte Tie-Rod_MH>-<Corte-extrus\xE3o3>"
+    100012: "<DIRECAO_Tie-rod_MH>-<Revolu\xE7\xE3o1>"
+    100014: "<FOX_Evol R Inferior>-<Ressalto-extrus\xE3o5>"
+    100016: <FOX_Evol R Superior>-<Fillet2>
+    100018: "<FOX_Float 3 Inferior>-<Ressalto-extrus\xE3o5>"
+    100020: <FOX_Float 3 Superior>-<Cut-Extrude1>
+    100022: <FREIO_Disco Dianteiro_MT>-<Escareado para SFHCS M61>
+    100024: "<FREIO_Disco Dianteiro_MT>-<Ressalto-extrus\xE3o1>"
+    100026: "<FREIO_Pastilha wilwood_MT>-<Ressalto-extrus\xE3o2>"
+    100028: "<FREIO_Pastilha wilwood_MT>-<Ressalto-extrus\xE3o2> 1"
+    100030: "<FREIO_pin\xE7a wilwood corpo_MT>-<Filete6>"
+    100032: "<FREIO_pin\xE7a wilwood corpo_MT>-<Importado3>"
+    100034: "<FREIO_Suporte Dianteiro_MH>-<Ressalto-extrus\xE3o1>"
+    100036: "<SUSPENSAO DIANTEIRA_A Inferior_MH>-<Ressalto-extrus\xE3o2>"
+    100038: <SUSPENSAO DIANTEIRA_A Inferior_MH>-<Structural Member1[1]>
+    100040: <SUSPENSAO DIANTEIRA_A Inferior_MH>-<Structural Member1[2]>
+    100042: <SUSPENSAO DIANTEIRA_A Inferior_MH>-<Structural Member1[5]>
+    100044: <SUSPENSAO DIANTEIRA_A Superior_MH>-<Structural Member1[1]>
+    100046: <SUSPENSAO DIANTEIRA_A Superior_MH>-<Structural Member1[2]>
+    100048: <SUSPENSAO DIANTEIRA_A Superior_MH>-<Structural Member1[3]>
+    100050: <SUSPENSAO DIANTEIRA_A Superior_MH>-<Trim/Extend1>
+    100052: <SUSPENSAO DIANTEIRA_A Superior_MH>-<Trim/Extend2>
+    100054: <SUSPENSAO DIANTEIRA_Ajuste Ball Joint_MH>-<Revolve1>
+    100056: <SUSPENSAO DIANTEIRA_Ajuste Ball Joint_MH>-<Revolve1> 1
+    100058: <SUSPENSAO DIANTEIRA_Ball Joint 5-8 in_EM>-<Chanfro1>
+    100060: <SUSPENSAO DIANTEIRA_Ball Joint 5-8 in_EM>-<Chanfro1> 1
+    100062: "<SUSPENSAO DIANTEIRA_Ball Joint 5-8 in_EM>-<Revolu\xE7\xE3o3>"
+    100064: "<SUSPENSAO DIANTEIRA_Ball Joint 5-8 in_EM>-<Revolu\xE7\xE3o3> 1"
+    100066: <SUSPENSAO DIANTEIRA_Cubo_LK>-<Filete2>
+    100068: <SUSPENSAO DIANTEIRA_Eixo_MH>-<Chanfro1>
+    100070: <SUSPENSAO DIANTEIRA_Esfera Ball Joint 5-8 in_MH>-<Revolve1>
+    100072: <SUSPENSAO DIANTEIRA_Esfera Ball Joint 5-8 in_MH>-<Revolve1> 1
+    100074: "<SUSPENSAO DIANTEIRA_Espa\xE7ador 5-8 in_MH>-<Revolve1>"
+    100076: "<SUSPENSAO DIANTEIRA_Espa\xE7ador 5-8 in_MH>-<Revolve1> 1"
+    100078: "<SUSPENSAO DIANTEIRA_Espa\xE7ador Superior 5-8 in_MH>-<Revolve1>"
+    100080: "<SUSPENSAO DIANTEIRA_Espa\xE7ador Superior 5-8 in_MH>-<Revolve1> 1"
+    100082: "<SUSPENSAO DIANTEIRA_Manga 6_MH>-<Corte-extrus\xE3o31>"
+    100084: <SUSPENSAO DIANTEIRA_Pneu 21 X 7 X 10_MH>-<Cut-Extrude1>
+    100086: "<SUSPENSAO DIANTEIRA_Rolamento Conico 20X42X15_MH>-<Revolu\xE7\xE3o1[1]>"
+    100088: "<SUSPENSAO DIANTEIRA_Rolamento Conico 20X42X15_MH>-<Revolu\xE7\xE3o1[2]>"
+    100090: "<SUSPENSAO DIANTEIRA_Rolamento Conico 20X42X15_MH>-<Revolu\xE7\xE3o1[3]>"
+    100092: "<SUSPENSAO DIANTEIRA_Rolamento Conico 25X47X17_MH>-<Revolu\xE7\xE3o1[1]>"
+    100094: "<SUSPENSAO DIANTEIRA_Rolamento Conico 25X47X17_MH>-<Revolu\xE7\xE3o1[2]>"
+    100096: "<SUSPENSAO DIANTEIRA_Rolamento Conico 25X47X17_MH>-<Revolu\xE7\xE3o1[3]>"
+    100098: <SUSPENSAO TRASEIRA_A Inferior_LH>-<Componente estrutural1[1]>
+    100100: <SUSPENSAO TRASEIRA_A Inferior_LH>-<Componente estrutural1[2]>
+    100102: <SUSPENSAO TRASEIRA_A Inferior_LH>-<Componente estrutural1[3]>
+    100104: <SUSPENSAO TRASEIRA_A Inferior_LH>-<Componente estrutural1[4]>
+    100106: "<SUSPENSAO TRASEIRA_A Inferior_LH>-<Corte-extrus\xE3o1>"
+    100108: "<SUSPENSAO TRASEIRA_A Superior 2_LH>-<Ressalto-extrus\xE3o2>"
+    100110: "<SUSPENSAO TRASEIRA_A Superior 2_LH>-<Tubo r\xEDgido 21.3 X 2.3(1)[1]>"
+    100112: "<SUSPENSAO TRASEIRA_A Superior 2_LH>-<Tubo r\xEDgido 21.3 X 2.3(1)[2]>"
+    100114: "<SUSPENSAO TRASEIRA_A Superior 2_LH>-<Tubo r\xEDgido 21.3 X 2.3(1)[3]>"
+    100116: "<SUSPENSAO TRASEIRA_A Superior 2_LH>-<Tubo r\xEDgido 21.3 X 2.3(1)[4]>"
+    100118: "<SUSPENSAO TRASEIRA_A Superior 2_LH>-<Tubo r\xEDgido 21.3 X 2.3(1)[6]>"
+    100120: <SUSPENSAO TRASEIRA_Ball Joint 3-8 in_MT>-<Chanfro1>
+    100122: <SUSPENSAO TRASEIRA_Ball Joint 3-8 in_MT>-<Chanfro1> 1
+    100124: "<SUSPENSAO TRASEIRA_Ball Joint 3-8 in_MT>-<Revolu\xE7\xE3o3>"
+    100126: "<SUSPENSAO TRASEIRA_Ball Joint 3-8 in_MT>-<Revolu\xE7\xE3o3> 1"
+    100128: <SUSPENSAO TRASEIRA_Ball Joint 5-8 in_EM>-<Chanfro1>
+    100130: <SUSPENSAO TRASEIRA_Ball Joint 5-8 in_EM>-<Chanfro1> 1
+    100132: "<SUSPENSAO TRASEIRA_Ball Joint 5-8 in_EM>-<Revolu\xE7\xE3o3>"
+    100134: "<SUSPENSAO TRASEIRA_Ball Joint 5-8 in_EM>-<Revolu\xE7\xE3o3> 1"
+    100136: "<SUSPENSAO TRASEIRA_Cubo_MH>-<Corte-extrus\xE3o3>"
+    100138: <SUSPENSAO TRASEIRA_Esfera Ball Joint 3-8 in_MH>-<Revolve1>
+    100140: <SUSPENSAO TRASEIRA_Esfera Ball Joint 3-8 in_MH>-<Revolve1> 1
+    100142: <SUSPENSAO TRASEIRA_Esfera Ball Joint 5-8 in_MH>-<Revolve1>
+    100144: <SUSPENSAO TRASEIRA_Esfera Ball Joint 5-8 in_MH>-<Revolve1> 1
+    100146: "<SUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH>-<Revolu\xE7\xE3o1>"
+    100148: "<SUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH>-<Revolu\xE7\xE3o1> 1"
+    100150: "<SUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH>-<Revolu\xE7\xE3o1> 2"
+    100152: "<SUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH>-<Revolu\xE7\xE3o1> 3"
+    100154: "<SUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH>-<Revolve1>"
+    100156: "<SUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH>-<Revolve1> 1"
+    100158: "<SUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH>-<Revolve1> 2"
+    100160: "<SUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH>-<Revolve1> 3"
+    100162: "<SUSPENSAO TRASEIRA_Manga 5_MH>-<Ressalto-extrus\xE3o12>"
+    100164: <SUSPENSAO TRASEIRA_Pneu 21 X 7 X 10_MH>-<Cut-Extrude1>
+    100166: "<SUSPENSAO TRASEIRA_Rolamento Manga_MH>-<Revolu\xE7\xE3o1[1]>"
+    100168: "<SUSPENSAO TRASEIRA_Rolamento Manga_MH>-<Revolu\xE7\xE3o1[1]> 1"
+    100170: "<SUSPENSAO TRASEIRA_Rolamento Manga_MH>-<Revolu\xE7\xE3o1[2]>"
+    100172: "<SUSPENSAO TRASEIRA_Rolamento Manga_MH>-<Revolu\xE7\xE3o1[2]> 1"
+    100174: "<SUSPENSAO TRASEIRA_Rolamento Manga_MH>-<Revolu\xE7\xE3o1[3]>"
+    100176: "<SUSPENSAO TRASEIRA_Rolamento Manga_MH>-<Revolu\xE7\xE3o1[3]> 1"
+    100178: <SUSPENSAO TRASEIRA_Toe Link_LH>-<Chanfro1>
+    100180: "<TRANSMISSAO_Bilha_NC>-<Revolu\xE7\xE3o1>"
+    100182: "<TRANSMISSAO_Bilha_NC>-<Revolu\xE7\xE3o1> 1"
+    100184: "<TRANSMISSAO_Bilha_NC>-<Revolu\xE7\xE3o1> 2"
+    100186: "<TRANSMISSAO_Bilha_NC>-<Revolu\xE7\xE3o1> 3"
+    100188: "<TRANSMISSAO_Bilha_NC>-<Revolu\xE7\xE3o1> 4"
+    100190: "<TRANSMISSAO_Bilha_NC>-<Revolu\xE7\xE3o1> 5"
+    100192: <TRANSMISSAO_Corpo da gaiola_NA>-<Chamfer4>
+    100194: "<TRANSMISSAO_Junta caixa_MH>-<Padr\xE3oCircular1>"
+    100196: "<TRANSMISSAO_Junta externa_MH>-<Corte-extrus\xE3o2>"
+    100198: <TRANSMISSAO_Junta interna_NC>-<Filete2>
+    100200: "<TRANSMISSAO_Semi-Eixo_NC>-<Corte-extrus\xE3o4>"
+    100202: Boss-Extrude1
+    100204: Boss-Extrude1 1
+    100206: BRIGGS&STRATTON_Escapamento
+    100208: "BRIGGS&STRATTON_Pe\xE7a 1"
+    100210: "BRIGGS&STRATTON_Pe\xE7a 10"
+    100212: "BRIGGS&STRATTON_Pe\xE7a 11"
+    100214: "BRIGGS&STRATTON_Pe\xE7a 12"
+    100216: "BRIGGS&STRATTON_Pe\xE7a 13"
+    100218: "BRIGGS&STRATTON_Pe\xE7a 14"
+    100220: "BRIGGS&STRATTON_Pe\xE7a 15"
+    100222: "BRIGGS&STRATTON_Pe\xE7a 16"
+    100224: "BRIGGS&STRATTON_Pe\xE7a 17"
+    100226: "BRIGGS&STRATTON_Pe\xE7a 18"
+    100228: "BRIGGS&STRATTON_Pe\xE7a 19"
+    100230: "BRIGGS&STRATTON_Pe\xE7a 20"
+    100232: "BRIGGS&STRATTON_Pe\xE7a 21"
+    100234: "BRIGGS&STRATTON_Pe\xE7a 23"
+    100236: "BRIGGS&STRATTON_Pe\xE7a 24"
+    100238: "BRIGGS&STRATTON_Pe\xE7a 25"
+    100240: "BRIGGS&STRATTON_Pe\xE7a 28"
+    100242: "BRIGGS&STRATTON_Pe\xE7a 29"
+    100244: "BRIGGS&STRATTON_Pe\xE7a 3"
+    100246: "BRIGGS&STRATTON_Pe\xE7a 30"
+    100248: "BRIGGS&STRATTON_Pe\xE7a 31"
+    100250: "BRIGGS&STRATTON_Pe\xE7a 32"
+    100252: "BRIGGS&STRATTON_Pe\xE7a 33"
+    100254: "BRIGGS&STRATTON_Pe\xE7a 34"
+    100256: "BRIGGS&STRATTON_Pe\xE7a 35"
+    100258: "BRIGGS&STRATTON_Pe\xE7a 36"
+    100260: "BRIGGS&STRATTON_Pe\xE7a 37"
+    100262: "BRIGGS&STRATTON_Pe\xE7a 38"
+    100264: "BRIGGS&STRATTON_Pe\xE7a 39"
+    100266: "BRIGGS&STRATTON_Pe\xE7a 40"
+    100268: "BRIGGS&STRATTON_Pe\xE7a 41"
+    100270: "BRIGGS&STRATTON_Pe\xE7a 42"
+    100272: "BRIGGS&STRATTON_Pe\xE7a 43"
+    100274: "BRIGGS&STRATTON_Pe\xE7a 44"
+    100276: "BRIGGS&STRATTON_Pe\xE7a 5"
+    100278: "BRIGGS&STRATTON_Pe\xE7a 7"
+    100280: "BRIGGS&STRATTON_Pe\xE7a 8"
+    100282: "BRIGGS&STRATTON_Pe\xE7a 9"
+    100284: Chamfer1
+    100286: Chamfer4
+    100288: Chanfro1
+    100290: Chanfro1 1
+    100292: Chanfro1 10
+    100294: Chanfro1 2
+    100296: Chanfro1 3
+    100298: Chanfro1 4
+    100300: Chanfro1 5
+    100302: Chanfro1 6
+    100304: Chanfro1 7
+    100306: Chanfro1 8
+    100308: Chanfro1 9
+    100310: Componente estrutural1[1]
+    100312: Componente estrutural1[2]
+    100314: Componente estrutural1[3]
+    100316: Componente estrutural1[4]
+    100318: "Corte-extrus\xE3o1"
+    100320: "Corte-extrus\xE3o1 1"
+    100322: "Corte-extrus\xE3o1 2"
+    100324: "Corte-extrus\xE3o1 3"
+    100326: "Corte-extrus\xE3o1 4"
+    100328: "Corte-extrus\xE3o1 5"
+    100330: "Corte-extrus\xE3o2"
+    100332: "Corte-extrus\xE3o3"
+    100334: "Corte-extrus\xE3o3 1"
+    100336: "Corte-extrus\xE3o3 2"
+    100338: "Corte-extrus\xE3o3 3"
+    100340: "Corte-extrus\xE3o3 4"
+    100342: "Corte-extrus\xE3o3 5"
+    100344: "Corte-extrus\xE3o31"
+    100346: "Corte-extrus\xE3o4"
+    100348: "Corte-extrus\xE3o4 1"
+    100350: "Corte-extrus\xE3o4 2"
+    100352: "Corte-extrus\xE3o5"
+    100354: "Corte-extrus\xE3o6"
+    100356: "Corte-extrus\xE3o6 1"
+    100358: Cut-Extrude1
+    100360: Cut-Extrude1 1
+    100362: Cut-Extrude1 10
+    100364: Cut-Extrude1 11
+    100366: Cut-Extrude1 2
+    100368: Cut-Extrude1 3
+    100370: Cut-Extrude1 4
+    100372: Cut-Extrude1 5
+    100374: Cut-Extrude1 6
+    100376: Cut-Extrude1 7
+    100378: Cut-Extrude1 8
+    100380: Cut-Extrude1 9
+    100382: Cut-Extrude2
+    100384: DIRECAO_Ball Joint 3-8 in_MT
+    100386: DIRECAO_Ball Joint 3-8 in_MT 1
+    100388: DIRECAO_Bucha Externa_MH
+    100390: DIRECAO_Bucha Externa_MH 1
+    100392: DIRECAO_Bucha Interna_MH
+    100394: DIRECAO_Bucha Interna_MH 1
+    100396: DIRECAO_Caixa Inferior_MH
+    100398: DIRECAO_Caixa Superior_MH
+    100400: DIRECAO_Cremalheira_MH
+    100402: DIRECAO_Esfera Ball Joint 3-8 in_MH
+    100404: DIRECAO_Esfera Ball Joint 3-8 in_MH 1
+    100406: "DIRECAO_Espa\xE7ador 3-8 in_MH"
+    100408: "DIRECAO_Espa\xE7ador 3-8 in_MH 1"
+    100410: "DIRECAO_Espa\xE7ador 3-8 in_MH 2"
+    100412: "DIRECAO_Espa\xE7ador 3-8 in_MH 3"
+    100414: DIRECAO_Guia Superior_MH
+    100416: DIRECAO_Guia Superior_MH 1
+    100418: "DIRECAO_Pinh\xE3o_MH"
+    100420: DIRECAO_Rolamento Inferior_MT
+    100422: DIRECAO_Rolamento Superior_MT
+    100424: DIRECAO_Suporte Caixa_MH
+    100426: DIRECAO_Suporte Tie-Rod_MH
+    100428: DIRECAO_Tie-rod_MH
+    100430: "DIRE\xC7\xC3O_Coluna 1_SK"
+    100432: "DIRE\xC7\xC3O_Coluna 2_SK"
+    100434: "DIRE\xC7\xC3O_Cruz_SK"
+    100436: "DIRE\xC7\xC3O_Junta_SK"
+    100438: "DIRE\xC7\xC3O_Junta_SK 1"
+    100440: Dome1
+    100442: ELETRONICA_Bateria_MC
+    100444: Escareado para SFHCS M61
+    100446: Espelhar1
+    100448: Espelhar1 1
+    100450: Espelhar1 2
+    100452: Espelhar1 3
+    100454: Espelhar1 4
+    100456: Espelhar1 5
+    100458: Espelhar1 6
+    100460: Espelhar1 7
+    100462: Espelhar1 8
+    100464: Espelhar1 9
+    100466: Espelhar4
+    100468: EspelharDIRECAO_Ball Joint 3-8 in_MT
+    100470: EspelharDIRECAO_Esfera Ball Joint 3-8 in_MH
+    100472: "EspelharDIRECAO_Espa\xE7ador 3-8 in_MH"
+    100474: "EspelharDIRECAO_Espa\xE7ador 3-8 in_MH 1"
+    100476: EspelharDIRECAO_Suporte Tie-Rod_MH
+    100478: EspelharDIRECAO_Tie-rod_MH
+    100480: EspelharFOX_Evol R Inferior
+    100482: EspelharFOX_Evol R Superior
+    100484: EspelharFOX_Float 3 Inferior
+    100486: EspelharFOX_Float 3 Superior
+    100488: EspelharFREIO_Disco Dianteiro_MT
+    100490: EspelharFREIO_Pastilha wilwood_MT
+    100492: EspelharFREIO_Pastilha wilwood_MT 1
+    100494: "EspelharFREIO_pin\xE7a wilwood corpo_MT"
+    100496: EspelharFREIO_Suporte Dianteiro_MH
+    100498: "EspelharMONTAGEM_Homocin\xE9tica_LH"
+    100500: "EspelharMONTAGEM_Suspens\xE3o Dianteira_MH"
+    100502: "EspelharMONTAGEM_Suspens\xE3o Traseira_LH"
+    100504: EspelharSUSPENSAO DIANTEIRA_A Inferior_MH
+    100506: EspelharSUSPENSAO DIANTEIRA_A Superior_MH
+    100508: EspelharSUSPENSAO DIANTEIRA_Ajuste Ball Joint_MH
+    100510: EspelharSUSPENSAO DIANTEIRA_Ajuste Ball Joint_MH 1
+    100512: EspelharSUSPENSAO DIANTEIRA_Ball Joint 5-8 in_EM
+    100514: EspelharSUSPENSAO DIANTEIRA_Ball Joint 5-8 in_EM 1
+    100516: EspelharSUSPENSAO DIANTEIRA_Cubo_LK
+    100518: EspelharSUSPENSAO DIANTEIRA_Eixo_MH
+    100520: EspelharSUSPENSAO DIANTEIRA_Esfera Ball Joint 5-8 in_MH
+    100522: EspelharSUSPENSAO DIANTEIRA_Esfera Ball Joint 5-8 in_MH 1
+    100524: "EspelharSUSPENSAO DIANTEIRA_Espa\xE7ador 5-8 in_MH"
+    100526: "EspelharSUSPENSAO DIANTEIRA_Espa\xE7ador 5-8 in_MH 1"
+    100528: "EspelharSUSPENSAO DIANTEIRA_Espa\xE7ador Superior 5-8 in_MH"
+    100530: "EspelharSUSPENSAO DIANTEIRA_Espa\xE7ador Superior 5-8 in_MH 1"
+    100532: EspelharSUSPENSAO DIANTEIRA_Manga 6_MH
+    100534: EspelharSUSPENSAO DIANTEIRA_Pneu 21 X 7 X 10_MH
+    100536: EspelharSUSPENSAO DIANTEIRA_Rolamento Conico 20X42X15_MH
+    100538: EspelharSUSPENSAO DIANTEIRA_Rolamento Conico 25X47X17_MH
+    100540: EspelharSUSPENSAO TRASEIRA_A Inferior_LH
+    100542: EspelharSUSPENSAO TRASEIRA_A Superior 2_LH
+    100544: EspelharSUSPENSAO TRASEIRA_Ball Joint 3-8 in_MT
+    100546: EspelharSUSPENSAO TRASEIRA_Ball Joint 3-8 in_MT 1
+    100548: EspelharSUSPENSAO TRASEIRA_Ball Joint 5-8 in_EM
+    100550: EspelharSUSPENSAO TRASEIRA_Ball Joint 5-8 in_EM 1
+    100552: EspelharSUSPENSAO TRASEIRA_Cubo_MH
+    100554: EspelharSUSPENSAO TRASEIRA_Esfera Ball Joint 3-8 in_MH
+    100556: EspelharSUSPENSAO TRASEIRA_Esfera Ball Joint 3-8 in_MH 1
+    100558: EspelharSUSPENSAO TRASEIRA_Esfera Ball Joint 5-8 in_MH
+    100560: EspelharSUSPENSAO TRASEIRA_Esfera Ball Joint 5-8 in_MH 1
+    100562: "EspelharSUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH"
+    100564: "EspelharSUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH 1"
+    100566: "EspelharSUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH 2"
+    100568: "EspelharSUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH 3"
+    100570: "EspelharSUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH"
+    100572: "EspelharSUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH 1"
+    100574: "EspelharSUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH 2"
+    100576: "EspelharSUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH 3"
+    100578: EspelharSUSPENSAO TRASEIRA_Manga 5_MH
+    100580: EspelharSUSPENSAO TRASEIRA_Pneu 21 X 7 X 10_MH
+    100582: EspelharSUSPENSAO TRASEIRA_Rolamento Manga_MH
+    100584: EspelharSUSPENSAO TRASEIRA_Rolamento Manga_MH 1
+    100586: EspelharSUSPENSAO TRASEIRA_Toe Link_LH
+    100588: EspelharTRANSMISSAO_Bilha_NC
+    100590: EspelharTRANSMISSAO_Bilha_NC 1
+    100592: EspelharTRANSMISSAO_Bilha_NC 2
+    100594: EspelharTRANSMISSAO_Bilha_NC 3
+    100596: EspelharTRANSMISSAO_Bilha_NC 4
+    100598: EspelharTRANSMISSAO_Bilha_NC 5
+    100600: EspelharTRANSMISSAO_Corpo da gaiola_NA
+    100602: EspelharTRANSMISSAO_Junta caixa_MH
+    100604: EspelharTRANSMISSAO_Junta externa_MH
+    100606: EspelharTRANSMISSAO_Junta interna_NC
+    100608: EspelharTRANSMISSAO_Semi-Eixo_NC
+    100610: ESTRUTURA_Assoalho_LI
+    100612: ESTRUTURA_Banco_MH
+    100614: ESTRUTURA_Banco_MH 1
+    100616: ESTRUTURA_Gaiola 4_MH
+    100618: Extrude1
+    100620: Extrude2
+    100622: Filete1
+    100624: Filete1 1
+    100626: Filete1 2
+    100628: Filete1 3
+    100630: Filete1 4
+    100632: Filete1 5
+    100634: Filete1 6
+    100636: Filete1 7
+    100638: Filete1 8
+    100640: Filete16
+    100642: Filete2
+    100644: Filete2 1
+    100646: Filete2 2
+    100648: Filete3
+    100650: Filete36
+    100652: Filete6
+    100654: Fillet1
+    100656: Fillet2
+    100658: Fillet2 1
+    100660: Fillet4
+    100662: Fillet5
+    100664: FOX_Evol R Inferior
+    100666: FOX_Evol R Inferior 1
+    100668: FOX_Evol R Superior
+    100670: FOX_Evol R Superior 1
+    100672: FOX_Float 3 Inferior
+    100674: FOX_Float 3 Superior
+    100676: FREIO_Arruela Balance Bar_AW
+    100678: FREIO_Aste cilendro mestre_MT
+    100680: FREIO_Aste cilendro mestre_MT 1
+    100682: FREIO_Balance Bar_AW
+    100684: "FREIO_Ball Joint F\xEAmea 8 mm_MH"
+    100686: "FREIO_Ball Joint F\xEAmea 8 mm_MH 1"
+    100688: FREIO_Bucha_MH
+    100690: FREIO_Bucha_MH 1
+    100692: FREIO_Cilindro Mestre 1-2 in_ HP
+    100694: FREIO_Cilindro Mestre 1-2 in_ HP 1
+    100696: FREIO_Cubo de Freio_NC
+    100698: FREIO_Disco Dianteiro_MT
+    100700: FREIO_Disco Traseiro_MH
+    100702: FREIO_embolo cilindro mestre_MT
+    100704: FREIO_embolo cilindro mestre_MT 1
+    100706: FREIO_Esfera Ball Joint 8 mm_MH
+    100708: FREIO_Esfera Ball Joint 8 mm_MH 1
+    100710: FREIO_Guialinha_AW
+    100712: FREIO_Orelha Pedal_LW
+    100714: FREIO_Orelha Pedal_LW 1
+    100716: FREIO_Pastilha wilwood_MT
+    100718: FREIO_Pastilha wilwood_MT 1
+    100720: FREIO_Pedal_MH
+    100722: "FREIO_pin\xE7a wilwood corpo_MT"
+    100724: FREIO_Suporte Cilindro Mestre_AW
+    100726: FREIO_Suporte Cilindro Mestre_AW 1
+    100728: FREIO_Suporte Dianteiro_MH
+    100730: FREIO_Suporte Traseiro_CA
+    100732: "Fura\xE7\xE3o do Motor[1]"
+    100734: "Fura\xE7\xE3o do Motor[2]"
+    100736: Importado3
+    100738: Imported1
+    100740: Imported1 1
+    100742: Imported1 10
+    100744: Imported1 11
+    100746: Imported1 12
+    100748: Imported1 13
+    100750: Imported1 14
+    100752: Imported1 15
+    100754: Imported1 16
+    100756: Imported1 17
+    100758: Imported1 18
+    100760: Imported1 19
+    100762: Imported1 2
+    100764: Imported1 20
+    100766: Imported1 21
+    100768: Imported1 22
+    100770: Imported1 23
+    100772: Imported1 24
+    100774: Imported1 25
+    100776: Imported1 26
+    100778: Imported1 27
+    100780: Imported1 28
+    100782: Imported1 29
+    100784: Imported1 3
+    100786: Imported1 30
+    100788: Imported1 31
+    100790: Imported1 32
+    100792: Imported1 33
+    100794: Imported1 4
+    100796: Imported1 5
+    100798: Imported1 6
+    100800: Imported1 7
+    100802: Imported1 8
+    100804: Imported1 9
+    100806: M8x1.25 Tapped Hole1
+    100808: M8x1.25 Tapped Hole1 1
+    100810: MONTAGEM_BRIGGS&STRATTON_Motor
+    100812: "MONTAGEM_Dire\xE7\xE3o_MH"
+    100814: "MONTAGEM_Homocin\xE9tica_LH"
+    100816: MONTAGEM_Naja 4.0_MH 1
+    100818: MONTAGEM_Pedal Freio_LW
+    100820: "MONTAGEM_Pedal Transmiss\xE3o_LW"
+    100822: "MONTAGEM_Pin\xE7a Burgman"
+    100824: "MONTAGEM_Suspens\xE3o Dianteira_MH"
+    100826: "MONTAGEM_Suspens\xE3o Traseira_LH"
+    100828: "MONTAGEM_Transmiss\xE3o 3.0_NC"
+    100830: //RootNode
+    100832: OuterRace
+    100834: OuterRace 1
+    100836: OuterRace 2
+    100838: OuterRace 3
+    100840: OuterRace 4
+    100842: OuterRace 5
+    100844: "Padr\xE3oCircular1"
+    100846: Pastilha 2
+    100848: pastilha1
+    100850: "Pe\xE7a10^MONTAGEM_Naja 4.0_MH"
+    100852: "Pe\xE7a10^MONTAGEM_Naja 4.0_MH 1"
+    100854: "Pe\xE7a11^MONTAGEM_Naja 4.0_MH"
+    100856: "Pe\xE7a12^MONTAGEM_Naja 4.0_MH"
+    100858: "Pe\xE7a12^MONTAGEM_Naja 4.0_MH 1"
+    100860: "Pe\xE7a13^MONTAGEM_Naja 4.0_MH"
+    100862: "Pe\xE7a14^MONTAGEM_Naja 4.0_MH"
+    100864: "Pe\xE7a15^MONTAGEM_Naja 4.0_MH"
+    100866: "Pe\xE7a17^MONTAGEM_Naja 4.0_MH"
+    100868: "Pe\xE7a1^MONTAGEM_Naja 4.0_MH"
+    100870: "Pe\xE7a3^MONTAGEM_Naja 4.0_MH"
+    100872: "Pe\xE7a4^MONTAGEM_Naja 4.0_MH"
+    100874: "Pe\xE7a8^MONTAGEM_Naja 4.0_MH"
+    100876: "Pe\xE7a9^MONTAGEM_Naja 4.0_MH"
+    100878: "Pe\xE7a9^MONTAGEM_Naja 4.0_MH 1"
+    100880: PincaEmbolo
+    100882: "Pin\xE7a Susuki Burgman"
+    100884: QUADRADO - 1 in x 1 in 1,5 mm[1]
+    100886: QUADRADO - 1 in x 1 in 1,5 mm[4]
+    100888: QUADRADO - 1 in x 1 in 1,5 mm[5]
+    100890: QUADRADO - 1 in x 1 in 1,5 mm[6]
+    100892: QUADRADO - 1 in x 1 in 1,5 mm[7]
+    100894: "Ressalto-extrus\xE3o1"
+    100896: "Ressalto-extrus\xE3o1 1"
+    100898: "Ressalto-extrus\xE3o1 10"
+    100900: "Ressalto-extrus\xE3o1 11"
+    100902: "Ressalto-extrus\xE3o1 12"
+    100904: "Ressalto-extrus\xE3o1 13"
+    100906: "Ressalto-extrus\xE3o1 14"
+    100908: "Ressalto-extrus\xE3o1 15"
+    100910: "Ressalto-extrus\xE3o1 16"
+    100912: "Ressalto-extrus\xE3o1 17"
+    100914: "Ressalto-extrus\xE3o1 18"
+    100916: "Ressalto-extrus\xE3o1 19"
+    100918: "Ressalto-extrus\xE3o1 2"
+    100920: "Ressalto-extrus\xE3o1 20"
+    100922: "Ressalto-extrus\xE3o1 21"
+    100924: "Ressalto-extrus\xE3o1 22"
+    100926: "Ressalto-extrus\xE3o1 3"
+    100928: "Ressalto-extrus\xE3o1 4"
+    100930: "Ressalto-extrus\xE3o1 5"
+    100932: "Ressalto-extrus\xE3o1 6"
+    100934: "Ressalto-extrus\xE3o1 7"
+    100936: "Ressalto-extrus\xE3o1 8"
+    100938: "Ressalto-extrus\xE3o1 9"
+    100940: "Ressalto-extrus\xE3o12"
+    100942: "Ressalto-extrus\xE3o1[1]"
+    100944: "Ressalto-extrus\xE3o1[2]"
+    100946: "Ressalto-extrus\xE3o1[3]"
+    100948: "Ressalto-extrus\xE3o2"
+    100950: "Ressalto-extrus\xE3o2 1"
+    100952: "Ressalto-extrus\xE3o2 2"
+    100954: "Ressalto-extrus\xE3o2 3"
+    100956: "Ressalto-extrus\xE3o2 4"
+    100958: "Ressalto-extrus\xE3o2 5"
+    100960: "Ressalto-extrus\xE3o2 6"
+    100962: "Ressalto-extrus\xE3o2 7"
+    100964: "Ressalto-extrus\xE3o3"
+    100966: "Ressalto-extrus\xE3o3 1"
+    100968: "Ressalto-extrus\xE3o3 2"
+    100970: "Ressalto-extrus\xE3o3 3"
+    100972: "Ressalto-extrus\xE3o5"
+    100974: "Ressalto-extrus\xE3o5 1"
+    100976: "Ressalto-extrus\xE3o5 2"
+    100978: "Revolu\xE7\xE3o1"
+    100980: "Revolu\xE7\xE3o1 1"
+    100982: "Revolu\xE7\xE3o1 10"
+    100984: "Revolu\xE7\xE3o1 11"
+    100986: "Revolu\xE7\xE3o1 12"
+    100988: "Revolu\xE7\xE3o1 13"
+    100990: "Revolu\xE7\xE3o1 14"
+    100992: "Revolu\xE7\xE3o1 15"
+    100994: "Revolu\xE7\xE3o1 16"
+    100996: "Revolu\xE7\xE3o1 17"
+    100998: "Revolu\xE7\xE3o1 18"
+    101000: "Revolu\xE7\xE3o1 19"
+    101002: "Revolu\xE7\xE3o1 2"
+    101004: "Revolu\xE7\xE3o1 20"
+    101006: "Revolu\xE7\xE3o1 21"
+    101008: "Revolu\xE7\xE3o1 22"
+    101010: "Revolu\xE7\xE3o1 3"
+    101012: "Revolu\xE7\xE3o1 4"
+    101014: "Revolu\xE7\xE3o1 5"
+    101016: "Revolu\xE7\xE3o1 6"
+    101018: "Revolu\xE7\xE3o1 7"
+    101020: "Revolu\xE7\xE3o1 8"
+    101022: "Revolu\xE7\xE3o1 9"
+    101024: "Revolu\xE7\xE3o1[1]"
+    101026: "Revolu\xE7\xE3o1[1] 1"
+    101028: "Revolu\xE7\xE3o1[1] 2"
+    101030: "Revolu\xE7\xE3o1[1] 3"
+    101032: "Revolu\xE7\xE3o1[2]"
+    101034: "Revolu\xE7\xE3o1[2] 1"
+    101036: "Revolu\xE7\xE3o1[2] 2"
+    101038: "Revolu\xE7\xE3o1[2] 3"
+    101040: "Revolu\xE7\xE3o1[3]"
+    101042: "Revolu\xE7\xE3o1[3] 1"
+    101044: "Revolu\xE7\xE3o1[3] 2"
+    101046: "Revolu\xE7\xE3o1[3] 3"
+    101048: "Revolu\xE7\xE3o2"
+    101050: "Revolu\xE7\xE3o3"
+    101052: "Revolu\xE7\xE3o3 1"
+    101054: "Revolu\xE7\xE3o3 2"
+    101056: "Revolu\xE7\xE3o3 3"
+    101058: "Revolu\xE7\xE3o3 4"
+    101060: "Revolu\xE7\xE3o3 5"
+    101062: "Revolu\xE7\xE3o3 6"
+    101064: "Revolu\xE7\xE3o3 7"
+    101066: Revolve1
+    101068: Revolve1 1
+    101070: Revolve1 10
+    101072: Revolve1 11
+    101074: Revolve1 12
+    101076: Revolve1 13
+    101078: Revolve1 14
+    101080: Revolve1 15
+    101082: Revolve1 16
+    101084: Revolve1 17
+    101086: Revolve1 18
+    101088: Revolve1 19
+    101090: Revolve1 2
+    101092: Revolve1 20
+    101094: Revolve1 21
+    101096: Revolve1 3
+    101098: Revolve1 4
+    101100: Revolve1 5
+    101102: Revolve1 6
+    101104: Revolve1 7
+    101106: Revolve1 8
+    101108: Revolve1 9
+    101110: Structural Member1[1]
+    101112: Structural Member1[1] 1
+    101114: Structural Member1[2]
+    101116: Structural Member1[2] 1
+    101118: Structural Member1[3]
+    101120: Structural Member1[5]
+    101122: Surface-Imported1
+    101124: SUSPENSAO DIANTEIRA_A Inferior_MH
+    101126: SUSPENSAO DIANTEIRA_A Superior_MH
+    101128: SUSPENSAO DIANTEIRA_Ajuste Ball Joint_MH
+    101130: SUSPENSAO DIANTEIRA_Ajuste Ball Joint_MH 1
+    101132: SUSPENSAO DIANTEIRA_Ball Joint 5-8 in_EM
+    101134: SUSPENSAO DIANTEIRA_Ball Joint 5-8 in_EM 1
+    101136: SUSPENSAO DIANTEIRA_Cubo_LK
+    101138: SUSPENSAO DIANTEIRA_Eixo_MH
+    101140: SUSPENSAO DIANTEIRA_Esfera Ball Joint 5-8 in_MH
+    101142: SUSPENSAO DIANTEIRA_Esfera Ball Joint 5-8 in_MH 1
+    101144: "SUSPENSAO DIANTEIRA_Espa\xE7ador 5-8 in_MH"
+    101146: "SUSPENSAO DIANTEIRA_Espa\xE7ador 5-8 in_MH 1"
+    101148: "SUSPENSAO DIANTEIRA_Espa\xE7ador Superior 5-8 in_MH"
+    101150: "SUSPENSAO DIANTEIRA_Espa\xE7ador Superior 5-8 in_MH 1"
+    101152: SUSPENSAO DIANTEIRA_Manga 6_MH
+    101154: SUSPENSAO DIANTEIRA_Orelha A Inferior_MH
+    101156: SUSPENSAO DIANTEIRA_Orelha A Inferior_MH 1
+    101158: SUSPENSAO DIANTEIRA_Orelha Amortecedor_MH
+    101160: SUSPENSAO DIANTEIRA_Orelha Dianteira A Superior_MH
+    101162: SUSPENSAO DIANTEIRA_Orelha Traseira A Superior_MH
+    101164: SUSPENSAO DIANTEIRA_Pneu 21 X 7 X 10_MH
+    101166: SUSPENSAO DIANTEIRA_Rolamento Conico 20X42X15_MH
+    101168: SUSPENSAO DIANTEIRA_Rolamento Conico 25X47X17_MH
+    101170: SUSPENSAO TRASEIRA_A Inferior_LH
+    101172: SUSPENSAO TRASEIRA_A Superior 2_LH
+    101174: SUSPENSAO TRASEIRA_Ball Joint 3-8 in_MT
+    101176: SUSPENSAO TRASEIRA_Ball Joint 3-8 in_MT 1
+    101178: SUSPENSAO TRASEIRA_Ball Joint 5-8 in_EM
+    101180: SUSPENSAO TRASEIRA_Ball Joint 5-8 in_EM 1
+    101182: SUSPENSAO TRASEIRA_Cubo_MH
+    101184: SUSPENSAO TRASEIRA_Esfera Ball Joint 3-8 in_MH
+    101186: SUSPENSAO TRASEIRA_Esfera Ball Joint 3-8 in_MH 1
+    101188: SUSPENSAO TRASEIRA_Esfera Ball Joint 5-8 in_MH
+    101190: SUSPENSAO TRASEIRA_Esfera Ball Joint 5-8 in_MH 1
+    101192: "SUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH"
+    101194: "SUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH 1"
+    101196: "SUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH 2"
+    101198: "SUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH 3"
+    101200: "SUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH"
+    101202: "SUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH 1"
+    101204: "SUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH 2"
+    101206: "SUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH 3"
+    101208: SUSPENSAO TRASEIRA_Manga 5_MH
+    101210: SUSPENSAO TRASEIRA_Orelha Amortecedor_MH
+    101212: SUSPENSAO TRASEIRA_Orelha Dianteira A Inferior_MH
+    101214: SUSPENSAO TRASEIRA_Orelha Dianteira A Superior_MH
+    101216: SUSPENSAO TRASEIRA_Orelha Traseira A Inferior_MH
+    101218: SUSPENSAO TRASEIRA_Orelha Traseira A Superior_MH
+    101220: SUSPENSAO TRASEIRA_Pneu 21 X 7 X 10_MH
+    101222: SUSPENSAO TRASEIRA_Rolamento Manga_MH
+    101224: SUSPENSAO TRASEIRA_Rolamento Manga_MH 1
+    101226: SUSPENSAO TRASEIRA_Toe Link_LH
+    101228: TRANSMISSAO_Bilha_NC
+    101230: TRANSMISSAO_Bilha_NC 1
+    101232: TRANSMISSAO_Bilha_NC 2
+    101234: TRANSMISSAO_Bilha_NC 3
+    101236: TRANSMISSAO_Bilha_NC 4
+    101238: TRANSMISSAO_Bilha_NC 5
+    101240: TRANSMISSAO_Corpo da gaiola_NA
+    101242: TRANSMISSAO_CVTmotora_MT
+    101244: TRANSMISSAO_CVTmovida_MT
+    101246: TRANSMISSAO_Eixo 1_NC
+    101248: TRANSMISSAO_Eixo 2_NC
+    101250: TRANSMISSAO_Eixo 3_MT
+    101252: "TRANSMISSAO_Fixa\xE7\xE3o 1 Caixa_MH"
+    101254: "TRANSMISSAO_Fixa\xE7\xE3o 2 Caixa_MH"
+    101256: "TRANSMISSAO_Fixa\xE7\xE3o 3 Caixa_MH"
+    101258: TRANSMISSAO_Junta caixa_MH
+    101260: TRANSMISSAO_Junta externa_MH
+    101262: TRANSMISSAO_Junta interna_NC
+    101264: TRANSMISSAO_Orelha Pedal_LW
+    101266: TRANSMISSAO_Orelha Pedal_LW 1
+    101268: TRANSMISSAO_Pedal_LW
+    101270: TRANSMISSAO_Rolamento 6004_MT
+    101272: TRANSMISSAO_Rolamento 6004_MT 1
+    101274: TRANSMISSAO_Rolamento 6008_MT
+    101276: TRANSMISSAO_Rolamento 6008_MT 1
+    101278: TRANSMISSAO_Rolamento 6204_MT
+    101280: TRANSMISSAO_Rolamento 6204_MT 1
+    101282: TRANSMISSAO_Semi-Eixo_NC
+    101284: TRANSMISSAO_tampa 1 3.0_NC
+    101286: TRANSMISSAO_tampa 2 3.0_NC
+    101288: "TRANSMISS\xC3O_coroa1_4.0"
+    101290: "TRANSMISS\xC3O_coroa2_4.0"
+    101292: "TRANSMISS\xC3O_pinhao1_4.0"
+    101294: "TRANSMISS\xC3O_pinhao2_4.0"
+    101296: Trim/Extend1
+    101298: Trim/Extend2
+    101300: TUBO - 1 1/4 in 1,6 mm[10]
+    101302: TUBO - 1 1/4 in 1,6 mm[11]
+    101304: TUBO - 1 1/4 in 1,6 mm[12]
+    101306: TUBO - 1 1/4 in 1,6 mm[13]
+    101308: TUBO - 1 1/4 in 1,6 mm[14]
+    101310: TUBO - 1 1/4 in 1,6 mm[15]
+    101312: TUBO - 1 1/4 in 1,6 mm[16]
+    101314: TUBO - 1 1/4 in 1,6 mm[17]
+    101316: TUBO - 1 1/4 in 1,6 mm[18]
+    101318: TUBO - 1 1/4 in 1,6 mm[19]
+    101320: TUBO - 1 1/4 in 1,6 mm[1]
+    101322: TUBO - 1 1/4 in 1,6 mm[20]
+    101324: TUBO - 1 1/4 in 1,6 mm[21]
+    101326: TUBO - 1 1/4 in 1,6 mm[22]
+    101328: TUBO - 1 1/4 in 1,6 mm[23]
+    101330: TUBO - 1 1/4 in 1,6 mm[24]
+    101332: TUBO - 1 1/4 in 1,6 mm[25]
+    101334: TUBO - 1 1/4 in 1,6 mm[26]
+    101336: TUBO - 1 1/4 in 1,6 mm[27]
+    101338: TUBO - 1 1/4 in 1,6 mm[2]
+    101340: TUBO - 1 1/4 in 1,6 mm[3]
+    101342: TUBO - 1 1/4 in 1,6 mm[4]
+    101344: TUBO - 1 1/4 in 1,6 mm[5]
+    101346: TUBO - 1 1/4 in 1,6 mm[6]
+    101348: TUBO - 1 1/4 in 1,6 mm[7]
+    101350: TUBO - 1 1/4 in 1,6 mm[8]
+    101352: TUBO - 1 1/4 in 1,6 mm[9]
+    101354: TUBO - 1 in 0,9 mm[10]
+    101356: TUBO - 1 in 0,9 mm[11]
+    101358: TUBO - 1 in 0,9 mm[12]
+    101360: TUBO - 1 in 0,9 mm[13]
+    101362: TUBO - 1 in 0,9 mm[14]
+    101364: TUBO - 1 in 0,9 mm[1]
+    101366: TUBO - 1 in 0,9 mm[2]
+    101368: TUBO - 1 in 0,9 mm[3]
+    101370: TUBO - 1 in 0,9 mm[4]
+    101372: TUBO - 1 in 0,9 mm[5]
+    101374: TUBO - 1 in 0,9 mm[6]
+    101376: TUBO - 1 in 0,9 mm[7]
+    101378: TUBO - 1 in 0,9 mm[8]
+    101380: TUBO - 1 in 0,9 mm[9]
+    101382: TUBO - 3/4 in 1,25 mm
+    101384: "Tubo r\xEDgido 21.3 X 2.3(1)[1]"
+    101386: "Tubo r\xEDgido 21.3 X 2.3(1)[2]"
+    101388: "Tubo r\xEDgido 21.3 X 2.3(1)[3]"
+    101390: "Tubo r\xEDgido 21.3 X 2.3(1)[4]"
+    101392: "Tubo r\xEDgido 21.3 X 2.3(1)[6]"
+    101394: TUBO2 - 1 in 0,9 mm[10]
+    101396: TUBO2 - 1 in 0,9 mm[11]
+    101398: TUBO2 - 1 in 0,9 mm[12]
+    101400: TUBO2 - 1 in 0,9 mm[13]
+    101402: TUBO2 - 1 in 0,9 mm[14]
+    101404: TUBO2 - 1 in 0,9 mm[15]
+    101406: TUBO2 - 1 in 0,9 mm[16]
+    101408: TUBO2 - 1 in 0,9 mm[17]
+    101410: TUBO2 - 1 in 0,9 mm[18]
+    101412: TUBO2 - 1 in 0,9 mm[19]
+    101414: TUBO2 - 1 in 0,9 mm[1]
+    101416: TUBO2 - 1 in 0,9 mm[20]
+    101418: TUBO2 - 1 in 0,9 mm[21]
+    101420: TUBO2 - 1 in 0,9 mm[22]
+    101422: TUBO2 - 1 in 0,9 mm[23]
+    101424: TUBO2 - 1 in 0,9 mm[24]
+    101426: TUBO2 - 1 in 0,9 mm[2]
+    101428: TUBO2 - 1 in 0,9 mm[3]
+    101430: TUBO2 - 1 in 0,9 mm[4]
+    101432: TUBO2 - 1 in 0,9 mm[5]
+    101434: TUBO2 - 1 in 0,9 mm[6]
+    101436: TUBO2 - 1 in 0,9 mm[7]
+    101438: TUBO2 - 1 in 0,9 mm[8]
+    101440: TUBO2 - 1 in 0,9 mm[9]
+    101442: Varredura de corte2
+    400000: <DIRECAO_Ball Joint 3-8 in_MT>-<Chanfro1>
+    400002: "<DIRECAO_Ball Joint 3-8 in_MT>-<Revolu\xE7\xE3o3>"
+    400004: <DIRECAO_Esfera Ball Joint 3-8 in_MH>-<Revolve1>
+    400006: "<DIRECAO_Espa\xE7ador 3-8 in_MH>-<Revolu\xE7\xE3o1>"
+    400008: "<DIRECAO_Espa\xE7ador 3-8 in_MH>-<Revolu\xE7\xE3o1> 1"
+    400010: "<DIRECAO_Suporte Tie-Rod_MH>-<Corte-extrus\xE3o3>"
+    400012: "<DIRECAO_Tie-rod_MH>-<Revolu\xE7\xE3o1>"
+    400014: "<FOX_Evol R Inferior>-<Ressalto-extrus\xE3o5>"
+    400016: <FOX_Evol R Superior>-<Fillet2>
+    400018: "<FOX_Float 3 Inferior>-<Ressalto-extrus\xE3o5>"
+    400020: <FOX_Float 3 Superior>-<Cut-Extrude1>
+    400022: <FREIO_Disco Dianteiro_MT>-<Escareado para SFHCS M61>
+    400024: "<FREIO_Disco Dianteiro_MT>-<Ressalto-extrus\xE3o1>"
+    400026: "<FREIO_Pastilha wilwood_MT>-<Ressalto-extrus\xE3o2>"
+    400028: "<FREIO_Pastilha wilwood_MT>-<Ressalto-extrus\xE3o2> 1"
+    400030: "<FREIO_pin\xE7a wilwood corpo_MT>-<Filete6>"
+    400032: "<FREIO_pin\xE7a wilwood corpo_MT>-<Importado3>"
+    400034: "<FREIO_Suporte Dianteiro_MH>-<Ressalto-extrus\xE3o1>"
+    400036: "<SUSPENSAO DIANTEIRA_A Inferior_MH>-<Ressalto-extrus\xE3o2>"
+    400038: <SUSPENSAO DIANTEIRA_A Inferior_MH>-<Structural Member1[1]>
+    400040: <SUSPENSAO DIANTEIRA_A Inferior_MH>-<Structural Member1[2]>
+    400042: <SUSPENSAO DIANTEIRA_A Inferior_MH>-<Structural Member1[5]>
+    400044: <SUSPENSAO DIANTEIRA_A Superior_MH>-<Structural Member1[1]>
+    400046: <SUSPENSAO DIANTEIRA_A Superior_MH>-<Structural Member1[2]>
+    400048: <SUSPENSAO DIANTEIRA_A Superior_MH>-<Structural Member1[3]>
+    400050: <SUSPENSAO DIANTEIRA_A Superior_MH>-<Trim/Extend1>
+    400052: <SUSPENSAO DIANTEIRA_A Superior_MH>-<Trim/Extend2>
+    400054: <SUSPENSAO DIANTEIRA_Ajuste Ball Joint_MH>-<Revolve1>
+    400056: <SUSPENSAO DIANTEIRA_Ajuste Ball Joint_MH>-<Revolve1> 1
+    400058: <SUSPENSAO DIANTEIRA_Ball Joint 5-8 in_EM>-<Chanfro1>
+    400060: <SUSPENSAO DIANTEIRA_Ball Joint 5-8 in_EM>-<Chanfro1> 1
+    400062: "<SUSPENSAO DIANTEIRA_Ball Joint 5-8 in_EM>-<Revolu\xE7\xE3o3>"
+    400064: "<SUSPENSAO DIANTEIRA_Ball Joint 5-8 in_EM>-<Revolu\xE7\xE3o3> 1"
+    400066: <SUSPENSAO DIANTEIRA_Cubo_LK>-<Filete2>
+    400068: <SUSPENSAO DIANTEIRA_Eixo_MH>-<Chanfro1>
+    400070: <SUSPENSAO DIANTEIRA_Esfera Ball Joint 5-8 in_MH>-<Revolve1>
+    400072: <SUSPENSAO DIANTEIRA_Esfera Ball Joint 5-8 in_MH>-<Revolve1> 1
+    400074: "<SUSPENSAO DIANTEIRA_Espa\xE7ador 5-8 in_MH>-<Revolve1>"
+    400076: "<SUSPENSAO DIANTEIRA_Espa\xE7ador 5-8 in_MH>-<Revolve1> 1"
+    400078: "<SUSPENSAO DIANTEIRA_Espa\xE7ador Superior 5-8 in_MH>-<Revolve1>"
+    400080: "<SUSPENSAO DIANTEIRA_Espa\xE7ador Superior 5-8 in_MH>-<Revolve1> 1"
+    400082: "<SUSPENSAO DIANTEIRA_Manga 6_MH>-<Corte-extrus\xE3o31>"
+    400084: <SUSPENSAO DIANTEIRA_Pneu 21 X 7 X 10_MH>-<Cut-Extrude1>
+    400086: "<SUSPENSAO DIANTEIRA_Rolamento Conico 20X42X15_MH>-<Revolu\xE7\xE3o1[1]>"
+    400088: "<SUSPENSAO DIANTEIRA_Rolamento Conico 20X42X15_MH>-<Revolu\xE7\xE3o1[2]>"
+    400090: "<SUSPENSAO DIANTEIRA_Rolamento Conico 20X42X15_MH>-<Revolu\xE7\xE3o1[3]>"
+    400092: "<SUSPENSAO DIANTEIRA_Rolamento Conico 25X47X17_MH>-<Revolu\xE7\xE3o1[1]>"
+    400094: "<SUSPENSAO DIANTEIRA_Rolamento Conico 25X47X17_MH>-<Revolu\xE7\xE3o1[2]>"
+    400096: "<SUSPENSAO DIANTEIRA_Rolamento Conico 25X47X17_MH>-<Revolu\xE7\xE3o1[3]>"
+    400098: <SUSPENSAO TRASEIRA_A Inferior_LH>-<Componente estrutural1[1]>
+    400100: <SUSPENSAO TRASEIRA_A Inferior_LH>-<Componente estrutural1[2]>
+    400102: <SUSPENSAO TRASEIRA_A Inferior_LH>-<Componente estrutural1[3]>
+    400104: <SUSPENSAO TRASEIRA_A Inferior_LH>-<Componente estrutural1[4]>
+    400106: "<SUSPENSAO TRASEIRA_A Inferior_LH>-<Corte-extrus\xE3o1>"
+    400108: "<SUSPENSAO TRASEIRA_A Superior 2_LH>-<Ressalto-extrus\xE3o2>"
+    400110: "<SUSPENSAO TRASEIRA_A Superior 2_LH>-<Tubo r\xEDgido 21.3 X 2.3(1)[1]>"
+    400112: "<SUSPENSAO TRASEIRA_A Superior 2_LH>-<Tubo r\xEDgido 21.3 X 2.3(1)[2]>"
+    400114: "<SUSPENSAO TRASEIRA_A Superior 2_LH>-<Tubo r\xEDgido 21.3 X 2.3(1)[3]>"
+    400116: "<SUSPENSAO TRASEIRA_A Superior 2_LH>-<Tubo r\xEDgido 21.3 X 2.3(1)[4]>"
+    400118: "<SUSPENSAO TRASEIRA_A Superior 2_LH>-<Tubo r\xEDgido 21.3 X 2.3(1)[6]>"
+    400120: <SUSPENSAO TRASEIRA_Ball Joint 3-8 in_MT>-<Chanfro1>
+    400122: <SUSPENSAO TRASEIRA_Ball Joint 3-8 in_MT>-<Chanfro1> 1
+    400124: "<SUSPENSAO TRASEIRA_Ball Joint 3-8 in_MT>-<Revolu\xE7\xE3o3>"
+    400126: "<SUSPENSAO TRASEIRA_Ball Joint 3-8 in_MT>-<Revolu\xE7\xE3o3> 1"
+    400128: <SUSPENSAO TRASEIRA_Ball Joint 5-8 in_EM>-<Chanfro1>
+    400130: <SUSPENSAO TRASEIRA_Ball Joint 5-8 in_EM>-<Chanfro1> 1
+    400132: "<SUSPENSAO TRASEIRA_Ball Joint 5-8 in_EM>-<Revolu\xE7\xE3o3>"
+    400134: "<SUSPENSAO TRASEIRA_Ball Joint 5-8 in_EM>-<Revolu\xE7\xE3o3> 1"
+    400136: "<SUSPENSAO TRASEIRA_Cubo_MH>-<Corte-extrus\xE3o3>"
+    400138: <SUSPENSAO TRASEIRA_Esfera Ball Joint 3-8 in_MH>-<Revolve1>
+    400140: <SUSPENSAO TRASEIRA_Esfera Ball Joint 3-8 in_MH>-<Revolve1> 1
+    400142: <SUSPENSAO TRASEIRA_Esfera Ball Joint 5-8 in_MH>-<Revolve1>
+    400144: <SUSPENSAO TRASEIRA_Esfera Ball Joint 5-8 in_MH>-<Revolve1> 1
+    400146: "<SUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH>-<Revolu\xE7\xE3o1>"
+    400148: "<SUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH>-<Revolu\xE7\xE3o1> 1"
+    400150: "<SUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH>-<Revolu\xE7\xE3o1> 2"
+    400152: "<SUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH>-<Revolu\xE7\xE3o1> 3"
+    400154: "<SUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH>-<Revolve1>"
+    400156: "<SUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH>-<Revolve1> 1"
+    400158: "<SUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH>-<Revolve1> 2"
+    400160: "<SUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH>-<Revolve1> 3"
+    400162: "<SUSPENSAO TRASEIRA_Manga 5_MH>-<Ressalto-extrus\xE3o12>"
+    400164: <SUSPENSAO TRASEIRA_Pneu 21 X 7 X 10_MH>-<Cut-Extrude1>
+    400166: "<SUSPENSAO TRASEIRA_Rolamento Manga_MH>-<Revolu\xE7\xE3o1[1]>"
+    400168: "<SUSPENSAO TRASEIRA_Rolamento Manga_MH>-<Revolu\xE7\xE3o1[1]> 1"
+    400170: "<SUSPENSAO TRASEIRA_Rolamento Manga_MH>-<Revolu\xE7\xE3o1[2]>"
+    400172: "<SUSPENSAO TRASEIRA_Rolamento Manga_MH>-<Revolu\xE7\xE3o1[2]> 1"
+    400174: "<SUSPENSAO TRASEIRA_Rolamento Manga_MH>-<Revolu\xE7\xE3o1[3]>"
+    400176: "<SUSPENSAO TRASEIRA_Rolamento Manga_MH>-<Revolu\xE7\xE3o1[3]> 1"
+    400178: <SUSPENSAO TRASEIRA_Toe Link_LH>-<Chanfro1>
+    400180: "<TRANSMISSAO_Bilha_NC>-<Revolu\xE7\xE3o1>"
+    400182: "<TRANSMISSAO_Bilha_NC>-<Revolu\xE7\xE3o1> 1"
+    400184: "<TRANSMISSAO_Bilha_NC>-<Revolu\xE7\xE3o1> 2"
+    400186: "<TRANSMISSAO_Bilha_NC>-<Revolu\xE7\xE3o1> 3"
+    400188: "<TRANSMISSAO_Bilha_NC>-<Revolu\xE7\xE3o1> 4"
+    400190: "<TRANSMISSAO_Bilha_NC>-<Revolu\xE7\xE3o1> 5"
+    400192: <TRANSMISSAO_Corpo da gaiola_NA>-<Chamfer4>
+    400194: "<TRANSMISSAO_Junta caixa_MH>-<Padr\xE3oCircular1>"
+    400196: "<TRANSMISSAO_Junta externa_MH>-<Corte-extrus\xE3o2>"
+    400198: <TRANSMISSAO_Junta interna_NC>-<Filete2>
+    400200: "<TRANSMISSAO_Semi-Eixo_NC>-<Corte-extrus\xE3o4>"
+    400202: Boss-Extrude1
+    400204: Boss-Extrude1 1
+    400206: BRIGGS&STRATTON_Escapamento
+    400208: "BRIGGS&STRATTON_Pe\xE7a 1"
+    400210: "BRIGGS&STRATTON_Pe\xE7a 10"
+    400212: "BRIGGS&STRATTON_Pe\xE7a 11"
+    400214: "BRIGGS&STRATTON_Pe\xE7a 12"
+    400216: "BRIGGS&STRATTON_Pe\xE7a 13"
+    400218: "BRIGGS&STRATTON_Pe\xE7a 14"
+    400220: "BRIGGS&STRATTON_Pe\xE7a 15"
+    400222: "BRIGGS&STRATTON_Pe\xE7a 16"
+    400224: "BRIGGS&STRATTON_Pe\xE7a 17"
+    400226: "BRIGGS&STRATTON_Pe\xE7a 18"
+    400228: "BRIGGS&STRATTON_Pe\xE7a 19"
+    400230: "BRIGGS&STRATTON_Pe\xE7a 20"
+    400232: "BRIGGS&STRATTON_Pe\xE7a 21"
+    400234: "BRIGGS&STRATTON_Pe\xE7a 23"
+    400236: "BRIGGS&STRATTON_Pe\xE7a 24"
+    400238: "BRIGGS&STRATTON_Pe\xE7a 25"
+    400240: "BRIGGS&STRATTON_Pe\xE7a 28"
+    400242: "BRIGGS&STRATTON_Pe\xE7a 29"
+    400244: "BRIGGS&STRATTON_Pe\xE7a 3"
+    400246: "BRIGGS&STRATTON_Pe\xE7a 30"
+    400248: "BRIGGS&STRATTON_Pe\xE7a 31"
+    400250: "BRIGGS&STRATTON_Pe\xE7a 32"
+    400252: "BRIGGS&STRATTON_Pe\xE7a 33"
+    400254: "BRIGGS&STRATTON_Pe\xE7a 34"
+    400256: "BRIGGS&STRATTON_Pe\xE7a 35"
+    400258: "BRIGGS&STRATTON_Pe\xE7a 36"
+    400260: "BRIGGS&STRATTON_Pe\xE7a 37"
+    400262: "BRIGGS&STRATTON_Pe\xE7a 38"
+    400264: "BRIGGS&STRATTON_Pe\xE7a 39"
+    400266: "BRIGGS&STRATTON_Pe\xE7a 40"
+    400268: "BRIGGS&STRATTON_Pe\xE7a 41"
+    400270: "BRIGGS&STRATTON_Pe\xE7a 42"
+    400272: "BRIGGS&STRATTON_Pe\xE7a 43"
+    400274: "BRIGGS&STRATTON_Pe\xE7a 44"
+    400276: "BRIGGS&STRATTON_Pe\xE7a 5"
+    400278: "BRIGGS&STRATTON_Pe\xE7a 7"
+    400280: "BRIGGS&STRATTON_Pe\xE7a 8"
+    400282: "BRIGGS&STRATTON_Pe\xE7a 9"
+    400284: Chamfer1
+    400286: Chamfer4
+    400288: Chanfro1
+    400290: Chanfro1 1
+    400292: Chanfro1 10
+    400294: Chanfro1 2
+    400296: Chanfro1 3
+    400298: Chanfro1 4
+    400300: Chanfro1 5
+    400302: Chanfro1 6
+    400304: Chanfro1 7
+    400306: Chanfro1 8
+    400308: Chanfro1 9
+    400310: Componente estrutural1[1]
+    400312: Componente estrutural1[2]
+    400314: Componente estrutural1[3]
+    400316: Componente estrutural1[4]
+    400318: "Corte-extrus\xE3o1"
+    400320: "Corte-extrus\xE3o1 1"
+    400322: "Corte-extrus\xE3o1 2"
+    400324: "Corte-extrus\xE3o1 3"
+    400326: "Corte-extrus\xE3o1 4"
+    400328: "Corte-extrus\xE3o1 5"
+    400330: "Corte-extrus\xE3o2"
+    400332: "Corte-extrus\xE3o3"
+    400334: "Corte-extrus\xE3o3 1"
+    400336: "Corte-extrus\xE3o3 2"
+    400338: "Corte-extrus\xE3o3 3"
+    400340: "Corte-extrus\xE3o3 4"
+    400342: "Corte-extrus\xE3o3 5"
+    400344: "Corte-extrus\xE3o31"
+    400346: "Corte-extrus\xE3o4"
+    400348: "Corte-extrus\xE3o4 1"
+    400350: "Corte-extrus\xE3o4 2"
+    400352: "Corte-extrus\xE3o5"
+    400354: "Corte-extrus\xE3o6"
+    400356: "Corte-extrus\xE3o6 1"
+    400358: Cut-Extrude1
+    400360: Cut-Extrude1 1
+    400362: Cut-Extrude1 10
+    400364: Cut-Extrude1 11
+    400366: Cut-Extrude1 2
+    400368: Cut-Extrude1 3
+    400370: Cut-Extrude1 4
+    400372: Cut-Extrude1 5
+    400374: Cut-Extrude1 6
+    400376: Cut-Extrude1 7
+    400378: Cut-Extrude1 8
+    400380: Cut-Extrude1 9
+    400382: Cut-Extrude2
+    400384: DIRECAO_Ball Joint 3-8 in_MT
+    400386: DIRECAO_Ball Joint 3-8 in_MT 1
+    400388: DIRECAO_Bucha Externa_MH
+    400390: DIRECAO_Bucha Externa_MH 1
+    400392: DIRECAO_Bucha Interna_MH
+    400394: DIRECAO_Bucha Interna_MH 1
+    400396: DIRECAO_Caixa Inferior_MH
+    400398: DIRECAO_Caixa Superior_MH
+    400400: DIRECAO_Cremalheira_MH
+    400402: DIRECAO_Esfera Ball Joint 3-8 in_MH
+    400404: DIRECAO_Esfera Ball Joint 3-8 in_MH 1
+    400406: "DIRECAO_Espa\xE7ador 3-8 in_MH"
+    400408: "DIRECAO_Espa\xE7ador 3-8 in_MH 1"
+    400410: "DIRECAO_Espa\xE7ador 3-8 in_MH 2"
+    400412: "DIRECAO_Espa\xE7ador 3-8 in_MH 3"
+    400414: DIRECAO_Guia Superior_MH
+    400416: DIRECAO_Guia Superior_MH 1
+    400418: "DIRECAO_Pinh\xE3o_MH"
+    400420: DIRECAO_Rolamento Inferior_MT
+    400422: DIRECAO_Rolamento Superior_MT
+    400424: DIRECAO_Suporte Caixa_MH
+    400426: DIRECAO_Suporte Tie-Rod_MH
+    400428: DIRECAO_Tie-rod_MH
+    400430: "DIRE\xC7\xC3O_Coluna 1_SK"
+    400432: "DIRE\xC7\xC3O_Coluna 2_SK"
+    400434: "DIRE\xC7\xC3O_Cruz_SK"
+    400436: "DIRE\xC7\xC3O_Junta_SK"
+    400438: "DIRE\xC7\xC3O_Junta_SK 1"
+    400440: Dome1
+    400442: ELETRONICA_Bateria_MC
+    400444: Escareado para SFHCS M61
+    400446: Espelhar1
+    400448: Espelhar1 1
+    400450: Espelhar1 2
+    400452: Espelhar1 3
+    400454: Espelhar1 4
+    400456: Espelhar1 5
+    400458: Espelhar1 6
+    400460: Espelhar1 7
+    400462: Espelhar1 8
+    400464: Espelhar1 9
+    400466: Espelhar4
+    400468: EspelharDIRECAO_Ball Joint 3-8 in_MT
+    400470: EspelharDIRECAO_Esfera Ball Joint 3-8 in_MH
+    400472: "EspelharDIRECAO_Espa\xE7ador 3-8 in_MH"
+    400474: "EspelharDIRECAO_Espa\xE7ador 3-8 in_MH 1"
+    400476: EspelharDIRECAO_Suporte Tie-Rod_MH
+    400478: EspelharDIRECAO_Tie-rod_MH
+    400480: EspelharFOX_Evol R Inferior
+    400482: EspelharFOX_Evol R Superior
+    400484: EspelharFOX_Float 3 Inferior
+    400486: EspelharFOX_Float 3 Superior
+    400488: EspelharFREIO_Disco Dianteiro_MT
+    400490: EspelharFREIO_Pastilha wilwood_MT
+    400492: EspelharFREIO_Pastilha wilwood_MT 1
+    400494: "EspelharFREIO_pin\xE7a wilwood corpo_MT"
+    400496: EspelharFREIO_Suporte Dianteiro_MH
+    400498: "EspelharMONTAGEM_Homocin\xE9tica_LH"
+    400500: "EspelharMONTAGEM_Suspens\xE3o Dianteira_MH"
+    400502: "EspelharMONTAGEM_Suspens\xE3o Traseira_LH"
+    400504: EspelharSUSPENSAO DIANTEIRA_A Inferior_MH
+    400506: EspelharSUSPENSAO DIANTEIRA_A Superior_MH
+    400508: EspelharSUSPENSAO DIANTEIRA_Ajuste Ball Joint_MH
+    400510: EspelharSUSPENSAO DIANTEIRA_Ajuste Ball Joint_MH 1
+    400512: EspelharSUSPENSAO DIANTEIRA_Ball Joint 5-8 in_EM
+    400514: EspelharSUSPENSAO DIANTEIRA_Ball Joint 5-8 in_EM 1
+    400516: EspelharSUSPENSAO DIANTEIRA_Cubo_LK
+    400518: EspelharSUSPENSAO DIANTEIRA_Eixo_MH
+    400520: EspelharSUSPENSAO DIANTEIRA_Esfera Ball Joint 5-8 in_MH
+    400522: EspelharSUSPENSAO DIANTEIRA_Esfera Ball Joint 5-8 in_MH 1
+    400524: "EspelharSUSPENSAO DIANTEIRA_Espa\xE7ador 5-8 in_MH"
+    400526: "EspelharSUSPENSAO DIANTEIRA_Espa\xE7ador 5-8 in_MH 1"
+    400528: "EspelharSUSPENSAO DIANTEIRA_Espa\xE7ador Superior 5-8 in_MH"
+    400530: "EspelharSUSPENSAO DIANTEIRA_Espa\xE7ador Superior 5-8 in_MH 1"
+    400532: EspelharSUSPENSAO DIANTEIRA_Manga 6_MH
+    400534: EspelharSUSPENSAO DIANTEIRA_Pneu 21 X 7 X 10_MH
+    400536: EspelharSUSPENSAO DIANTEIRA_Rolamento Conico 20X42X15_MH
+    400538: EspelharSUSPENSAO DIANTEIRA_Rolamento Conico 25X47X17_MH
+    400540: EspelharSUSPENSAO TRASEIRA_A Inferior_LH
+    400542: EspelharSUSPENSAO TRASEIRA_A Superior 2_LH
+    400544: EspelharSUSPENSAO TRASEIRA_Ball Joint 3-8 in_MT
+    400546: EspelharSUSPENSAO TRASEIRA_Ball Joint 3-8 in_MT 1
+    400548: EspelharSUSPENSAO TRASEIRA_Ball Joint 5-8 in_EM
+    400550: EspelharSUSPENSAO TRASEIRA_Ball Joint 5-8 in_EM 1
+    400552: EspelharSUSPENSAO TRASEIRA_Cubo_MH
+    400554: EspelharSUSPENSAO TRASEIRA_Esfera Ball Joint 3-8 in_MH
+    400556: EspelharSUSPENSAO TRASEIRA_Esfera Ball Joint 3-8 in_MH 1
+    400558: EspelharSUSPENSAO TRASEIRA_Esfera Ball Joint 5-8 in_MH
+    400560: EspelharSUSPENSAO TRASEIRA_Esfera Ball Joint 5-8 in_MH 1
+    400562: "EspelharSUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH"
+    400564: "EspelharSUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH 1"
+    400566: "EspelharSUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH 2"
+    400568: "EspelharSUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH 3"
+    400570: "EspelharSUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH"
+    400572: "EspelharSUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH 1"
+    400574: "EspelharSUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH 2"
+    400576: "EspelharSUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH 3"
+    400578: EspelharSUSPENSAO TRASEIRA_Manga 5_MH
+    400580: EspelharSUSPENSAO TRASEIRA_Pneu 21 X 7 X 10_MH
+    400582: EspelharSUSPENSAO TRASEIRA_Rolamento Manga_MH
+    400584: EspelharSUSPENSAO TRASEIRA_Rolamento Manga_MH 1
+    400586: EspelharSUSPENSAO TRASEIRA_Toe Link_LH
+    400588: EspelharTRANSMISSAO_Bilha_NC
+    400590: EspelharTRANSMISSAO_Bilha_NC 1
+    400592: EspelharTRANSMISSAO_Bilha_NC 2
+    400594: EspelharTRANSMISSAO_Bilha_NC 3
+    400596: EspelharTRANSMISSAO_Bilha_NC 4
+    400598: EspelharTRANSMISSAO_Bilha_NC 5
+    400600: EspelharTRANSMISSAO_Corpo da gaiola_NA
+    400602: EspelharTRANSMISSAO_Junta caixa_MH
+    400604: EspelharTRANSMISSAO_Junta externa_MH
+    400606: EspelharTRANSMISSAO_Junta interna_NC
+    400608: EspelharTRANSMISSAO_Semi-Eixo_NC
+    400610: ESTRUTURA_Assoalho_LI
+    400612: ESTRUTURA_Banco_MH
+    400614: ESTRUTURA_Banco_MH 1
+    400616: ESTRUTURA_Gaiola 4_MH
+    400618: Extrude1
+    400620: Extrude2
+    400622: Filete1
+    400624: Filete1 1
+    400626: Filete1 2
+    400628: Filete1 3
+    400630: Filete1 4
+    400632: Filete1 5
+    400634: Filete1 6
+    400636: Filete1 7
+    400638: Filete1 8
+    400640: Filete16
+    400642: Filete2
+    400644: Filete2 1
+    400646: Filete2 2
+    400648: Filete3
+    400650: Filete36
+    400652: Filete6
+    400654: Fillet1
+    400656: Fillet2
+    400658: Fillet2 1
+    400660: Fillet4
+    400662: Fillet5
+    400664: FOX_Evol R Inferior
+    400666: FOX_Evol R Inferior 1
+    400668: FOX_Evol R Superior
+    400670: FOX_Evol R Superior 1
+    400672: FOX_Float 3 Inferior
+    400674: FOX_Float 3 Superior
+    400676: FREIO_Arruela Balance Bar_AW
+    400678: FREIO_Aste cilendro mestre_MT
+    400680: FREIO_Aste cilendro mestre_MT 1
+    400682: FREIO_Balance Bar_AW
+    400684: "FREIO_Ball Joint F\xEAmea 8 mm_MH"
+    400686: "FREIO_Ball Joint F\xEAmea 8 mm_MH 1"
+    400688: FREIO_Bucha_MH
+    400690: FREIO_Bucha_MH 1
+    400692: FREIO_Cilindro Mestre 1-2 in_ HP
+    400694: FREIO_Cilindro Mestre 1-2 in_ HP 1
+    400696: FREIO_Cubo de Freio_NC
+    400698: FREIO_Disco Dianteiro_MT
+    400700: FREIO_Disco Traseiro_MH
+    400702: FREIO_embolo cilindro mestre_MT
+    400704: FREIO_embolo cilindro mestre_MT 1
+    400706: FREIO_Esfera Ball Joint 8 mm_MH
+    400708: FREIO_Esfera Ball Joint 8 mm_MH 1
+    400710: FREIO_Guialinha_AW
+    400712: FREIO_Orelha Pedal_LW
+    400714: FREIO_Orelha Pedal_LW 1
+    400716: FREIO_Pastilha wilwood_MT
+    400718: FREIO_Pastilha wilwood_MT 1
+    400720: FREIO_Pedal_MH
+    400722: "FREIO_pin\xE7a wilwood corpo_MT"
+    400724: FREIO_Suporte Cilindro Mestre_AW
+    400726: FREIO_Suporte Cilindro Mestre_AW 1
+    400728: FREIO_Suporte Dianteiro_MH
+    400730: FREIO_Suporte Traseiro_CA
+    400732: "Fura\xE7\xE3o do Motor[1]"
+    400734: "Fura\xE7\xE3o do Motor[2]"
+    400736: Importado3
+    400738: Imported1
+    400740: Imported1 1
+    400742: Imported1 10
+    400744: Imported1 11
+    400746: Imported1 12
+    400748: Imported1 13
+    400750: Imported1 14
+    400752: Imported1 15
+    400754: Imported1 16
+    400756: Imported1 17
+    400758: Imported1 18
+    400760: Imported1 19
+    400762: Imported1 2
+    400764: Imported1 20
+    400766: Imported1 21
+    400768: Imported1 22
+    400770: Imported1 23
+    400772: Imported1 24
+    400774: Imported1 25
+    400776: Imported1 26
+    400778: Imported1 27
+    400780: Imported1 28
+    400782: Imported1 29
+    400784: Imported1 3
+    400786: Imported1 30
+    400788: Imported1 31
+    400790: Imported1 32
+    400792: Imported1 33
+    400794: Imported1 4
+    400796: Imported1 5
+    400798: Imported1 6
+    400800: Imported1 7
+    400802: Imported1 8
+    400804: Imported1 9
+    400806: M8x1.25 Tapped Hole1
+    400808: M8x1.25 Tapped Hole1 1
+    400810: MONTAGEM_BRIGGS&STRATTON_Motor
+    400812: "MONTAGEM_Dire\xE7\xE3o_MH"
+    400814: "MONTAGEM_Homocin\xE9tica_LH"
+    400816: MONTAGEM_Naja 4.0_MH 1
+    400818: MONTAGEM_Pedal Freio_LW
+    400820: "MONTAGEM_Pedal Transmiss\xE3o_LW"
+    400822: "MONTAGEM_Pin\xE7a Burgman"
+    400824: "MONTAGEM_Suspens\xE3o Dianteira_MH"
+    400826: "MONTAGEM_Suspens\xE3o Traseira_LH"
+    400828: "MONTAGEM_Transmiss\xE3o 3.0_NC"
+    400830: //RootNode
+    400832: OuterRace
+    400834: OuterRace 1
+    400836: OuterRace 2
+    400838: OuterRace 3
+    400840: OuterRace 4
+    400842: OuterRace 5
+    400844: "Padr\xE3oCircular1"
+    400846: Pastilha 2
+    400848: pastilha1
+    400850: "Pe\xE7a10^MONTAGEM_Naja 4.0_MH"
+    400852: "Pe\xE7a10^MONTAGEM_Naja 4.0_MH 1"
+    400854: "Pe\xE7a11^MONTAGEM_Naja 4.0_MH"
+    400856: "Pe\xE7a12^MONTAGEM_Naja 4.0_MH"
+    400858: "Pe\xE7a12^MONTAGEM_Naja 4.0_MH 1"
+    400860: "Pe\xE7a13^MONTAGEM_Naja 4.0_MH"
+    400862: "Pe\xE7a14^MONTAGEM_Naja 4.0_MH"
+    400864: "Pe\xE7a15^MONTAGEM_Naja 4.0_MH"
+    400866: "Pe\xE7a17^MONTAGEM_Naja 4.0_MH"
+    400868: "Pe\xE7a1^MONTAGEM_Naja 4.0_MH"
+    400870: "Pe\xE7a3^MONTAGEM_Naja 4.0_MH"
+    400872: "Pe\xE7a4^MONTAGEM_Naja 4.0_MH"
+    400874: "Pe\xE7a8^MONTAGEM_Naja 4.0_MH"
+    400876: "Pe\xE7a9^MONTAGEM_Naja 4.0_MH"
+    400878: "Pe\xE7a9^MONTAGEM_Naja 4.0_MH 1"
+    400880: PincaEmbolo
+    400882: "Pin\xE7a Susuki Burgman"
+    400884: QUADRADO - 1 in x 1 in 1,5 mm[1]
+    400886: QUADRADO - 1 in x 1 in 1,5 mm[4]
+    400888: QUADRADO - 1 in x 1 in 1,5 mm[5]
+    400890: QUADRADO - 1 in x 1 in 1,5 mm[6]
+    400892: QUADRADO - 1 in x 1 in 1,5 mm[7]
+    400894: "Ressalto-extrus\xE3o1"
+    400896: "Ressalto-extrus\xE3o1 1"
+    400898: "Ressalto-extrus\xE3o1 10"
+    400900: "Ressalto-extrus\xE3o1 11"
+    400902: "Ressalto-extrus\xE3o1 12"
+    400904: "Ressalto-extrus\xE3o1 13"
+    400906: "Ressalto-extrus\xE3o1 14"
+    400908: "Ressalto-extrus\xE3o1 15"
+    400910: "Ressalto-extrus\xE3o1 16"
+    400912: "Ressalto-extrus\xE3o1 17"
+    400914: "Ressalto-extrus\xE3o1 18"
+    400916: "Ressalto-extrus\xE3o1 19"
+    400918: "Ressalto-extrus\xE3o1 2"
+    400920: "Ressalto-extrus\xE3o1 20"
+    400922: "Ressalto-extrus\xE3o1 21"
+    400924: "Ressalto-extrus\xE3o1 22"
+    400926: "Ressalto-extrus\xE3o1 3"
+    400928: "Ressalto-extrus\xE3o1 4"
+    400930: "Ressalto-extrus\xE3o1 5"
+    400932: "Ressalto-extrus\xE3o1 6"
+    400934: "Ressalto-extrus\xE3o1 7"
+    400936: "Ressalto-extrus\xE3o1 8"
+    400938: "Ressalto-extrus\xE3o1 9"
+    400940: "Ressalto-extrus\xE3o12"
+    400942: "Ressalto-extrus\xE3o1[1]"
+    400944: "Ressalto-extrus\xE3o1[2]"
+    400946: "Ressalto-extrus\xE3o1[3]"
+    400948: "Ressalto-extrus\xE3o2"
+    400950: "Ressalto-extrus\xE3o2 1"
+    400952: "Ressalto-extrus\xE3o2 2"
+    400954: "Ressalto-extrus\xE3o2 3"
+    400956: "Ressalto-extrus\xE3o2 4"
+    400958: "Ressalto-extrus\xE3o2 5"
+    400960: "Ressalto-extrus\xE3o2 6"
+    400962: "Ressalto-extrus\xE3o2 7"
+    400964: "Ressalto-extrus\xE3o3"
+    400966: "Ressalto-extrus\xE3o3 1"
+    400968: "Ressalto-extrus\xE3o3 2"
+    400970: "Ressalto-extrus\xE3o3 3"
+    400972: "Ressalto-extrus\xE3o5"
+    400974: "Ressalto-extrus\xE3o5 1"
+    400976: "Ressalto-extrus\xE3o5 2"
+    400978: "Revolu\xE7\xE3o1"
+    400980: "Revolu\xE7\xE3o1 1"
+    400982: "Revolu\xE7\xE3o1 10"
+    400984: "Revolu\xE7\xE3o1 11"
+    400986: "Revolu\xE7\xE3o1 12"
+    400988: "Revolu\xE7\xE3o1 13"
+    400990: "Revolu\xE7\xE3o1 14"
+    400992: "Revolu\xE7\xE3o1 15"
+    400994: "Revolu\xE7\xE3o1 16"
+    400996: "Revolu\xE7\xE3o1 17"
+    400998: "Revolu\xE7\xE3o1 18"
+    401000: "Revolu\xE7\xE3o1 19"
+    401002: "Revolu\xE7\xE3o1 2"
+    401004: "Revolu\xE7\xE3o1 20"
+    401006: "Revolu\xE7\xE3o1 21"
+    401008: "Revolu\xE7\xE3o1 22"
+    401010: "Revolu\xE7\xE3o1 3"
+    401012: "Revolu\xE7\xE3o1 4"
+    401014: "Revolu\xE7\xE3o1 5"
+    401016: "Revolu\xE7\xE3o1 6"
+    401018: "Revolu\xE7\xE3o1 7"
+    401020: "Revolu\xE7\xE3o1 8"
+    401022: "Revolu\xE7\xE3o1 9"
+    401024: "Revolu\xE7\xE3o1[1]"
+    401026: "Revolu\xE7\xE3o1[1] 1"
+    401028: "Revolu\xE7\xE3o1[1] 2"
+    401030: "Revolu\xE7\xE3o1[1] 3"
+    401032: "Revolu\xE7\xE3o1[2]"
+    401034: "Revolu\xE7\xE3o1[2] 1"
+    401036: "Revolu\xE7\xE3o1[2] 2"
+    401038: "Revolu\xE7\xE3o1[2] 3"
+    401040: "Revolu\xE7\xE3o1[3]"
+    401042: "Revolu\xE7\xE3o1[3] 1"
+    401044: "Revolu\xE7\xE3o1[3] 2"
+    401046: "Revolu\xE7\xE3o1[3] 3"
+    401048: "Revolu\xE7\xE3o2"
+    401050: "Revolu\xE7\xE3o3"
+    401052: "Revolu\xE7\xE3o3 1"
+    401054: "Revolu\xE7\xE3o3 2"
+    401056: "Revolu\xE7\xE3o3 3"
+    401058: "Revolu\xE7\xE3o3 4"
+    401060: "Revolu\xE7\xE3o3 5"
+    401062: "Revolu\xE7\xE3o3 6"
+    401064: "Revolu\xE7\xE3o3 7"
+    401066: Revolve1
+    401068: Revolve1 1
+    401070: Revolve1 10
+    401072: Revolve1 11
+    401074: Revolve1 12
+    401076: Revolve1 13
+    401078: Revolve1 14
+    401080: Revolve1 15
+    401082: Revolve1 16
+    401084: Revolve1 17
+    401086: Revolve1 18
+    401088: Revolve1 19
+    401090: Revolve1 2
+    401092: Revolve1 20
+    401094: Revolve1 21
+    401096: Revolve1 3
+    401098: Revolve1 4
+    401100: Revolve1 5
+    401102: Revolve1 6
+    401104: Revolve1 7
+    401106: Revolve1 8
+    401108: Revolve1 9
+    401110: Structural Member1[1]
+    401112: Structural Member1[1] 1
+    401114: Structural Member1[2]
+    401116: Structural Member1[2] 1
+    401118: Structural Member1[3]
+    401120: Structural Member1[5]
+    401122: Surface-Imported1
+    401124: SUSPENSAO DIANTEIRA_A Inferior_MH
+    401126: SUSPENSAO DIANTEIRA_A Superior_MH
+    401128: SUSPENSAO DIANTEIRA_Ajuste Ball Joint_MH
+    401130: SUSPENSAO DIANTEIRA_Ajuste Ball Joint_MH 1
+    401132: SUSPENSAO DIANTEIRA_Ball Joint 5-8 in_EM
+    401134: SUSPENSAO DIANTEIRA_Ball Joint 5-8 in_EM 1
+    401136: SUSPENSAO DIANTEIRA_Cubo_LK
+    401138: SUSPENSAO DIANTEIRA_Eixo_MH
+    401140: SUSPENSAO DIANTEIRA_Esfera Ball Joint 5-8 in_MH
+    401142: SUSPENSAO DIANTEIRA_Esfera Ball Joint 5-8 in_MH 1
+    401144: "SUSPENSAO DIANTEIRA_Espa\xE7ador 5-8 in_MH"
+    401146: "SUSPENSAO DIANTEIRA_Espa\xE7ador 5-8 in_MH 1"
+    401148: "SUSPENSAO DIANTEIRA_Espa\xE7ador Superior 5-8 in_MH"
+    401150: "SUSPENSAO DIANTEIRA_Espa\xE7ador Superior 5-8 in_MH 1"
+    401152: SUSPENSAO DIANTEIRA_Manga 6_MH
+    401154: SUSPENSAO DIANTEIRA_Orelha A Inferior_MH
+    401156: SUSPENSAO DIANTEIRA_Orelha A Inferior_MH 1
+    401158: SUSPENSAO DIANTEIRA_Orelha Amortecedor_MH
+    401160: SUSPENSAO DIANTEIRA_Orelha Dianteira A Superior_MH
+    401162: SUSPENSAO DIANTEIRA_Orelha Traseira A Superior_MH
+    401164: SUSPENSAO DIANTEIRA_Pneu 21 X 7 X 10_MH
+    401166: SUSPENSAO DIANTEIRA_Rolamento Conico 20X42X15_MH
+    401168: SUSPENSAO DIANTEIRA_Rolamento Conico 25X47X17_MH
+    401170: SUSPENSAO TRASEIRA_A Inferior_LH
+    401172: SUSPENSAO TRASEIRA_A Superior 2_LH
+    401174: SUSPENSAO TRASEIRA_Ball Joint 3-8 in_MT
+    401176: SUSPENSAO TRASEIRA_Ball Joint 3-8 in_MT 1
+    401178: SUSPENSAO TRASEIRA_Ball Joint 5-8 in_EM
+    401180: SUSPENSAO TRASEIRA_Ball Joint 5-8 in_EM 1
+    401182: SUSPENSAO TRASEIRA_Cubo_MH
+    401184: SUSPENSAO TRASEIRA_Esfera Ball Joint 3-8 in_MH
+    401186: SUSPENSAO TRASEIRA_Esfera Ball Joint 3-8 in_MH 1
+    401188: SUSPENSAO TRASEIRA_Esfera Ball Joint 5-8 in_MH
+    401190: SUSPENSAO TRASEIRA_Esfera Ball Joint 5-8 in_MH 1
+    401192: "SUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH"
+    401194: "SUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH 1"
+    401196: "SUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH 2"
+    401198: "SUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH 3"
+    401200: "SUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH"
+    401202: "SUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH 1"
+    401204: "SUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH 2"
+    401206: "SUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH 3"
+    401208: SUSPENSAO TRASEIRA_Manga 5_MH
+    401210: SUSPENSAO TRASEIRA_Orelha Amortecedor_MH
+    401212: SUSPENSAO TRASEIRA_Orelha Dianteira A Inferior_MH
+    401214: SUSPENSAO TRASEIRA_Orelha Dianteira A Superior_MH
+    401216: SUSPENSAO TRASEIRA_Orelha Traseira A Inferior_MH
+    401218: SUSPENSAO TRASEIRA_Orelha Traseira A Superior_MH
+    401220: SUSPENSAO TRASEIRA_Pneu 21 X 7 X 10_MH
+    401222: SUSPENSAO TRASEIRA_Rolamento Manga_MH
+    401224: SUSPENSAO TRASEIRA_Rolamento Manga_MH 1
+    401226: SUSPENSAO TRASEIRA_Toe Link_LH
+    401228: TRANSMISSAO_Bilha_NC
+    401230: TRANSMISSAO_Bilha_NC 1
+    401232: TRANSMISSAO_Bilha_NC 2
+    401234: TRANSMISSAO_Bilha_NC 3
+    401236: TRANSMISSAO_Bilha_NC 4
+    401238: TRANSMISSAO_Bilha_NC 5
+    401240: TRANSMISSAO_Corpo da gaiola_NA
+    401242: TRANSMISSAO_CVTmotora_MT
+    401244: TRANSMISSAO_CVTmovida_MT
+    401246: TRANSMISSAO_Eixo 1_NC
+    401248: TRANSMISSAO_Eixo 2_NC
+    401250: TRANSMISSAO_Eixo 3_MT
+    401252: "TRANSMISSAO_Fixa\xE7\xE3o 1 Caixa_MH"
+    401254: "TRANSMISSAO_Fixa\xE7\xE3o 2 Caixa_MH"
+    401256: "TRANSMISSAO_Fixa\xE7\xE3o 3 Caixa_MH"
+    401258: TRANSMISSAO_Junta caixa_MH
+    401260: TRANSMISSAO_Junta externa_MH
+    401262: TRANSMISSAO_Junta interna_NC
+    401264: TRANSMISSAO_Orelha Pedal_LW
+    401266: TRANSMISSAO_Orelha Pedal_LW 1
+    401268: TRANSMISSAO_Pedal_LW
+    401270: TRANSMISSAO_Rolamento 6004_MT
+    401272: TRANSMISSAO_Rolamento 6004_MT 1
+    401274: TRANSMISSAO_Rolamento 6008_MT
+    401276: TRANSMISSAO_Rolamento 6008_MT 1
+    401278: TRANSMISSAO_Rolamento 6204_MT
+    401280: TRANSMISSAO_Rolamento 6204_MT 1
+    401282: TRANSMISSAO_Semi-Eixo_NC
+    401284: TRANSMISSAO_tampa 1 3.0_NC
+    401286: TRANSMISSAO_tampa 2 3.0_NC
+    401288: "TRANSMISS\xC3O_coroa1_4.0"
+    401290: "TRANSMISS\xC3O_coroa2_4.0"
+    401292: "TRANSMISS\xC3O_pinhao1_4.0"
+    401294: "TRANSMISS\xC3O_pinhao2_4.0"
+    401296: Trim/Extend1
+    401298: Trim/Extend2
+    401300: TUBO - 1 1/4 in 1,6 mm[10]
+    401302: TUBO - 1 1/4 in 1,6 mm[11]
+    401304: TUBO - 1 1/4 in 1,6 mm[12]
+    401306: TUBO - 1 1/4 in 1,6 mm[13]
+    401308: TUBO - 1 1/4 in 1,6 mm[14]
+    401310: TUBO - 1 1/4 in 1,6 mm[15]
+    401312: TUBO - 1 1/4 in 1,6 mm[16]
+    401314: TUBO - 1 1/4 in 1,6 mm[17]
+    401316: TUBO - 1 1/4 in 1,6 mm[18]
+    401318: TUBO - 1 1/4 in 1,6 mm[19]
+    401320: TUBO - 1 1/4 in 1,6 mm[1]
+    401322: TUBO - 1 1/4 in 1,6 mm[20]
+    401324: TUBO - 1 1/4 in 1,6 mm[21]
+    401326: TUBO - 1 1/4 in 1,6 mm[22]
+    401328: TUBO - 1 1/4 in 1,6 mm[23]
+    401330: TUBO - 1 1/4 in 1,6 mm[24]
+    401332: TUBO - 1 1/4 in 1,6 mm[25]
+    401334: TUBO - 1 1/4 in 1,6 mm[26]
+    401336: TUBO - 1 1/4 in 1,6 mm[27]
+    401338: TUBO - 1 1/4 in 1,6 mm[2]
+    401340: TUBO - 1 1/4 in 1,6 mm[3]
+    401342: TUBO - 1 1/4 in 1,6 mm[4]
+    401344: TUBO - 1 1/4 in 1,6 mm[5]
+    401346: TUBO - 1 1/4 in 1,6 mm[6]
+    401348: TUBO - 1 1/4 in 1,6 mm[7]
+    401350: TUBO - 1 1/4 in 1,6 mm[8]
+    401352: TUBO - 1 1/4 in 1,6 mm[9]
+    401354: TUBO - 1 in 0,9 mm[10]
+    401356: TUBO - 1 in 0,9 mm[11]
+    401358: TUBO - 1 in 0,9 mm[12]
+    401360: TUBO - 1 in 0,9 mm[13]
+    401362: TUBO - 1 in 0,9 mm[14]
+    401364: TUBO - 1 in 0,9 mm[1]
+    401366: TUBO - 1 in 0,9 mm[2]
+    401368: TUBO - 1 in 0,9 mm[3]
+    401370: TUBO - 1 in 0,9 mm[4]
+    401372: TUBO - 1 in 0,9 mm[5]
+    401374: TUBO - 1 in 0,9 mm[6]
+    401376: TUBO - 1 in 0,9 mm[7]
+    401378: TUBO - 1 in 0,9 mm[8]
+    401380: TUBO - 1 in 0,9 mm[9]
+    401382: TUBO - 3/4 in 1,25 mm
+    401384: "Tubo r\xEDgido 21.3 X 2.3(1)[1]"
+    401386: "Tubo r\xEDgido 21.3 X 2.3(1)[2]"
+    401388: "Tubo r\xEDgido 21.3 X 2.3(1)[3]"
+    401390: "Tubo r\xEDgido 21.3 X 2.3(1)[4]"
+    401392: "Tubo r\xEDgido 21.3 X 2.3(1)[6]"
+    401394: TUBO2 - 1 in 0,9 mm[10]
+    401396: TUBO2 - 1 in 0,9 mm[11]
+    401398: TUBO2 - 1 in 0,9 mm[12]
+    401400: TUBO2 - 1 in 0,9 mm[13]
+    401402: TUBO2 - 1 in 0,9 mm[14]
+    401404: TUBO2 - 1 in 0,9 mm[15]
+    401406: TUBO2 - 1 in 0,9 mm[16]
+    401408: TUBO2 - 1 in 0,9 mm[17]
+    401410: TUBO2 - 1 in 0,9 mm[18]
+    401412: TUBO2 - 1 in 0,9 mm[19]
+    401414: TUBO2 - 1 in 0,9 mm[1]
+    401416: TUBO2 - 1 in 0,9 mm[20]
+    401418: TUBO2 - 1 in 0,9 mm[21]
+    401420: TUBO2 - 1 in 0,9 mm[22]
+    401422: TUBO2 - 1 in 0,9 mm[23]
+    401424: TUBO2 - 1 in 0,9 mm[24]
+    401426: TUBO2 - 1 in 0,9 mm[2]
+    401428: TUBO2 - 1 in 0,9 mm[3]
+    401430: TUBO2 - 1 in 0,9 mm[4]
+    401432: TUBO2 - 1 in 0,9 mm[5]
+    401434: TUBO2 - 1 in 0,9 mm[6]
+    401436: TUBO2 - 1 in 0,9 mm[7]
+    401438: TUBO2 - 1 in 0,9 mm[8]
+    401440: TUBO2 - 1 in 0,9 mm[9]
+    401442: Varredura de corte2
+    2100000: 'Material #25'
+    2100002: 'Material #26'
+    2100004: 'Material #27'
+    2100006: 'Material #28'
+    2100008: 'Material #29'
+    2100010: 'Material #30'
+    2100012: 'Material #31'
+    2100014: 'Material #32'
+    2100016: 'Material #37'
+    2100018: 'Material #38'
+    2100020: 'Material #39'
+    2100022: 'Material #40'
+    2100024: 'Material #41'
+    2100026: 'Material #42'
+    2100028: 'Material #46'
+    2100030: 'Material #47'
+    2100032: 'Material #48'
+    2100034: 'Material #53'
+    2100036: 'Material #54'
+    2100038: 'Material #55'
+    2100040: 'Material #58'
+    2100042: 'Material #59'
+    2100044: 'Material #60'
+    2100046: 'Material #61'
+    2100048: 'Material #62'
+    2100050: 'Material #63'
+    2100052: 'Material #64'
+    2100054: 'Material #65'
+    2100056: 'Material #66'
+    2100058: 'Material #69'
+    2100060: 'Material #70'
+    2100062: 'Material #71'
+    2100064: 'Material #72'
+    2100066: 'Material #75'
+    2100068: 'Material #79'
+    2100070: 'Material #80'
+    2100072: 'Material #81'
+    2100074: 'Material #82'
+    2100076: 'Material #86'
+    2100078: 'Material #87'
+    2300000: <DIRECAO_Ball Joint 3-8 in_MT>-<Chanfro1>
+    2300002: "<DIRECAO_Ball Joint 3-8 in_MT>-<Revolu\xE7\xE3o3>"
+    2300004: <DIRECAO_Esfera Ball Joint 3-8 in_MH>-<Revolve1>
+    2300006: "<DIRECAO_Espa\xE7ador 3-8 in_MH>-<Revolu\xE7\xE3o1>"
+    2300008: "<DIRECAO_Espa\xE7ador 3-8 in_MH>-<Revolu\xE7\xE3o1> 1"
+    2300010: "<DIRECAO_Suporte Tie-Rod_MH>-<Corte-extrus\xE3o3>"
+    2300012: "<DIRECAO_Tie-rod_MH>-<Revolu\xE7\xE3o1>"
+    2300014: "<FOX_Evol R Inferior>-<Ressalto-extrus\xE3o5>"
+    2300016: <FOX_Evol R Superior>-<Fillet2>
+    2300018: "<FOX_Float 3 Inferior>-<Ressalto-extrus\xE3o5>"
+    2300020: <FOX_Float 3 Superior>-<Cut-Extrude1>
+    2300022: <FREIO_Disco Dianteiro_MT>-<Escareado para SFHCS M61>
+    2300024: "<FREIO_Disco Dianteiro_MT>-<Ressalto-extrus\xE3o1>"
+    2300026: "<FREIO_Pastilha wilwood_MT>-<Ressalto-extrus\xE3o2>"
+    2300028: "<FREIO_Pastilha wilwood_MT>-<Ressalto-extrus\xE3o2> 1"
+    2300030: "<FREIO_pin\xE7a wilwood corpo_MT>-<Filete6>"
+    2300032: "<FREIO_pin\xE7a wilwood corpo_MT>-<Importado3>"
+    2300034: "<FREIO_Suporte Dianteiro_MH>-<Ressalto-extrus\xE3o1>"
+    2300036: "<SUSPENSAO DIANTEIRA_A Inferior_MH>-<Ressalto-extrus\xE3o2>"
+    2300038: <SUSPENSAO DIANTEIRA_A Inferior_MH>-<Structural Member1[1]>
+    2300040: <SUSPENSAO DIANTEIRA_A Inferior_MH>-<Structural Member1[2]>
+    2300042: <SUSPENSAO DIANTEIRA_A Inferior_MH>-<Structural Member1[5]>
+    2300044: <SUSPENSAO DIANTEIRA_A Superior_MH>-<Structural Member1[1]>
+    2300046: <SUSPENSAO DIANTEIRA_A Superior_MH>-<Structural Member1[2]>
+    2300048: <SUSPENSAO DIANTEIRA_A Superior_MH>-<Structural Member1[3]>
+    2300050: <SUSPENSAO DIANTEIRA_A Superior_MH>-<Trim/Extend1>
+    2300052: <SUSPENSAO DIANTEIRA_A Superior_MH>-<Trim/Extend2>
+    2300054: <SUSPENSAO DIANTEIRA_Ajuste Ball Joint_MH>-<Revolve1>
+    2300056: <SUSPENSAO DIANTEIRA_Ajuste Ball Joint_MH>-<Revolve1> 1
+    2300058: <SUSPENSAO DIANTEIRA_Ball Joint 5-8 in_EM>-<Chanfro1>
+    2300060: <SUSPENSAO DIANTEIRA_Ball Joint 5-8 in_EM>-<Chanfro1> 1
+    2300062: "<SUSPENSAO DIANTEIRA_Ball Joint 5-8 in_EM>-<Revolu\xE7\xE3o3>"
+    2300064: "<SUSPENSAO DIANTEIRA_Ball Joint 5-8 in_EM>-<Revolu\xE7\xE3o3> 1"
+    2300066: <SUSPENSAO DIANTEIRA_Cubo_LK>-<Filete2>
+    2300068: <SUSPENSAO DIANTEIRA_Eixo_MH>-<Chanfro1>
+    2300070: <SUSPENSAO DIANTEIRA_Esfera Ball Joint 5-8 in_MH>-<Revolve1>
+    2300072: <SUSPENSAO DIANTEIRA_Esfera Ball Joint 5-8 in_MH>-<Revolve1> 1
+    2300074: "<SUSPENSAO DIANTEIRA_Espa\xE7ador 5-8 in_MH>-<Revolve1>"
+    2300076: "<SUSPENSAO DIANTEIRA_Espa\xE7ador 5-8 in_MH>-<Revolve1> 1"
+    2300078: "<SUSPENSAO DIANTEIRA_Espa\xE7ador Superior 5-8 in_MH>-<Revolve1>"
+    2300080: "<SUSPENSAO DIANTEIRA_Espa\xE7ador Superior 5-8 in_MH>-<Revolve1> 1"
+    2300082: "<SUSPENSAO DIANTEIRA_Manga 6_MH>-<Corte-extrus\xE3o31>"
+    2300084: <SUSPENSAO DIANTEIRA_Pneu 21 X 7 X 10_MH>-<Cut-Extrude1>
+    2300086: "<SUSPENSAO DIANTEIRA_Rolamento Conico 20X42X15_MH>-<Revolu\xE7\xE3o1[1]>"
+    2300088: "<SUSPENSAO DIANTEIRA_Rolamento Conico 20X42X15_MH>-<Revolu\xE7\xE3o1[2]>"
+    2300090: "<SUSPENSAO DIANTEIRA_Rolamento Conico 20X42X15_MH>-<Revolu\xE7\xE3o1[3]>"
+    2300092: "<SUSPENSAO DIANTEIRA_Rolamento Conico 25X47X17_MH>-<Revolu\xE7\xE3o1[1]>"
+    2300094: "<SUSPENSAO DIANTEIRA_Rolamento Conico 25X47X17_MH>-<Revolu\xE7\xE3o1[2]>"
+    2300096: "<SUSPENSAO DIANTEIRA_Rolamento Conico 25X47X17_MH>-<Revolu\xE7\xE3o1[3]>"
+    2300098: <SUSPENSAO TRASEIRA_A Inferior_LH>-<Componente estrutural1[1]>
+    2300100: <SUSPENSAO TRASEIRA_A Inferior_LH>-<Componente estrutural1[2]>
+    2300102: <SUSPENSAO TRASEIRA_A Inferior_LH>-<Componente estrutural1[3]>
+    2300104: <SUSPENSAO TRASEIRA_A Inferior_LH>-<Componente estrutural1[4]>
+    2300106: "<SUSPENSAO TRASEIRA_A Inferior_LH>-<Corte-extrus\xE3o1>"
+    2300108: "<SUSPENSAO TRASEIRA_A Superior 2_LH>-<Ressalto-extrus\xE3o2>"
+    2300110: "<SUSPENSAO TRASEIRA_A Superior 2_LH>-<Tubo r\xEDgido 21.3 X 2.3(1)[1]>"
+    2300112: "<SUSPENSAO TRASEIRA_A Superior 2_LH>-<Tubo r\xEDgido 21.3 X 2.3(1)[2]>"
+    2300114: "<SUSPENSAO TRASEIRA_A Superior 2_LH>-<Tubo r\xEDgido 21.3 X 2.3(1)[3]>"
+    2300116: "<SUSPENSAO TRASEIRA_A Superior 2_LH>-<Tubo r\xEDgido 21.3 X 2.3(1)[4]>"
+    2300118: "<SUSPENSAO TRASEIRA_A Superior 2_LH>-<Tubo r\xEDgido 21.3 X 2.3(1)[6]>"
+    2300120: <SUSPENSAO TRASEIRA_Ball Joint 3-8 in_MT>-<Chanfro1>
+    2300122: <SUSPENSAO TRASEIRA_Ball Joint 3-8 in_MT>-<Chanfro1> 1
+    2300124: "<SUSPENSAO TRASEIRA_Ball Joint 3-8 in_MT>-<Revolu\xE7\xE3o3>"
+    2300126: "<SUSPENSAO TRASEIRA_Ball Joint 3-8 in_MT>-<Revolu\xE7\xE3o3> 1"
+    2300128: <SUSPENSAO TRASEIRA_Ball Joint 5-8 in_EM>-<Chanfro1>
+    2300130: <SUSPENSAO TRASEIRA_Ball Joint 5-8 in_EM>-<Chanfro1> 1
+    2300132: "<SUSPENSAO TRASEIRA_Ball Joint 5-8 in_EM>-<Revolu\xE7\xE3o3>"
+    2300134: "<SUSPENSAO TRASEIRA_Ball Joint 5-8 in_EM>-<Revolu\xE7\xE3o3> 1"
+    2300136: "<SUSPENSAO TRASEIRA_Cubo_MH>-<Corte-extrus\xE3o3>"
+    2300138: <SUSPENSAO TRASEIRA_Esfera Ball Joint 3-8 in_MH>-<Revolve1>
+    2300140: <SUSPENSAO TRASEIRA_Esfera Ball Joint 3-8 in_MH>-<Revolve1> 1
+    2300142: <SUSPENSAO TRASEIRA_Esfera Ball Joint 5-8 in_MH>-<Revolve1>
+    2300144: <SUSPENSAO TRASEIRA_Esfera Ball Joint 5-8 in_MH>-<Revolve1> 1
+    2300146: "<SUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH>-<Revolu\xE7\xE3o1>"
+    2300148: "<SUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH>-<Revolu\xE7\xE3o1> 1"
+    2300150: "<SUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH>-<Revolu\xE7\xE3o1> 2"
+    2300152: "<SUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH>-<Revolu\xE7\xE3o1> 3"
+    2300154: "<SUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH>-<Revolve1>"
+    2300156: "<SUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH>-<Revolve1> 1"
+    2300158: "<SUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH>-<Revolve1> 2"
+    2300160: "<SUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH>-<Revolve1> 3"
+    2300162: "<SUSPENSAO TRASEIRA_Manga 5_MH>-<Ressalto-extrus\xE3o12>"
+    2300164: <SUSPENSAO TRASEIRA_Pneu 21 X 7 X 10_MH>-<Cut-Extrude1>
+    2300166: "<SUSPENSAO TRASEIRA_Rolamento Manga_MH>-<Revolu\xE7\xE3o1[1]>"
+    2300168: "<SUSPENSAO TRASEIRA_Rolamento Manga_MH>-<Revolu\xE7\xE3o1[1]> 1"
+    2300170: "<SUSPENSAO TRASEIRA_Rolamento Manga_MH>-<Revolu\xE7\xE3o1[2]>"
+    2300172: "<SUSPENSAO TRASEIRA_Rolamento Manga_MH>-<Revolu\xE7\xE3o1[2]> 1"
+    2300174: "<SUSPENSAO TRASEIRA_Rolamento Manga_MH>-<Revolu\xE7\xE3o1[3]>"
+    2300176: "<SUSPENSAO TRASEIRA_Rolamento Manga_MH>-<Revolu\xE7\xE3o1[3]> 1"
+    2300178: <SUSPENSAO TRASEIRA_Toe Link_LH>-<Chanfro1>
+    2300180: "<TRANSMISSAO_Bilha_NC>-<Revolu\xE7\xE3o1>"
+    2300182: "<TRANSMISSAO_Bilha_NC>-<Revolu\xE7\xE3o1> 1"
+    2300184: "<TRANSMISSAO_Bilha_NC>-<Revolu\xE7\xE3o1> 2"
+    2300186: "<TRANSMISSAO_Bilha_NC>-<Revolu\xE7\xE3o1> 3"
+    2300188: "<TRANSMISSAO_Bilha_NC>-<Revolu\xE7\xE3o1> 4"
+    2300190: "<TRANSMISSAO_Bilha_NC>-<Revolu\xE7\xE3o1> 5"
+    2300192: <TRANSMISSAO_Corpo da gaiola_NA>-<Chamfer4>
+    2300194: "<TRANSMISSAO_Junta caixa_MH>-<Padr\xE3oCircular1>"
+    2300196: "<TRANSMISSAO_Junta externa_MH>-<Corte-extrus\xE3o2>"
+    2300198: <TRANSMISSAO_Junta interna_NC>-<Filete2>
+    2300200: "<TRANSMISSAO_Semi-Eixo_NC>-<Corte-extrus\xE3o4>"
+    2300202: Boss-Extrude1
+    2300204: Boss-Extrude1 1
+    2300206: Chamfer1
+    2300208: Chamfer4
+    2300210: Chanfro1
+    2300212: Chanfro1 1
+    2300214: Chanfro1 10
+    2300216: Chanfro1 2
+    2300218: Chanfro1 3
+    2300220: Chanfro1 4
+    2300222: Chanfro1 5
+    2300224: Chanfro1 6
+    2300226: Chanfro1 7
+    2300228: Chanfro1 8
+    2300230: Chanfro1 9
+    2300232: Componente estrutural1[1]
+    2300234: Componente estrutural1[2]
+    2300236: Componente estrutural1[3]
+    2300238: Componente estrutural1[4]
+    2300240: "Corte-extrus\xE3o1"
+    2300242: "Corte-extrus\xE3o1 1"
+    2300244: "Corte-extrus\xE3o1 2"
+    2300246: "Corte-extrus\xE3o1 3"
+    2300248: "Corte-extrus\xE3o1 4"
+    2300250: "Corte-extrus\xE3o1 5"
+    2300252: "Corte-extrus\xE3o2"
+    2300254: "Corte-extrus\xE3o3"
+    2300256: "Corte-extrus\xE3o3 1"
+    2300258: "Corte-extrus\xE3o3 2"
+    2300260: "Corte-extrus\xE3o3 3"
+    2300262: "Corte-extrus\xE3o3 4"
+    2300264: "Corte-extrus\xE3o3 5"
+    2300266: "Corte-extrus\xE3o31"
+    2300268: "Corte-extrus\xE3o4"
+    2300270: "Corte-extrus\xE3o4 1"
+    2300272: "Corte-extrus\xE3o4 2"
+    2300274: "Corte-extrus\xE3o5"
+    2300276: "Corte-extrus\xE3o6"
+    2300278: "Corte-extrus\xE3o6 1"
+    2300280: Cut-Extrude1
+    2300282: Cut-Extrude1 1
+    2300284: Cut-Extrude1 10
+    2300286: Cut-Extrude1 11
+    2300288: Cut-Extrude1 2
+    2300290: Cut-Extrude1 3
+    2300292: Cut-Extrude1 4
+    2300294: Cut-Extrude1 5
+    2300296: Cut-Extrude1 6
+    2300298: Cut-Extrude1 7
+    2300300: Cut-Extrude1 8
+    2300302: Cut-Extrude1 9
+    2300304: Cut-Extrude2
+    2300306: Dome1
+    2300308: Escareado para SFHCS M61
+    2300310: Espelhar1
+    2300312: Espelhar1 1
+    2300314: Espelhar1 2
+    2300316: Espelhar1 3
+    2300318: Espelhar1 4
+    2300320: Espelhar1 5
+    2300322: Espelhar1 6
+    2300324: Espelhar1 7
+    2300326: Espelhar1 8
+    2300328: Espelhar1 9
+    2300330: Espelhar4
+    2300332: Extrude1
+    2300334: Extrude2
+    2300336: Filete1
+    2300338: Filete1 1
+    2300340: Filete1 2
+    2300342: Filete1 3
+    2300344: Filete1 4
+    2300346: Filete1 5
+    2300348: Filete1 6
+    2300350: Filete1 7
+    2300352: Filete1 8
+    2300354: Filete16
+    2300356: Filete2
+    2300358: Filete2 1
+    2300360: Filete2 2
+    2300362: Filete3
+    2300364: Filete36
+    2300366: Filete6
+    2300368: Fillet1
+    2300370: Fillet2
+    2300372: Fillet2 1
+    2300374: Fillet4
+    2300376: Fillet5
+    2300378: "Fura\xE7\xE3o do Motor[1]"
+    2300380: "Fura\xE7\xE3o do Motor[2]"
+    2300382: Importado3
+    2300384: Imported1
+    2300386: Imported1 1
+    2300388: Imported1 10
+    2300390: Imported1 11
+    2300392: Imported1 12
+    2300394: Imported1 13
+    2300396: Imported1 14
+    2300398: Imported1 15
+    2300400: Imported1 16
+    2300402: Imported1 17
+    2300404: Imported1 18
+    2300406: Imported1 19
+    2300408: Imported1 2
+    2300410: Imported1 20
+    2300412: Imported1 21
+    2300414: Imported1 22
+    2300416: Imported1 23
+    2300418: Imported1 24
+    2300420: Imported1 25
+    2300422: Imported1 26
+    2300424: Imported1 27
+    2300426: Imported1 28
+    2300428: Imported1 29
+    2300430: Imported1 3
+    2300432: Imported1 30
+    2300434: Imported1 31
+    2300436: Imported1 32
+    2300438: Imported1 33
+    2300440: Imported1 4
+    2300442: Imported1 5
+    2300444: Imported1 6
+    2300446: Imported1 7
+    2300448: Imported1 8
+    2300450: Imported1 9
+    2300452: M8x1.25 Tapped Hole1
+    2300454: M8x1.25 Tapped Hole1 1
+    2300456: OuterRace
+    2300458: OuterRace 1
+    2300460: OuterRace 2
+    2300462: OuterRace 3
+    2300464: OuterRace 4
+    2300466: OuterRace 5
+    2300468: "Padr\xE3oCircular1"
+    2300470: QUADRADO - 1 in x 1 in 1,5 mm[1]
+    2300472: QUADRADO - 1 in x 1 in 1,5 mm[4]
+    2300474: QUADRADO - 1 in x 1 in 1,5 mm[5]
+    2300476: QUADRADO - 1 in x 1 in 1,5 mm[6]
+    2300478: QUADRADO - 1 in x 1 in 1,5 mm[7]
+    2300480: "Ressalto-extrus\xE3o1"
+    2300482: "Ressalto-extrus\xE3o1 1"
+    2300484: "Ressalto-extrus\xE3o1 10"
+    2300486: "Ressalto-extrus\xE3o1 11"
+    2300488: "Ressalto-extrus\xE3o1 12"
+    2300490: "Ressalto-extrus\xE3o1 13"
+    2300492: "Ressalto-extrus\xE3o1 14"
+    2300494: "Ressalto-extrus\xE3o1 15"
+    2300496: "Ressalto-extrus\xE3o1 16"
+    2300498: "Ressalto-extrus\xE3o1 17"
+    2300500: "Ressalto-extrus\xE3o1 18"
+    2300502: "Ressalto-extrus\xE3o1 19"
+    2300504: "Ressalto-extrus\xE3o1 2"
+    2300506: "Ressalto-extrus\xE3o1 20"
+    2300508: "Ressalto-extrus\xE3o1 21"
+    2300510: "Ressalto-extrus\xE3o1 22"
+    2300512: "Ressalto-extrus\xE3o1 3"
+    2300514: "Ressalto-extrus\xE3o1 4"
+    2300516: "Ressalto-extrus\xE3o1 5"
+    2300518: "Ressalto-extrus\xE3o1 6"
+    2300520: "Ressalto-extrus\xE3o1 7"
+    2300522: "Ressalto-extrus\xE3o1 8"
+    2300524: "Ressalto-extrus\xE3o1 9"
+    2300526: "Ressalto-extrus\xE3o12"
+    2300528: "Ressalto-extrus\xE3o1[1]"
+    2300530: "Ressalto-extrus\xE3o1[2]"
+    2300532: "Ressalto-extrus\xE3o1[3]"
+    2300534: "Ressalto-extrus\xE3o2"
+    2300536: "Ressalto-extrus\xE3o2 1"
+    2300538: "Ressalto-extrus\xE3o2 2"
+    2300540: "Ressalto-extrus\xE3o2 3"
+    2300542: "Ressalto-extrus\xE3o2 4"
+    2300544: "Ressalto-extrus\xE3o2 5"
+    2300546: "Ressalto-extrus\xE3o2 6"
+    2300548: "Ressalto-extrus\xE3o2 7"
+    2300550: "Ressalto-extrus\xE3o3"
+    2300552: "Ressalto-extrus\xE3o3 1"
+    2300554: "Ressalto-extrus\xE3o3 2"
+    2300556: "Ressalto-extrus\xE3o3 3"
+    2300558: "Ressalto-extrus\xE3o5"
+    2300560: "Ressalto-extrus\xE3o5 1"
+    2300562: "Ressalto-extrus\xE3o5 2"
+    2300564: "Revolu\xE7\xE3o1"
+    2300566: "Revolu\xE7\xE3o1 1"
+    2300568: "Revolu\xE7\xE3o1 10"
+    2300570: "Revolu\xE7\xE3o1 11"
+    2300572: "Revolu\xE7\xE3o1 12"
+    2300574: "Revolu\xE7\xE3o1 13"
+    2300576: "Revolu\xE7\xE3o1 14"
+    2300578: "Revolu\xE7\xE3o1 15"
+    2300580: "Revolu\xE7\xE3o1 16"
+    2300582: "Revolu\xE7\xE3o1 17"
+    2300584: "Revolu\xE7\xE3o1 18"
+    2300586: "Revolu\xE7\xE3o1 19"
+    2300588: "Revolu\xE7\xE3o1 2"
+    2300590: "Revolu\xE7\xE3o1 20"
+    2300592: "Revolu\xE7\xE3o1 21"
+    2300594: "Revolu\xE7\xE3o1 22"
+    2300596: "Revolu\xE7\xE3o1 3"
+    2300598: "Revolu\xE7\xE3o1 4"
+    2300600: "Revolu\xE7\xE3o1 5"
+    2300602: "Revolu\xE7\xE3o1 6"
+    2300604: "Revolu\xE7\xE3o1 7"
+    2300606: "Revolu\xE7\xE3o1 8"
+    2300608: "Revolu\xE7\xE3o1 9"
+    2300610: "Revolu\xE7\xE3o1[1]"
+    2300612: "Revolu\xE7\xE3o1[1] 1"
+    2300614: "Revolu\xE7\xE3o1[1] 2"
+    2300616: "Revolu\xE7\xE3o1[1] 3"
+    2300618: "Revolu\xE7\xE3o1[2]"
+    2300620: "Revolu\xE7\xE3o1[2] 1"
+    2300622: "Revolu\xE7\xE3o1[2] 2"
+    2300624: "Revolu\xE7\xE3o1[2] 3"
+    2300626: "Revolu\xE7\xE3o1[3]"
+    2300628: "Revolu\xE7\xE3o1[3] 1"
+    2300630: "Revolu\xE7\xE3o1[3] 2"
+    2300632: "Revolu\xE7\xE3o1[3] 3"
+    2300634: "Revolu\xE7\xE3o2"
+    2300636: "Revolu\xE7\xE3o3"
+    2300638: "Revolu\xE7\xE3o3 1"
+    2300640: "Revolu\xE7\xE3o3 2"
+    2300642: "Revolu\xE7\xE3o3 3"
+    2300644: "Revolu\xE7\xE3o3 4"
+    2300646: "Revolu\xE7\xE3o3 5"
+    2300648: "Revolu\xE7\xE3o3 6"
+    2300650: "Revolu\xE7\xE3o3 7"
+    2300652: Revolve1
+    2300654: Revolve1 1
+    2300656: Revolve1 10
+    2300658: Revolve1 11
+    2300660: Revolve1 12
+    2300662: Revolve1 13
+    2300664: Revolve1 14
+    2300666: Revolve1 15
+    2300668: Revolve1 16
+    2300670: Revolve1 17
+    2300672: Revolve1 18
+    2300674: Revolve1 19
+    2300676: Revolve1 2
+    2300678: Revolve1 20
+    2300680: Revolve1 21
+    2300682: Revolve1 3
+    2300684: Revolve1 4
+    2300686: Revolve1 5
+    2300688: Revolve1 6
+    2300690: Revolve1 7
+    2300692: Revolve1 8
+    2300694: Revolve1 9
+    2300696: Structural Member1[1]
+    2300698: Structural Member1[1] 1
+    2300700: Structural Member1[2]
+    2300702: Structural Member1[2] 1
+    2300704: Structural Member1[3]
+    2300706: Structural Member1[5]
+    2300708: Surface-Imported1
+    2300710: Trim/Extend1
+    2300712: Trim/Extend2
+    2300714: TUBO - 1 1/4 in 1,6 mm[10]
+    2300716: TUBO - 1 1/4 in 1,6 mm[11]
+    2300718: TUBO - 1 1/4 in 1,6 mm[12]
+    2300720: TUBO - 1 1/4 in 1,6 mm[13]
+    2300722: TUBO - 1 1/4 in 1,6 mm[14]
+    2300724: TUBO - 1 1/4 in 1,6 mm[15]
+    2300726: TUBO - 1 1/4 in 1,6 mm[16]
+    2300728: TUBO - 1 1/4 in 1,6 mm[17]
+    2300730: TUBO - 1 1/4 in 1,6 mm[18]
+    2300732: TUBO - 1 1/4 in 1,6 mm[19]
+    2300734: TUBO - 1 1/4 in 1,6 mm[1]
+    2300736: TUBO - 1 1/4 in 1,6 mm[20]
+    2300738: TUBO - 1 1/4 in 1,6 mm[21]
+    2300740: TUBO - 1 1/4 in 1,6 mm[22]
+    2300742: TUBO - 1 1/4 in 1,6 mm[23]
+    2300744: TUBO - 1 1/4 in 1,6 mm[24]
+    2300746: TUBO - 1 1/4 in 1,6 mm[25]
+    2300748: TUBO - 1 1/4 in 1,6 mm[26]
+    2300750: TUBO - 1 1/4 in 1,6 mm[27]
+    2300752: TUBO - 1 1/4 in 1,6 mm[2]
+    2300754: TUBO - 1 1/4 in 1,6 mm[3]
+    2300756: TUBO - 1 1/4 in 1,6 mm[4]
+    2300758: TUBO - 1 1/4 in 1,6 mm[5]
+    2300760: TUBO - 1 1/4 in 1,6 mm[6]
+    2300762: TUBO - 1 1/4 in 1,6 mm[7]
+    2300764: TUBO - 1 1/4 in 1,6 mm[8]
+    2300766: TUBO - 1 1/4 in 1,6 mm[9]
+    2300768: TUBO - 1 in 0,9 mm[10]
+    2300770: TUBO - 1 in 0,9 mm[11]
+    2300772: TUBO - 1 in 0,9 mm[12]
+    2300774: TUBO - 1 in 0,9 mm[13]
+    2300776: TUBO - 1 in 0,9 mm[14]
+    2300778: TUBO - 1 in 0,9 mm[1]
+    2300780: TUBO - 1 in 0,9 mm[2]
+    2300782: TUBO - 1 in 0,9 mm[3]
+    2300784: TUBO - 1 in 0,9 mm[4]
+    2300786: TUBO - 1 in 0,9 mm[5]
+    2300788: TUBO - 1 in 0,9 mm[6]
+    2300790: TUBO - 1 in 0,9 mm[7]
+    2300792: TUBO - 1 in 0,9 mm[8]
+    2300794: TUBO - 1 in 0,9 mm[9]
+    2300796: TUBO - 3/4 in 1,25 mm
+    2300798: "Tubo r\xEDgido 21.3 X 2.3(1)[1]"
+    2300800: "Tubo r\xEDgido 21.3 X 2.3(1)[2]"
+    2300802: "Tubo r\xEDgido 21.3 X 2.3(1)[3]"
+    2300804: "Tubo r\xEDgido 21.3 X 2.3(1)[4]"
+    2300806: "Tubo r\xEDgido 21.3 X 2.3(1)[6]"
+    2300808: TUBO2 - 1 in 0,9 mm[10]
+    2300810: TUBO2 - 1 in 0,9 mm[11]
+    2300812: TUBO2 - 1 in 0,9 mm[12]
+    2300814: TUBO2 - 1 in 0,9 mm[13]
+    2300816: TUBO2 - 1 in 0,9 mm[14]
+    2300818: TUBO2 - 1 in 0,9 mm[15]
+    2300820: TUBO2 - 1 in 0,9 mm[16]
+    2300822: TUBO2 - 1 in 0,9 mm[17]
+    2300824: TUBO2 - 1 in 0,9 mm[18]
+    2300826: TUBO2 - 1 in 0,9 mm[19]
+    2300828: TUBO2 - 1 in 0,9 mm[1]
+    2300830: TUBO2 - 1 in 0,9 mm[20]
+    2300832: TUBO2 - 1 in 0,9 mm[21]
+    2300834: TUBO2 - 1 in 0,9 mm[22]
+    2300836: TUBO2 - 1 in 0,9 mm[23]
+    2300838: TUBO2 - 1 in 0,9 mm[24]
+    2300840: TUBO2 - 1 in 0,9 mm[2]
+    2300842: TUBO2 - 1 in 0,9 mm[3]
+    2300844: TUBO2 - 1 in 0,9 mm[4]
+    2300846: TUBO2 - 1 in 0,9 mm[5]
+    2300848: TUBO2 - 1 in 0,9 mm[6]
+    2300850: TUBO2 - 1 in 0,9 mm[7]
+    2300852: TUBO2 - 1 in 0,9 mm[8]
+    2300854: TUBO2 - 1 in 0,9 mm[9]
+    2300856: Varredura de corte2
+    3300000: <DIRECAO_Ball Joint 3-8 in_MT>-<Chanfro1>
+    3300002: "<DIRECAO_Ball Joint 3-8 in_MT>-<Revolu\xE7\xE3o3>"
+    3300004: <DIRECAO_Esfera Ball Joint 3-8 in_MH>-<Revolve1>
+    3300006: "<DIRECAO_Espa\xE7ador 3-8 in_MH>-<Revolu\xE7\xE3o1>"
+    3300008: "<DIRECAO_Espa\xE7ador 3-8 in_MH>-<Revolu\xE7\xE3o1> 1"
+    3300010: "<DIRECAO_Suporte Tie-Rod_MH>-<Corte-extrus\xE3o3>"
+    3300012: "<DIRECAO_Tie-rod_MH>-<Revolu\xE7\xE3o1>"
+    3300014: "<FOX_Evol R Inferior>-<Ressalto-extrus\xE3o5>"
+    3300016: <FOX_Evol R Superior>-<Fillet2>
+    3300018: "<FOX_Float 3 Inferior>-<Ressalto-extrus\xE3o5>"
+    3300020: <FOX_Float 3 Superior>-<Cut-Extrude1>
+    3300022: <FREIO_Disco Dianteiro_MT>-<Escareado para SFHCS M61>
+    3300024: "<FREIO_Disco Dianteiro_MT>-<Ressalto-extrus\xE3o1>"
+    3300026: "<FREIO_Pastilha wilwood_MT>-<Ressalto-extrus\xE3o2>"
+    3300028: "<FREIO_Pastilha wilwood_MT>-<Ressalto-extrus\xE3o2> 1"
+    3300030: "<FREIO_pin\xE7a wilwood corpo_MT>-<Filete6>"
+    3300032: "<FREIO_pin\xE7a wilwood corpo_MT>-<Importado3>"
+    3300034: "<FREIO_Suporte Dianteiro_MH>-<Ressalto-extrus\xE3o1>"
+    3300036: "<SUSPENSAO DIANTEIRA_A Inferior_MH>-<Ressalto-extrus\xE3o2>"
+    3300038: <SUSPENSAO DIANTEIRA_A Inferior_MH>-<Structural Member1[1]>
+    3300040: <SUSPENSAO DIANTEIRA_A Inferior_MH>-<Structural Member1[2]>
+    3300042: <SUSPENSAO DIANTEIRA_A Inferior_MH>-<Structural Member1[5]>
+    3300044: <SUSPENSAO DIANTEIRA_A Superior_MH>-<Structural Member1[1]>
+    3300046: <SUSPENSAO DIANTEIRA_A Superior_MH>-<Structural Member1[2]>
+    3300048: <SUSPENSAO DIANTEIRA_A Superior_MH>-<Structural Member1[3]>
+    3300050: <SUSPENSAO DIANTEIRA_A Superior_MH>-<Trim/Extend1>
+    3300052: <SUSPENSAO DIANTEIRA_A Superior_MH>-<Trim/Extend2>
+    3300054: <SUSPENSAO DIANTEIRA_Ajuste Ball Joint_MH>-<Revolve1>
+    3300056: <SUSPENSAO DIANTEIRA_Ajuste Ball Joint_MH>-<Revolve1> 1
+    3300058: <SUSPENSAO DIANTEIRA_Ball Joint 5-8 in_EM>-<Chanfro1>
+    3300060: <SUSPENSAO DIANTEIRA_Ball Joint 5-8 in_EM>-<Chanfro1> 1
+    3300062: "<SUSPENSAO DIANTEIRA_Ball Joint 5-8 in_EM>-<Revolu\xE7\xE3o3>"
+    3300064: "<SUSPENSAO DIANTEIRA_Ball Joint 5-8 in_EM>-<Revolu\xE7\xE3o3> 1"
+    3300066: <SUSPENSAO DIANTEIRA_Cubo_LK>-<Filete2>
+    3300068: <SUSPENSAO DIANTEIRA_Eixo_MH>-<Chanfro1>
+    3300070: <SUSPENSAO DIANTEIRA_Esfera Ball Joint 5-8 in_MH>-<Revolve1>
+    3300072: <SUSPENSAO DIANTEIRA_Esfera Ball Joint 5-8 in_MH>-<Revolve1> 1
+    3300074: "<SUSPENSAO DIANTEIRA_Espa\xE7ador 5-8 in_MH>-<Revolve1>"
+    3300076: "<SUSPENSAO DIANTEIRA_Espa\xE7ador 5-8 in_MH>-<Revolve1> 1"
+    3300078: "<SUSPENSAO DIANTEIRA_Espa\xE7ador Superior 5-8 in_MH>-<Revolve1>"
+    3300080: "<SUSPENSAO DIANTEIRA_Espa\xE7ador Superior 5-8 in_MH>-<Revolve1> 1"
+    3300082: "<SUSPENSAO DIANTEIRA_Manga 6_MH>-<Corte-extrus\xE3o31>"
+    3300084: <SUSPENSAO DIANTEIRA_Pneu 21 X 7 X 10_MH>-<Cut-Extrude1>
+    3300086: "<SUSPENSAO DIANTEIRA_Rolamento Conico 20X42X15_MH>-<Revolu\xE7\xE3o1[1]>"
+    3300088: "<SUSPENSAO DIANTEIRA_Rolamento Conico 20X42X15_MH>-<Revolu\xE7\xE3o1[2]>"
+    3300090: "<SUSPENSAO DIANTEIRA_Rolamento Conico 20X42X15_MH>-<Revolu\xE7\xE3o1[3]>"
+    3300092: "<SUSPENSAO DIANTEIRA_Rolamento Conico 25X47X17_MH>-<Revolu\xE7\xE3o1[1]>"
+    3300094: "<SUSPENSAO DIANTEIRA_Rolamento Conico 25X47X17_MH>-<Revolu\xE7\xE3o1[2]>"
+    3300096: "<SUSPENSAO DIANTEIRA_Rolamento Conico 25X47X17_MH>-<Revolu\xE7\xE3o1[3]>"
+    3300098: <SUSPENSAO TRASEIRA_A Inferior_LH>-<Componente estrutural1[1]>
+    3300100: <SUSPENSAO TRASEIRA_A Inferior_LH>-<Componente estrutural1[2]>
+    3300102: <SUSPENSAO TRASEIRA_A Inferior_LH>-<Componente estrutural1[3]>
+    3300104: <SUSPENSAO TRASEIRA_A Inferior_LH>-<Componente estrutural1[4]>
+    3300106: "<SUSPENSAO TRASEIRA_A Inferior_LH>-<Corte-extrus\xE3o1>"
+    3300108: "<SUSPENSAO TRASEIRA_A Superior 2_LH>-<Ressalto-extrus\xE3o2>"
+    3300110: "<SUSPENSAO TRASEIRA_A Superior 2_LH>-<Tubo r\xEDgido 21.3 X 2.3(1)[1]>"
+    3300112: "<SUSPENSAO TRASEIRA_A Superior 2_LH>-<Tubo r\xEDgido 21.3 X 2.3(1)[2]>"
+    3300114: "<SUSPENSAO TRASEIRA_A Superior 2_LH>-<Tubo r\xEDgido 21.3 X 2.3(1)[3]>"
+    3300116: "<SUSPENSAO TRASEIRA_A Superior 2_LH>-<Tubo r\xEDgido 21.3 X 2.3(1)[4]>"
+    3300118: "<SUSPENSAO TRASEIRA_A Superior 2_LH>-<Tubo r\xEDgido 21.3 X 2.3(1)[6]>"
+    3300120: <SUSPENSAO TRASEIRA_Ball Joint 3-8 in_MT>-<Chanfro1>
+    3300122: <SUSPENSAO TRASEIRA_Ball Joint 3-8 in_MT>-<Chanfro1> 1
+    3300124: "<SUSPENSAO TRASEIRA_Ball Joint 3-8 in_MT>-<Revolu\xE7\xE3o3>"
+    3300126: "<SUSPENSAO TRASEIRA_Ball Joint 3-8 in_MT>-<Revolu\xE7\xE3o3> 1"
+    3300128: <SUSPENSAO TRASEIRA_Ball Joint 5-8 in_EM>-<Chanfro1>
+    3300130: <SUSPENSAO TRASEIRA_Ball Joint 5-8 in_EM>-<Chanfro1> 1
+    3300132: "<SUSPENSAO TRASEIRA_Ball Joint 5-8 in_EM>-<Revolu\xE7\xE3o3>"
+    3300134: "<SUSPENSAO TRASEIRA_Ball Joint 5-8 in_EM>-<Revolu\xE7\xE3o3> 1"
+    3300136: "<SUSPENSAO TRASEIRA_Cubo_MH>-<Corte-extrus\xE3o3>"
+    3300138: <SUSPENSAO TRASEIRA_Esfera Ball Joint 3-8 in_MH>-<Revolve1>
+    3300140: <SUSPENSAO TRASEIRA_Esfera Ball Joint 3-8 in_MH>-<Revolve1> 1
+    3300142: <SUSPENSAO TRASEIRA_Esfera Ball Joint 5-8 in_MH>-<Revolve1>
+    3300144: <SUSPENSAO TRASEIRA_Esfera Ball Joint 5-8 in_MH>-<Revolve1> 1
+    3300146: "<SUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH>-<Revolu\xE7\xE3o1>"
+    3300148: "<SUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH>-<Revolu\xE7\xE3o1> 1"
+    3300150: "<SUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH>-<Revolu\xE7\xE3o1> 2"
+    3300152: "<SUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH>-<Revolu\xE7\xE3o1> 3"
+    3300154: "<SUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH>-<Revolve1>"
+    3300156: "<SUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH>-<Revolve1> 1"
+    3300158: "<SUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH>-<Revolve1> 2"
+    3300160: "<SUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH>-<Revolve1> 3"
+    3300162: "<SUSPENSAO TRASEIRA_Manga 5_MH>-<Ressalto-extrus\xE3o12>"
+    3300164: <SUSPENSAO TRASEIRA_Pneu 21 X 7 X 10_MH>-<Cut-Extrude1>
+    3300166: "<SUSPENSAO TRASEIRA_Rolamento Manga_MH>-<Revolu\xE7\xE3o1[1]>"
+    3300168: "<SUSPENSAO TRASEIRA_Rolamento Manga_MH>-<Revolu\xE7\xE3o1[1]> 1"
+    3300170: "<SUSPENSAO TRASEIRA_Rolamento Manga_MH>-<Revolu\xE7\xE3o1[2]>"
+    3300172: "<SUSPENSAO TRASEIRA_Rolamento Manga_MH>-<Revolu\xE7\xE3o1[2]> 1"
+    3300174: "<SUSPENSAO TRASEIRA_Rolamento Manga_MH>-<Revolu\xE7\xE3o1[3]>"
+    3300176: "<SUSPENSAO TRASEIRA_Rolamento Manga_MH>-<Revolu\xE7\xE3o1[3]> 1"
+    3300178: <SUSPENSAO TRASEIRA_Toe Link_LH>-<Chanfro1>
+    3300180: "<TRANSMISSAO_Bilha_NC>-<Revolu\xE7\xE3o1>"
+    3300182: "<TRANSMISSAO_Bilha_NC>-<Revolu\xE7\xE3o1> 1"
+    3300184: "<TRANSMISSAO_Bilha_NC>-<Revolu\xE7\xE3o1> 2"
+    3300186: "<TRANSMISSAO_Bilha_NC>-<Revolu\xE7\xE3o1> 3"
+    3300188: "<TRANSMISSAO_Bilha_NC>-<Revolu\xE7\xE3o1> 4"
+    3300190: "<TRANSMISSAO_Bilha_NC>-<Revolu\xE7\xE3o1> 5"
+    3300192: <TRANSMISSAO_Corpo da gaiola_NA>-<Chamfer4>
+    3300194: "<TRANSMISSAO_Junta caixa_MH>-<Padr\xE3oCircular1>"
+    3300196: "<TRANSMISSAO_Junta externa_MH>-<Corte-extrus\xE3o2>"
+    3300198: <TRANSMISSAO_Junta interna_NC>-<Filete2>
+    3300200: "<TRANSMISSAO_Semi-Eixo_NC>-<Corte-extrus\xE3o4>"
+    3300202: Boss-Extrude1
+    3300204: Boss-Extrude1 1
+    3300206: Chamfer1
+    3300208: Chamfer4
+    3300210: Chanfro1
+    3300212: Chanfro1 1
+    3300214: Chanfro1 10
+    3300216: Chanfro1 2
+    3300218: Chanfro1 3
+    3300220: Chanfro1 4
+    3300222: Chanfro1 5
+    3300224: Chanfro1 6
+    3300226: Chanfro1 7
+    3300228: Chanfro1 8
+    3300230: Chanfro1 9
+    3300232: Componente estrutural1[1]
+    3300234: Componente estrutural1[2]
+    3300236: Componente estrutural1[3]
+    3300238: Componente estrutural1[4]
+    3300240: "Corte-extrus\xE3o1"
+    3300242: "Corte-extrus\xE3o1 1"
+    3300244: "Corte-extrus\xE3o1 2"
+    3300246: "Corte-extrus\xE3o1 3"
+    3300248: "Corte-extrus\xE3o1 4"
+    3300250: "Corte-extrus\xE3o1 5"
+    3300252: "Corte-extrus\xE3o2"
+    3300254: "Corte-extrus\xE3o3"
+    3300256: "Corte-extrus\xE3o3 1"
+    3300258: "Corte-extrus\xE3o3 2"
+    3300260: "Corte-extrus\xE3o3 3"
+    3300262: "Corte-extrus\xE3o3 4"
+    3300264: "Corte-extrus\xE3o3 5"
+    3300266: "Corte-extrus\xE3o31"
+    3300268: "Corte-extrus\xE3o4"
+    3300270: "Corte-extrus\xE3o4 1"
+    3300272: "Corte-extrus\xE3o4 2"
+    3300274: "Corte-extrus\xE3o5"
+    3300276: "Corte-extrus\xE3o6"
+    3300278: "Corte-extrus\xE3o6 1"
+    3300280: Cut-Extrude1
+    3300282: Cut-Extrude1 1
+    3300284: Cut-Extrude1 10
+    3300286: Cut-Extrude1 11
+    3300288: Cut-Extrude1 2
+    3300290: Cut-Extrude1 3
+    3300292: Cut-Extrude1 4
+    3300294: Cut-Extrude1 5
+    3300296: Cut-Extrude1 6
+    3300298: Cut-Extrude1 7
+    3300300: Cut-Extrude1 8
+    3300302: Cut-Extrude1 9
+    3300304: Cut-Extrude2
+    3300306: Dome1
+    3300308: Escareado para SFHCS M61
+    3300310: Espelhar1
+    3300312: Espelhar1 1
+    3300314: Espelhar1 2
+    3300316: Espelhar1 3
+    3300318: Espelhar1 4
+    3300320: Espelhar1 5
+    3300322: Espelhar1 6
+    3300324: Espelhar1 7
+    3300326: Espelhar1 8
+    3300328: Espelhar1 9
+    3300330: Espelhar4
+    3300332: Extrude1
+    3300334: Extrude2
+    3300336: Filete1
+    3300338: Filete1 1
+    3300340: Filete1 2
+    3300342: Filete1 3
+    3300344: Filete1 4
+    3300346: Filete1 5
+    3300348: Filete1 6
+    3300350: Filete1 7
+    3300352: Filete1 8
+    3300354: Filete16
+    3300356: Filete2
+    3300358: Filete2 1
+    3300360: Filete2 2
+    3300362: Filete3
+    3300364: Filete36
+    3300366: Filete6
+    3300368: Fillet1
+    3300370: Fillet2
+    3300372: Fillet2 1
+    3300374: Fillet4
+    3300376: Fillet5
+    3300378: "Fura\xE7\xE3o do Motor[1]"
+    3300380: "Fura\xE7\xE3o do Motor[2]"
+    3300382: Importado3
+    3300384: Imported1
+    3300386: Imported1 1
+    3300388: Imported1 10
+    3300390: Imported1 11
+    3300392: Imported1 12
+    3300394: Imported1 13
+    3300396: Imported1 14
+    3300398: Imported1 15
+    3300400: Imported1 16
+    3300402: Imported1 17
+    3300404: Imported1 18
+    3300406: Imported1 19
+    3300408: Imported1 2
+    3300410: Imported1 20
+    3300412: Imported1 21
+    3300414: Imported1 22
+    3300416: Imported1 23
+    3300418: Imported1 24
+    3300420: Imported1 25
+    3300422: Imported1 26
+    3300424: Imported1 27
+    3300426: Imported1 28
+    3300428: Imported1 29
+    3300430: Imported1 3
+    3300432: Imported1 30
+    3300434: Imported1 31
+    3300436: Imported1 32
+    3300438: Imported1 33
+    3300440: Imported1 4
+    3300442: Imported1 5
+    3300444: Imported1 6
+    3300446: Imported1 7
+    3300448: Imported1 8
+    3300450: Imported1 9
+    3300452: M8x1.25 Tapped Hole1
+    3300454: M8x1.25 Tapped Hole1 1
+    3300456: OuterRace
+    3300458: OuterRace 1
+    3300460: OuterRace 2
+    3300462: OuterRace 3
+    3300464: OuterRace 4
+    3300466: OuterRace 5
+    3300468: "Padr\xE3oCircular1"
+    3300470: QUADRADO - 1 in x 1 in 1,5 mm[1]
+    3300472: QUADRADO - 1 in x 1 in 1,5 mm[4]
+    3300474: QUADRADO - 1 in x 1 in 1,5 mm[5]
+    3300476: QUADRADO - 1 in x 1 in 1,5 mm[6]
+    3300478: QUADRADO - 1 in x 1 in 1,5 mm[7]
+    3300480: "Ressalto-extrus\xE3o1"
+    3300482: "Ressalto-extrus\xE3o1 1"
+    3300484: "Ressalto-extrus\xE3o1 10"
+    3300486: "Ressalto-extrus\xE3o1 11"
+    3300488: "Ressalto-extrus\xE3o1 12"
+    3300490: "Ressalto-extrus\xE3o1 13"
+    3300492: "Ressalto-extrus\xE3o1 14"
+    3300494: "Ressalto-extrus\xE3o1 15"
+    3300496: "Ressalto-extrus\xE3o1 16"
+    3300498: "Ressalto-extrus\xE3o1 17"
+    3300500: "Ressalto-extrus\xE3o1 18"
+    3300502: "Ressalto-extrus\xE3o1 19"
+    3300504: "Ressalto-extrus\xE3o1 2"
+    3300506: "Ressalto-extrus\xE3o1 20"
+    3300508: "Ressalto-extrus\xE3o1 21"
+    3300510: "Ressalto-extrus\xE3o1 22"
+    3300512: "Ressalto-extrus\xE3o1 3"
+    3300514: "Ressalto-extrus\xE3o1 4"
+    3300516: "Ressalto-extrus\xE3o1 5"
+    3300518: "Ressalto-extrus\xE3o1 6"
+    3300520: "Ressalto-extrus\xE3o1 7"
+    3300522: "Ressalto-extrus\xE3o1 8"
+    3300524: "Ressalto-extrus\xE3o1 9"
+    3300526: "Ressalto-extrus\xE3o12"
+    3300528: "Ressalto-extrus\xE3o1[1]"
+    3300530: "Ressalto-extrus\xE3o1[2]"
+    3300532: "Ressalto-extrus\xE3o1[3]"
+    3300534: "Ressalto-extrus\xE3o2"
+    3300536: "Ressalto-extrus\xE3o2 1"
+    3300538: "Ressalto-extrus\xE3o2 2"
+    3300540: "Ressalto-extrus\xE3o2 3"
+    3300542: "Ressalto-extrus\xE3o2 4"
+    3300544: "Ressalto-extrus\xE3o2 5"
+    3300546: "Ressalto-extrus\xE3o2 6"
+    3300548: "Ressalto-extrus\xE3o2 7"
+    3300550: "Ressalto-extrus\xE3o3"
+    3300552: "Ressalto-extrus\xE3o3 1"
+    3300554: "Ressalto-extrus\xE3o3 2"
+    3300556: "Ressalto-extrus\xE3o3 3"
+    3300558: "Ressalto-extrus\xE3o5"
+    3300560: "Ressalto-extrus\xE3o5 1"
+    3300562: "Ressalto-extrus\xE3o5 2"
+    3300564: "Revolu\xE7\xE3o1"
+    3300566: "Revolu\xE7\xE3o1 1"
+    3300568: "Revolu\xE7\xE3o1 10"
+    3300570: "Revolu\xE7\xE3o1 11"
+    3300572: "Revolu\xE7\xE3o1 12"
+    3300574: "Revolu\xE7\xE3o1 13"
+    3300576: "Revolu\xE7\xE3o1 14"
+    3300578: "Revolu\xE7\xE3o1 15"
+    3300580: "Revolu\xE7\xE3o1 16"
+    3300582: "Revolu\xE7\xE3o1 17"
+    3300584: "Revolu\xE7\xE3o1 18"
+    3300586: "Revolu\xE7\xE3o1 19"
+    3300588: "Revolu\xE7\xE3o1 2"
+    3300590: "Revolu\xE7\xE3o1 20"
+    3300592: "Revolu\xE7\xE3o1 21"
+    3300594: "Revolu\xE7\xE3o1 22"
+    3300596: "Revolu\xE7\xE3o1 3"
+    3300598: "Revolu\xE7\xE3o1 4"
+    3300600: "Revolu\xE7\xE3o1 5"
+    3300602: "Revolu\xE7\xE3o1 6"
+    3300604: "Revolu\xE7\xE3o1 7"
+    3300606: "Revolu\xE7\xE3o1 8"
+    3300608: "Revolu\xE7\xE3o1 9"
+    3300610: "Revolu\xE7\xE3o1[1]"
+    3300612: "Revolu\xE7\xE3o1[1] 1"
+    3300614: "Revolu\xE7\xE3o1[1] 2"
+    3300616: "Revolu\xE7\xE3o1[1] 3"
+    3300618: "Revolu\xE7\xE3o1[2]"
+    3300620: "Revolu\xE7\xE3o1[2] 1"
+    3300622: "Revolu\xE7\xE3o1[2] 2"
+    3300624: "Revolu\xE7\xE3o1[2] 3"
+    3300626: "Revolu\xE7\xE3o1[3]"
+    3300628: "Revolu\xE7\xE3o1[3] 1"
+    3300630: "Revolu\xE7\xE3o1[3] 2"
+    3300632: "Revolu\xE7\xE3o1[3] 3"
+    3300634: "Revolu\xE7\xE3o2"
+    3300636: "Revolu\xE7\xE3o3"
+    3300638: "Revolu\xE7\xE3o3 1"
+    3300640: "Revolu\xE7\xE3o3 2"
+    3300642: "Revolu\xE7\xE3o3 3"
+    3300644: "Revolu\xE7\xE3o3 4"
+    3300646: "Revolu\xE7\xE3o3 5"
+    3300648: "Revolu\xE7\xE3o3 6"
+    3300650: "Revolu\xE7\xE3o3 7"
+    3300652: Revolve1
+    3300654: Revolve1 1
+    3300656: Revolve1 10
+    3300658: Revolve1 11
+    3300660: Revolve1 12
+    3300662: Revolve1 13
+    3300664: Revolve1 14
+    3300666: Revolve1 15
+    3300668: Revolve1 16
+    3300670: Revolve1 17
+    3300672: Revolve1 18
+    3300674: Revolve1 19
+    3300676: Revolve1 2
+    3300678: Revolve1 20
+    3300680: Revolve1 21
+    3300682: Revolve1 3
+    3300684: Revolve1 4
+    3300686: Revolve1 5
+    3300688: Revolve1 6
+    3300690: Revolve1 7
+    3300692: Revolve1 8
+    3300694: Revolve1 9
+    3300696: Structural Member1[1]
+    3300698: Structural Member1[1] 1
+    3300700: Structural Member1[2]
+    3300702: Structural Member1[2] 1
+    3300704: Structural Member1[3]
+    3300706: Structural Member1[5]
+    3300708: Surface-Imported1
+    3300710: Trim/Extend1
+    3300712: Trim/Extend2
+    3300714: TUBO - 1 1/4 in 1,6 mm[10]
+    3300716: TUBO - 1 1/4 in 1,6 mm[11]
+    3300718: TUBO - 1 1/4 in 1,6 mm[12]
+    3300720: TUBO - 1 1/4 in 1,6 mm[13]
+    3300722: TUBO - 1 1/4 in 1,6 mm[14]
+    3300724: TUBO - 1 1/4 in 1,6 mm[15]
+    3300726: TUBO - 1 1/4 in 1,6 mm[16]
+    3300728: TUBO - 1 1/4 in 1,6 mm[17]
+    3300730: TUBO - 1 1/4 in 1,6 mm[18]
+    3300732: TUBO - 1 1/4 in 1,6 mm[19]
+    3300734: TUBO - 1 1/4 in 1,6 mm[1]
+    3300736: TUBO - 1 1/4 in 1,6 mm[20]
+    3300738: TUBO - 1 1/4 in 1,6 mm[21]
+    3300740: TUBO - 1 1/4 in 1,6 mm[22]
+    3300742: TUBO - 1 1/4 in 1,6 mm[23]
+    3300744: TUBO - 1 1/4 in 1,6 mm[24]
+    3300746: TUBO - 1 1/4 in 1,6 mm[25]
+    3300748: TUBO - 1 1/4 in 1,6 mm[26]
+    3300750: TUBO - 1 1/4 in 1,6 mm[27]
+    3300752: TUBO - 1 1/4 in 1,6 mm[2]
+    3300754: TUBO - 1 1/4 in 1,6 mm[3]
+    3300756: TUBO - 1 1/4 in 1,6 mm[4]
+    3300758: TUBO - 1 1/4 in 1,6 mm[5]
+    3300760: TUBO - 1 1/4 in 1,6 mm[6]
+    3300762: TUBO - 1 1/4 in 1,6 mm[7]
+    3300764: TUBO - 1 1/4 in 1,6 mm[8]
+    3300766: TUBO - 1 1/4 in 1,6 mm[9]
+    3300768: TUBO - 1 in 0,9 mm[10]
+    3300770: TUBO - 1 in 0,9 mm[11]
+    3300772: TUBO - 1 in 0,9 mm[12]
+    3300774: TUBO - 1 in 0,9 mm[13]
+    3300776: TUBO - 1 in 0,9 mm[14]
+    3300778: TUBO - 1 in 0,9 mm[1]
+    3300780: TUBO - 1 in 0,9 mm[2]
+    3300782: TUBO - 1 in 0,9 mm[3]
+    3300784: TUBO - 1 in 0,9 mm[4]
+    3300786: TUBO - 1 in 0,9 mm[5]
+    3300788: TUBO - 1 in 0,9 mm[6]
+    3300790: TUBO - 1 in 0,9 mm[7]
+    3300792: TUBO - 1 in 0,9 mm[8]
+    3300794: TUBO - 1 in 0,9 mm[9]
+    3300796: TUBO - 3/4 in 1,25 mm
+    3300798: "Tubo r\xEDgido 21.3 X 2.3(1)[1]"
+    3300800: "Tubo r\xEDgido 21.3 X 2.3(1)[2]"
+    3300802: "Tubo r\xEDgido 21.3 X 2.3(1)[3]"
+    3300804: "Tubo r\xEDgido 21.3 X 2.3(1)[4]"
+    3300806: "Tubo r\xEDgido 21.3 X 2.3(1)[6]"
+    3300808: TUBO2 - 1 in 0,9 mm[10]
+    3300810: TUBO2 - 1 in 0,9 mm[11]
+    3300812: TUBO2 - 1 in 0,9 mm[12]
+    3300814: TUBO2 - 1 in 0,9 mm[13]
+    3300816: TUBO2 - 1 in 0,9 mm[14]
+    3300818: TUBO2 - 1 in 0,9 mm[15]
+    3300820: TUBO2 - 1 in 0,9 mm[16]
+    3300822: TUBO2 - 1 in 0,9 mm[17]
+    3300824: TUBO2 - 1 in 0,9 mm[18]
+    3300826: TUBO2 - 1 in 0,9 mm[19]
+    3300828: TUBO2 - 1 in 0,9 mm[1]
+    3300830: TUBO2 - 1 in 0,9 mm[20]
+    3300832: TUBO2 - 1 in 0,9 mm[21]
+    3300834: TUBO2 - 1 in 0,9 mm[22]
+    3300836: TUBO2 - 1 in 0,9 mm[23]
+    3300838: TUBO2 - 1 in 0,9 mm[24]
+    3300840: TUBO2 - 1 in 0,9 mm[2]
+    3300842: TUBO2 - 1 in 0,9 mm[3]
+    3300844: TUBO2 - 1 in 0,9 mm[4]
+    3300846: TUBO2 - 1 in 0,9 mm[5]
+    3300848: TUBO2 - 1 in 0,9 mm[6]
+    3300850: TUBO2 - 1 in 0,9 mm[7]
+    3300852: TUBO2 - 1 in 0,9 mm[8]
+    3300854: TUBO2 - 1 in 0,9 mm[9]
+    3300856: Varredura de corte2
+    4300000: TUBO - 1 1/4 in 1,6 mm[1]
+    4300002: TUBO - 1 1/4 in 1,6 mm[2]
+    4300004: TUBO - 1 1/4 in 1,6 mm[3]
+    4300006: TUBO - 1 1/4 in 1,6 mm[4]
+    4300008: TUBO - 1 1/4 in 1,6 mm[5]
+    4300010: TUBO - 1 1/4 in 1,6 mm[6]
+    4300012: TUBO - 1 1/4 in 1,6 mm[7]
+    4300014: TUBO - 1 1/4 in 1,6 mm[8]
+    4300016: TUBO - 1 1/4 in 1,6 mm[9]
+    4300018: TUBO - 1 1/4 in 1,6 mm[10]
+    4300020: TUBO - 1 1/4 in 1,6 mm[11]
+    4300022: TUBO - 1 1/4 in 1,6 mm[12]
+    4300024: TUBO - 1 1/4 in 1,6 mm[13]
+    4300026: TUBO - 1 1/4 in 1,6 mm[14]
+    4300028: TUBO - 1 1/4 in 1,6 mm[15]
+    4300030: TUBO - 1 1/4 in 1,6 mm[16]
+    4300032: TUBO - 1 1/4 in 1,6 mm[17]
+    4300034: TUBO - 1 1/4 in 1,6 mm[18]
+    4300036: TUBO - 1 1/4 in 1,6 mm[19]
+    4300038: TUBO - 1 1/4 in 1,6 mm[20]
+    4300040: TUBO - 1 1/4 in 1,6 mm[21]
+    4300042: TUBO - 1 1/4 in 1,6 mm[22]
+    4300044: TUBO - 1 1/4 in 1,6 mm[23]
+    4300046: TUBO - 1 1/4 in 1,6 mm[24]
+    4300048: TUBO - 1 1/4 in 1,6 mm[25]
+    4300050: TUBO - 1 1/4 in 1,6 mm[26]
+    4300052: TUBO - 1 1/4 in 1,6 mm[27]
+    4300054: TUBO2 - 1 in 0,9 mm[1]
+    4300056: TUBO2 - 1 in 0,9 mm[2]
+    4300058: TUBO2 - 1 in 0,9 mm[3]
+    4300060: TUBO2 - 1 in 0,9 mm[4]
+    4300062: TUBO2 - 1 in 0,9 mm[5]
+    4300064: TUBO2 - 1 in 0,9 mm[6]
+    4300066: TUBO2 - 1 in 0,9 mm[7]
+    4300068: TUBO2 - 1 in 0,9 mm[8]
+    4300070: TUBO2 - 1 in 0,9 mm[9]
+    4300072: TUBO2 - 1 in 0,9 mm[10]
+    4300074: TUBO2 - 1 in 0,9 mm[11]
+    4300076: TUBO2 - 1 in 0,9 mm[12]
+    4300078: TUBO2 - 1 in 0,9 mm[13]
+    4300080: TUBO2 - 1 in 0,9 mm[14]
+    4300082: TUBO2 - 1 in 0,9 mm[15]
+    4300084: TUBO2 - 1 in 0,9 mm[16]
+    4300086: TUBO2 - 1 in 0,9 mm[17]
+    4300088: TUBO2 - 1 in 0,9 mm[18]
+    4300090: TUBO2 - 1 in 0,9 mm[19]
+    4300092: TUBO2 - 1 in 0,9 mm[20]
+    4300094: TUBO2 - 1 in 0,9 mm[21]
+    4300096: TUBO2 - 1 in 0,9 mm[22]
+    4300098: TUBO2 - 1 in 0,9 mm[23]
+    4300100: TUBO2 - 1 in 0,9 mm[24]
+    4300102: TUBO - 1 in 0,9 mm[1]
+    4300104: TUBO - 1 in 0,9 mm[2]
+    4300106: TUBO - 1 in 0,9 mm[3]
+    4300108: TUBO - 1 in 0,9 mm[4]
+    4300110: TUBO - 1 in 0,9 mm[5]
+    4300112: TUBO - 1 in 0,9 mm[6]
+    4300114: TUBO - 1 in 0,9 mm[7]
+    4300116: TUBO - 1 in 0,9 mm[8]
+    4300118: TUBO - 1 in 0,9 mm[9]
+    4300120: TUBO - 1 in 0,9 mm[10]
+    4300122: TUBO - 1 in 0,9 mm[11]
+    4300124: TUBO - 1 in 0,9 mm[12]
+    4300126: TUBO - 1 in 0,9 mm[13]
+    4300128: TUBO - 1 in 0,9 mm[14]
+    4300130: TUBO - 3/4 in 1,25 mm
+    4300132: QUADRADO - 1 in x 1 in 1,5 mm[1]
+    4300134: QUADRADO - 1 in x 1 in 1,5 mm[4]
+    4300136: QUADRADO - 1 in x 1 in 1,5 mm[5]
+    4300138: QUADRADO - 1 in x 1 in 1,5 mm[6]
+    4300140: QUADRADO - 1 in x 1 in 1,5 mm[7]
+    4300142: "Fura\xE7\xE3o do Motor[1]"
+    4300144: "Fura\xE7\xE3o do Motor[2]"
+    4300146: Boss-Extrude1
+    4300148: Filete2
+    4300150: "Corte-extrus\xE3o31"
+    4300152: Revolve1
+    4300154: Revolve1
+    4300156: Revolve1
+    4300158: Revolve1
+    4300160: "Revolu\xE7\xE3o3"
+    4300162: Chanfro1
+    4300164: "Revolu\xE7\xE3o3"
+    4300166: Chanfro1
+    4300168: Revolve1
+    4300170: Revolve1
+    4300172: Structural Member1[1]
+    4300174: Structural Member1[2]
+    4300176: Structural Member1[5]
+    4300178: "Ressalto-extrus\xE3o2"
+    4300180: Structural Member1[1]
+    4300182: Structural Member1[2]
+    4300184: Structural Member1[3]
+    4300186: Trim/Extend1
+    4300188: Trim/Extend2
+    4300190: Cut-Extrude1
+    4300192: Filete2
+    4300194: Revolve1
+    4300196: "Revolu\xE7\xE3o3"
+    4300198: Chanfro1
+    4300200: Revolve1
+    4300202: "Revolu\xE7\xE3o1"
+    4300204: "Revolu\xE7\xE3o1"
+    4300206: Revolve1
+    4300208: "Corte-extrus\xE3o3"
+    4300210: "Ressalto-extrus\xE3o1"
+    4300212: Escareado para SFHCS M61
+    4300214: "Ressalto-extrus\xE3o1"
+    4300216: Filete6
+    4300218: Importado3
+    4300220: "Ressalto-extrus\xE3o2"
+    4300222: "Ressalto-extrus\xE3o2"
+    4300224: "Revolu\xE7\xE3o1[1]"
+    4300226: "Revolu\xE7\xE3o1[2]"
+    4300228: "Revolu\xE7\xE3o1[3]"
+    4300230: "Revolu\xE7\xE3o1[1]"
+    4300232: "Revolu\xE7\xE3o1[2]"
+    4300234: "Revolu\xE7\xE3o1[3]"
+    4300236: Chanfro1
+    4300238: Cut-Extrude1
+    4300240: Espelhar1
+    4300242: Cut-Extrude1
+    4300244: Espelhar1
+    4300246: Varredura de corte2
+    4300248: Cut-Extrude1
+    4300250: Espelhar1
+    4300252: Cut-Extrude1
+    4300254: Espelhar1
+    4300256: "Ressalto-extrus\xE3o5"
+    4300258: Fillet2
+    4300260: Cut-Extrude1
+    4300262: Extrude1
+    4300264: Imported1
+    4300266: Imported1
+    4300268: Imported1
+    4300270: Imported1
+    4300272: Imported1
+    4300274: Imported1
+    4300276: Imported1
+    4300278: Imported1
+    4300280: Imported1
+    4300282: Imported1
+    4300284: Imported1
+    4300286: Imported1
+    4300288: Imported1
+    4300290: Imported1
+    4300292: Imported1
+    4300294: Imported1
+    4300296: Imported1
+    4300298: Imported1
+    4300300: Imported1
+    4300302: Imported1
+    4300304: Imported1
+    4300306: Imported1
+    4300308: Surface-Imported1
+    4300310: Imported1
+    4300312: Imported1
+    4300314: Imported1
+    4300316: Imported1
+    4300318: Imported1
+    4300320: Imported1
+    4300322: Imported1
+    4300324: Imported1
+    4300326: Imported1
+    4300328: Imported1
+    4300330: Imported1
+    4300332: Imported1
+    4300334: Fillet1
+    4300336: Fillet5
+    4300338: "Corte-extrus\xE3o4"
+    4300340: "Corte-extrus\xE3o1"
+    4300342: Filete16
+    4300344: "Corte-extrus\xE3o3"
+    4300346: "Corte-extrus\xE3o4"
+    4300348: "Ressalto-extrus\xE3o1"
+    4300350: Chanfro1
+    4300352: Filete1
+    4300354: "Ressalto-extrus\xE3o2"
+    4300356: Filete1
+    4300358: "Ressalto-extrus\xE3o1"
+    4300360: Filete1
+    4300362: OuterRace
+    4300364: OuterRace
+    4300366: OuterRace
+    4300368: OuterRace
+    4300370: OuterRace
+    4300372: OuterRace
+    4300374: "Corte-extrus\xE3o5"
+    4300376: Filete2
+    4300378: "Padr\xE3oCircular1"
+    4300380: "Corte-extrus\xE3o4"
+    4300382: Chamfer4
+    4300384: "Revolu\xE7\xE3o1"
+    4300386: "Revolu\xE7\xE3o1"
+    4300388: "Revolu\xE7\xE3o1"
+    4300390: "Revolu\xE7\xE3o1"
+    4300392: "Revolu\xE7\xE3o1"
+    4300394: "Revolu\xE7\xE3o1"
+    4300396: "Corte-extrus\xE3o2"
+    4300398: Filete36
+    4300400: "Ressalto-extrus\xE3o1"
+    4300402: "Ressalto-extrus\xE3o1"
+    4300404: "Ressalto-extrus\xE3o3"
+    4300406: "Ressalto-extrus\xE3o3"
+    4300408: "Ressalto-extrus\xE3o3"
+    4300410: Filete3
+    4300412: Revolve1
+    4300414: Revolve1
+    4300416: Revolve1
+    4300418: Revolve1
+    4300420: "Corte-extrus\xE3o3"
+    4300422: Filete1
+    4300424: Filete1
+    4300426: "Revolu\xE7\xE3o2"
+    4300428: "Corte-extrus\xE3o1"
+    4300430: Filete1
+    4300432: Filete1
+    4300434: "Revolu\xE7\xE3o3"
+    4300436: Chanfro1
+    4300438: Revolve1
+    4300440: "Revolu\xE7\xE3o1"
+    4300442: "Revolu\xE7\xE3o1"
+    4300444: "Revolu\xE7\xE3o1"
+    4300446: Espelhar1
+    4300448: "Corte-extrus\xE3o1"
+    4300450: "Corte-extrus\xE3o6"
+    4300452: "Corte-extrus\xE3o1"
+    4300454: "Corte-extrus\xE3o6"
+    4300456: "Ressalto-extrus\xE3o1"
+    4300458: "Revolu\xE7\xE3o3"
+    4300460: Chanfro1
+    4300462: Revolve1
+    4300464: Revolve1
+    4300466: Revolve1
+    4300468: "Revolu\xE7\xE3o3"
+    4300470: Chanfro1
+    4300472: Revolve1
+    4300474: Revolve1
+    4300476: Revolve1
+    4300478: "Revolu\xE7\xE3o3"
+    4300480: Chanfro1
+    4300482: Revolve1
+    4300484: "Tubo r\xEDgido 21.3 X 2.3(1)[1]"
+    4300486: "Tubo r\xEDgido 21.3 X 2.3(1)[2]"
+    4300488: "Tubo r\xEDgido 21.3 X 2.3(1)[3]"
+    4300490: "Tubo r\xEDgido 21.3 X 2.3(1)[4]"
+    4300492: "Tubo r\xEDgido 21.3 X 2.3(1)[6]"
+    4300494: "Ressalto-extrus\xE3o2"
+    4300496: Componente estrutural1[1]
+    4300498: Componente estrutural1[2]
+    4300500: Componente estrutural1[3]
+    4300502: Componente estrutural1[4]
+    4300504: "Corte-extrus\xE3o1"
+    4300506: "Ressalto-extrus\xE3o12"
+    4300508: Chanfro1
+    4300510: "Corte-extrus\xE3o3"
+    4300512: Cut-Extrude1
+    4300514: "Revolu\xE7\xE3o1"
+    4300516: "Revolu\xE7\xE3o1"
+    4300518: "Revolu\xE7\xE3o1[1]"
+    4300520: "Revolu\xE7\xE3o1[2]"
+    4300522: "Revolu\xE7\xE3o1[3]"
+    4300524: "Revolu\xE7\xE3o1[1]"
+    4300526: "Revolu\xE7\xE3o1[2]"
+    4300528: "Revolu\xE7\xE3o1[3]"
+    4300530: "Revolu\xE7\xE3o3"
+    4300532: Chanfro1
+    4300534: "Revolu\xE7\xE3o1"
+    4300536: Revolve1
+    4300538: "Revolu\xE7\xE3o1"
+    4300540: Cut-Extrude1
+    4300542: Espelhar1
+    4300544: Cut-Extrude1
+    4300546: Espelhar1
+    4300548: Cut-Extrude1
+    4300550: Espelhar1
+    4300552: Cut-Extrude1
+    4300554: Espelhar1
+    4300556: Cut-Extrude2
+    4300558: Espelhar1
+    4300560: "Ressalto-extrus\xE3o5"
+    4300562: Cut-Extrude1
+    4300564: Filete1
+    4300566: "Ressalto-extrus\xE3o2"
+    4300568: Espelhar4
+    4300570: "Revolu\xE7\xE3o1"
+    4300572: "Revolu\xE7\xE3o1"
+    4300574: Extrude2
+    4300576: Chamfer1
+    4300578: Dome1
+    4300580: Fillet4
+    4300582: "Ressalto-extrus\xE3o3"
+    4300584: "Ressalto-extrus\xE3o1"
+    4300586: "Ressalto-extrus\xE3o1"
+    4300588: "Corte-extrus\xE3o3"
+    4300590: "Corte-extrus\xE3o3"
+    4300592: "Ressalto-extrus\xE3o1"
+    4300594: "Revolu\xE7\xE3o1"
+    4300596: M8x1.25 Tapped Hole1
+    4300598: "Revolu\xE7\xE3o1"
+    4300600: "Revolu\xE7\xE3o1"
+    4300602: "Revolu\xE7\xE3o1"
+    4300604: M8x1.25 Tapped Hole1
+    4300606: "Revolu\xE7\xE3o1"
+    4300608: "Revolu\xE7\xE3o1"
+    4300610: "Ressalto-extrus\xE3o1"
+    4300612: "Ressalto-extrus\xE3o1"
+    4300614: "Corte-extrus\xE3o1"
+    4300616: Fillet2
+    4300618: "Ressalto-extrus\xE3o5"
+    4300620: "<SUSPENSAO DIANTEIRA_Manga 6_MH>-<Corte-extrus\xE3o31>"
+    4300622: "<SUSPENSAO DIANTEIRA_Espa\xE7ador 5-8 in_MH>-<Revolve1>"
+    4300624: "<SUSPENSAO DIANTEIRA_Espa\xE7ador 5-8 in_MH>-<Revolve1>"
+    4300626: <SUSPENSAO DIANTEIRA_Esfera Ball Joint 5-8 in_MH>-<Revolve1>
+    4300628: <SUSPENSAO DIANTEIRA_Esfera Ball Joint 5-8 in_MH>-<Revolve1>
+    4300630: "<SUSPENSAO DIANTEIRA_Ball Joint 5-8 in_EM>-<Revolu\xE7\xE3o3>"
+    4300632: <SUSPENSAO DIANTEIRA_Ball Joint 5-8 in_EM>-<Chanfro1>
+    4300634: "<SUSPENSAO DIANTEIRA_Ball Joint 5-8 in_EM>-<Revolu\xE7\xE3o3>"
+    4300636: <SUSPENSAO DIANTEIRA_Ball Joint 5-8 in_EM>-<Chanfro1>
+    4300638: <SUSPENSAO DIANTEIRA_Ajuste Ball Joint_MH>-<Revolve1>
+    4300640: <SUSPENSAO DIANTEIRA_Ajuste Ball Joint_MH>-<Revolve1>
+    4300642: <SUSPENSAO DIANTEIRA_A Inferior_MH>-<Structural Member1[2]>
+    4300644: <SUSPENSAO DIANTEIRA_A Inferior_MH>-<Structural Member1[1]>
+    4300646: <SUSPENSAO DIANTEIRA_A Inferior_MH>-<Structural Member1[5]>
+    4300648: "<SUSPENSAO DIANTEIRA_A Inferior_MH>-<Ressalto-extrus\xE3o2>"
+    4300650: <SUSPENSAO DIANTEIRA_A Superior_MH>-<Structural Member1[2]>
+    4300652: <SUSPENSAO DIANTEIRA_A Superior_MH>-<Structural Member1[1]>
+    4300654: <SUSPENSAO DIANTEIRA_A Superior_MH>-<Structural Member1[3]>
+    4300656: <SUSPENSAO DIANTEIRA_A Superior_MH>-<Trim/Extend1>
+    4300658: <SUSPENSAO DIANTEIRA_A Superior_MH>-<Trim/Extend2>
+    4300660: <SUSPENSAO DIANTEIRA_Pneu 21 X 7 X 10_MH>-<Cut-Extrude1>
+    4300662: <SUSPENSAO DIANTEIRA_Cubo_LK>-<Filete2>
+    4300664: "<SUSPENSAO DIANTEIRA_Espa\xE7ador Superior 5-8 in_MH>-<Revolve1>"
+    4300666: "<DIRECAO_Ball Joint 3-8 in_MT>-<Revolu\xE7\xE3o3>"
+    4300668: <DIRECAO_Ball Joint 3-8 in_MT>-<Chanfro1>
+    4300670: <DIRECAO_Esfera Ball Joint 3-8 in_MH>-<Revolve1>
+    4300672: "<DIRECAO_Espa\xE7ador 3-8 in_MH>-<Revolu\xE7\xE3o1>"
+    4300674: "<DIRECAO_Espa\xE7ador 3-8 in_MH>-<Revolu\xE7\xE3o1>"
+    4300676: "<SUSPENSAO DIANTEIRA_Espa\xE7ador Superior 5-8 in_MH>-<Revolve1>"
+    4300678: "<DIRECAO_Suporte Tie-Rod_MH>-<Corte-extrus\xE3o3>"
+    4300680: "<FREIO_Disco Dianteiro_MT>-<Ressalto-extrus\xE3o1>"
+    4300682: <FREIO_Disco Dianteiro_MT>-<Escareado para SFHCS M61>
+    4300684: "<FREIO_Suporte Dianteiro_MH>-<Ressalto-extrus\xE3o1>"
+    4300686: "<FREIO_pin\xE7a wilwood corpo_MT>-<Filete6>"
+    4300688: "<FREIO_pin\xE7a wilwood corpo_MT>-<Importado3>"
+    4300690: "<FREIO_Pastilha wilwood_MT>-<Ressalto-extrus\xE3o2>"
+    4300692: "<FREIO_Pastilha wilwood_MT>-<Ressalto-extrus\xE3o2>"
+    4300694: "<SUSPENSAO DIANTEIRA_Rolamento Conico 20X42X15_MH>-<Revolu\xE7\xE3o1[1]>"
+    4300696: "<SUSPENSAO DIANTEIRA_Rolamento Conico 20X42X15_MH>-<Revolu\xE7\xE3o1[2]>"
+    4300698: "<SUSPENSAO DIANTEIRA_Rolamento Conico 20X42X15_MH>-<Revolu\xE7\xE3o1[3]>"
+    4300700: "<SUSPENSAO DIANTEIRA_Rolamento Conico 25X47X17_MH>-<Revolu\xE7\xE3o1[1]>"
+    4300702: "<SUSPENSAO DIANTEIRA_Rolamento Conico 25X47X17_MH>-<Revolu\xE7\xE3o1[2]>"
+    4300704: "<SUSPENSAO DIANTEIRA_Rolamento Conico 25X47X17_MH>-<Revolu\xE7\xE3o1[3]>"
+    4300706: <SUSPENSAO DIANTEIRA_Eixo_MH>-<Chanfro1>
+    4300708: "<SUSPENSAO TRASEIRA_Ball Joint 5-8 in_EM>-<Revolu\xE7\xE3o3>"
+    4300710: <SUSPENSAO TRASEIRA_Ball Joint 5-8 in_EM>-<Chanfro1>
+    4300712: <SUSPENSAO TRASEIRA_Esfera Ball Joint 5-8 in_MH>-<Revolve1>
+    4300714: "<SUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH>-<Revolve1>"
+    4300716: "<SUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH>-<Revolve1>"
+    4300718: "<SUSPENSAO TRASEIRA_Ball Joint 5-8 in_EM>-<Revolu\xE7\xE3o3>"
+    4300720: <SUSPENSAO TRASEIRA_Ball Joint 5-8 in_EM>-<Chanfro1>
+    4300722: "<SUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH>-<Revolve1>"
+    4300724: <SUSPENSAO TRASEIRA_Esfera Ball Joint 5-8 in_MH>-<Revolve1>
+    4300726: "<SUSPENSAO TRASEIRA_Espa\xE7ador 5-8 in_MH>-<Revolve1>"
+    4300728: "<SUSPENSAO TRASEIRA_Ball Joint 3-8 in_MT>-<Revolu\xE7\xE3o3>"
+    4300730: <SUSPENSAO TRASEIRA_Ball Joint 3-8 in_MT>-<Chanfro1>
+    4300732: <SUSPENSAO TRASEIRA_Esfera Ball Joint 3-8 in_MH>-<Revolve1>
+    4300734: "<SUSPENSAO TRASEIRA_A Superior 2_LH>-<Tubo r\xEDgido 21.3 X 2.3(1)[1]>"
+    4300736: "<SUSPENSAO TRASEIRA_A Superior 2_LH>-<Tubo r\xEDgido 21.3 X 2.3(1)[2]>"
+    4300738: "<SUSPENSAO TRASEIRA_A Superior 2_LH>-<Tubo r\xEDgido 21.3 X 2.3(1)[3]>"
+    4300740: "<SUSPENSAO TRASEIRA_A Superior 2_LH>-<Tubo r\xEDgido 21.3 X 2.3(1)[4]>"
+    4300742: "<SUSPENSAO TRASEIRA_A Superior 2_LH>-<Ressalto-extrus\xE3o2>"
+    4300744: "<SUSPENSAO TRASEIRA_A Superior 2_LH>-<Tubo r\xEDgido 21.3 X 2.3(1)[6]>"
+    4300746: <SUSPENSAO TRASEIRA_A Inferior_LH>-<Componente estrutural1[2]>
+    4300748: <SUSPENSAO TRASEIRA_A Inferior_LH>-<Componente estrutural1[1]>
+    4300750: <SUSPENSAO TRASEIRA_A Inferior_LH>-<Componente estrutural1[3]>
+    4300752: <SUSPENSAO TRASEIRA_A Inferior_LH>-<Componente estrutural1[4]>
+    4300754: "<SUSPENSAO TRASEIRA_A Inferior_LH>-<Corte-extrus\xE3o1>"
+    4300756: "<SUSPENSAO TRASEIRA_Manga 5_MH>-<Ressalto-extrus\xE3o12>"
+    4300758: <SUSPENSAO TRASEIRA_Toe Link_LH>-<Chanfro1>
+    4300760: "<SUSPENSAO TRASEIRA_Cubo_MH>-<Corte-extrus\xE3o3>"
+    4300762: <SUSPENSAO TRASEIRA_Pneu 21 X 7 X 10_MH>-<Cut-Extrude1>
+    4300764: "<SUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH>-<Revolu\xE7\xE3o1>"
+    4300766: "<SUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH>-<Revolu\xE7\xE3o1>"
+    4300768: "<SUSPENSAO TRASEIRA_Rolamento Manga_MH>-<Revolu\xE7\xE3o1[1]>"
+    4300770: "<SUSPENSAO TRASEIRA_Rolamento Manga_MH>-<Revolu\xE7\xE3o1[2]>"
+    4300772: "<SUSPENSAO TRASEIRA_Rolamento Manga_MH>-<Revolu\xE7\xE3o1[3]>"
+    4300774: "<SUSPENSAO TRASEIRA_Rolamento Manga_MH>-<Revolu\xE7\xE3o1[1]>"
+    4300776: "<SUSPENSAO TRASEIRA_Rolamento Manga_MH>-<Revolu\xE7\xE3o1[2]>"
+    4300778: "<SUSPENSAO TRASEIRA_Rolamento Manga_MH>-<Revolu\xE7\xE3o1[3]>"
+    4300780: "<SUSPENSAO TRASEIRA_Ball Joint 3-8 in_MT>-<Revolu\xE7\xE3o3>"
+    4300782: <SUSPENSAO TRASEIRA_Ball Joint 3-8 in_MT>-<Chanfro1>
+    4300784: "<SUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH>-<Revolu\xE7\xE3o1>"
+    4300786: <SUSPENSAO TRASEIRA_Esfera Ball Joint 3-8 in_MH>-<Revolve1>
+    4300788: "<SUSPENSAO TRASEIRA_Espa\xE7ador 3-8 in_MH>-<Revolu\xE7\xE3o1>"
+    4300790: "<FOX_Float 3 Inferior>-<Ressalto-extrus\xE3o5>"
+    4300792: <FOX_Float 3 Superior>-<Cut-Extrude1>
+    4300794: "<FOX_Evol R Inferior>-<Ressalto-extrus\xE3o5>"
+    4300796: <FOX_Evol R Superior>-<Fillet2>
+    4300798: "<DIRECAO_Tie-rod_MH>-<Revolu\xE7\xE3o1>"
+    4300800: <TRANSMISSAO_Junta interna_NC>-<Filete2>
+    4300802: "<TRANSMISSAO_Junta caixa_MH>-<Padr\xE3oCircular1>"
+    4300804: "<TRANSMISSAO_Semi-Eixo_NC>-<Corte-extrus\xE3o4>"
+    4300806: <TRANSMISSAO_Corpo da gaiola_NA>-<Chamfer4>
+    4300808: "<TRANSMISSAO_Bilha_NC>-<Revolu\xE7\xE3o1>"
+    4300810: "<TRANSMISSAO_Bilha_NC>-<Revolu\xE7\xE3o1>"
+    4300812: "<TRANSMISSAO_Bilha_NC>-<Revolu\xE7\xE3o1>"
+    4300814: "<TRANSMISSAO_Bilha_NC>-<Revolu\xE7\xE3o1>"
+    4300816: "<TRANSMISSAO_Bilha_NC>-<Revolu\xE7\xE3o1>"
+    4300818: "<TRANSMISSAO_Bilha_NC>-<Revolu\xE7\xE3o1>"
+    4300820: "<TRANSMISSAO_Junta externa_MH>-<Corte-extrus\xE3o2>"
+    4300822: "Ressalto-extrus\xE3o1"
+    4300824: Boss-Extrude1
+    4300826: Filete1
+    4300828: "Ressalto-extrus\xE3o1"
+    4300830: "Ressalto-extrus\xE3o1"
+    4300832: "Ressalto-extrus\xE3o1"
+    4300834: "Ressalto-extrus\xE3o2"
+    4300836: "Ressalto-extrus\xE3o2"
+    4300838: "Ressalto-extrus\xE3o1"
+    4300840: "Ressalto-extrus\xE3o1"
+    4300842: "Ressalto-extrus\xE3o1"
+    4300844: "Ressalto-extrus\xE3o1"
+    4300846: "Ressalto-extrus\xE3o1"
+    4300848: "Ressalto-extrus\xE3o1"
+    4300850: "Ressalto-extrus\xE3o1[1]"
+    4300852: "Ressalto-extrus\xE3o1[2]"
+    4300854: "Ressalto-extrus\xE3o1[3]"
+    4300856: "Ressalto-extrus\xE3o1"
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
