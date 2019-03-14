@@ -1581,17 +1581,17 @@ Prefab:
     - target: {fileID: 114000011726551204, guid: 53c496fec7e88b444858ad01c2739816,
         type: 2}
       propertyPath: stepsBelow
-      value: 7
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 114000011726551204, guid: 53c496fec7e88b444858ad01c2739816,
         type: 2}
       propertyPath: stepsAbove
-      value: 2
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 114000011726551204, guid: 53c496fec7e88b444858ad01c2739816,
         type: 2}
       propertyPath: driveType
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 54000014098661938, guid: 53c496fec7e88b444858ad01c2739816,
         type: 2}
@@ -1636,17 +1636,17 @@ Prefab:
     - target: {fileID: 114000012284909490, guid: 53c496fec7e88b444858ad01c2739816,
         type: 2}
       propertyPath: forceShift
-      value: 0.306
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: 114000011726551204, guid: 53c496fec7e88b444858ad01c2739816,
         type: 2}
       propertyPath: maxAngle
-      value: 35
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 114000011726551204, guid: 53c496fec7e88b444858ad01c2739816,
         type: 2}
       propertyPath: maxTorque
-      value: 800
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 1000012058969948, guid: 53c496fec7e88b444858ad01c2739816, type: 2}
       propertyPath: m_Layer
@@ -1687,6 +1687,21 @@ Prefab:
     - target: {fileID: 1000013318341794, guid: 53c496fec7e88b444858ad01c2739816, type: 2}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011726551204, guid: 53c496fec7e88b444858ad01c2739816,
+        type: 2}
+      propertyPath: brakeTorque
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012284909490, guid: 53c496fec7e88b444858ad01c2739816,
+        type: 2}
+      propertyPath: naturalFrequency
+      value: 13.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012284909490, guid: 53c496fec7e88b444858ad01c2739816,
+        type: 2}
+      propertyPath: dampingRatio
+      value: 2.32
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53c496fec7e88b444858ad01c2739816, type: 2}
@@ -5007,17 +5022,17 @@ Prefab:
     - target: {fileID: 146000012133133230, guid: 6577377bae7db18429e690f8f8f57881,
         type: 2}
       propertyPath: m_SuspensionSpring.spring
-      value: 67844.18
+      value: 67844.17
       objectReference: {fileID: 0}
     - target: {fileID: 146000012133133230, guid: 6577377bae7db18429e690f8f8f57881,
         type: 2}
       propertyPath: m_SuspensionSpring.damper
-      value: 10855.069
+      value: 10855.067
       objectReference: {fileID: 0}
     - target: {fileID: 146000012133133230, guid: 6577377bae7db18429e690f8f8f57881,
         type: 2}
       propertyPath: m_SuspensionDistance
-      value: 0.1962
+      value: 0.19620001
       objectReference: {fileID: 0}
     - target: {fileID: 146000011612348708, guid: 6577377bae7db18429e690f8f8f57881,
         type: 2}
@@ -5032,12 +5047,12 @@ Prefab:
     - target: {fileID: 146000013638572144, guid: 6577377bae7db18429e690f8f8f57881,
         type: 2}
       propertyPath: m_SuspensionSpring.spring
-      value: 57985.676
+      value: 57985.668
       objectReference: {fileID: 0}
     - target: {fileID: 146000013638572144, guid: 6577377bae7db18429e690f8f8f57881,
         type: 2}
       propertyPath: m_SuspensionSpring.damper
-      value: 9277.708
+      value: 9277.707
       objectReference: {fileID: 0}
     - target: {fileID: 1000010635655032, guid: 6577377bae7db18429e690f8f8f57881, type: 2}
       propertyPath: m_TagString
