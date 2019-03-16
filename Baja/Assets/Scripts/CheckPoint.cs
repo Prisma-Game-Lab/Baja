@@ -28,7 +28,7 @@ public class CheckPoint : MonoBehaviour {
                 if(IsFinal)
                 { Time.timeScale = 0f;
                     result = Countdown.GetComponent<Countdown>().laptime;
-                    FinalPanelText.text = "Time Left: " + Mathf.Round(result);
+                    FinalPanelText.text = "Time: " + Mathf.Round(result);
                     FinalPanel.SetActive(true);
                 }
             }
