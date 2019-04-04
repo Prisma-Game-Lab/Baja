@@ -16,7 +16,7 @@ public class CarSwitcher : MonoBehaviour
 	
 	void Update () 
     {
-		if (Input.GetKeyUp(KeyCode.K))	
+		if (Input.GetButtonDown("Switch"))	
 		{
 			// Disable the previous vehicle.
 			vehicles[m_VehicleId].SetActive(false);
@@ -41,7 +41,7 @@ public class CarSwitcher : MonoBehaviour
 			m_DriftCamera.sideView = camRig.Find("CamSidePosition");
 		}
 
-		if (Input.GetKeyUp(KeyCode.R))
+		if (Input.GetButtonDown("Restart"))
 		{
 			Transform vehicleTransform = vehicles[m_VehicleId].transform;
 			vehicleTransform.rotation = Quaternion.identity;
