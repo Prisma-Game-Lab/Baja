@@ -181,7 +181,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Countdown
+  m_Text: Tempo
 --- !u!222 &17539085
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1137,7 +1137,7 @@ GameObject:
   - component: {fileID: 324084620}
   - component: {fileID: 324084623}
   m_Layer: 0
-  m_Name: 03 - Final
+  m_Name: Lap1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1150,8 +1150,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 324084618}
   m_LocalRotation: {x: -0, y: -0.2357549, z: -0, w: 0.97181255}
-  m_LocalPosition: {x: 23, y: -5.265, z: -74}
-  m_LocalScale: {x: 192.58281, y: 21.551619, z: 1}
+  m_LocalPosition: {x: 15.7, y: -5.265, z: -59.8}
+  m_LocalScale: {x: 192.58281, y: 21.551619, z: 0.5}
   m_Children: []
   m_Father: {fileID: 1304883756}
   m_RootOrder: 2
@@ -1221,8 +1221,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3169e03c08610340848a42435306fd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsFinal: 1
+  IsFinal: 0
+  Lap1: 1
+  Lap2: 0
   ObstacleNumber: 3
+  gLap: {fileID: 2002841115}
   FinalPanel: {fileID: 270708385}
   FinalPanelText: {fileID: 721246281}
   Countdown: {fileID: 1983505860}
@@ -2492,6 +2495,111 @@ Transform:
   m_Father: {fileID: 2141477883}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &589422484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 589422485}
+  - component: {fileID: 589422489}
+  - component: {fileID: 589422488}
+  - component: {fileID: 589422487}
+  - component: {fileID: 589422486}
+  m_Layer: 0
+  m_Name: Lap3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &589422485
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 589422484}
+  m_LocalRotation: {x: -0, y: -0.2357549, z: -0, w: 0.97181255}
+  m_LocalPosition: {x: 15.8, y: -5.265, z: -60.1}
+  m_LocalScale: {x: 192.58281, y: 21.551619, z: 0.5}
+  m_Children: []
+  m_Father: {fileID: 1304883756}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: -27.272001, z: 0}
+--- !u!114 &589422486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 589422484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3169e03c08610340848a42435306fd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsFinal: 1
+  Lap1: 0
+  Lap2: 0
+  ObstacleNumber: 3
+  gLap: {fileID: 0}
+  FinalPanel: {fileID: 270708385}
+  FinalPanelText: {fileID: 721246281}
+  Countdown: {fileID: 1983505860}
+--- !u!65 &589422487
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 589422484}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &589422488
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 589422484}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &589422489
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 589422484}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &612550644
 GameObject:
   m_ObjectHideFlags: 0
@@ -3614,7 +3722,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1116615605}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 232}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 698999515}
@@ -3965,6 +4073,8 @@ Transform:
   - {fileID: 2082620352}
   - {fileID: 1308588916}
   - {fileID: 324084619}
+  - {fileID: 2002841116}
+  - {fileID: 589422485}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4066,7 +4176,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsFinal: 0
+  Lap1: 0
+  Lap2: 0
   ObstacleNumber: 2
+  gLap: {fileID: 0}
   FinalPanel: {fileID: 270708385}
   FinalPanelText: {fileID: 721246281}
   Countdown: {fileID: 1983505860}
@@ -5305,6 +5418,111 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &2002841115
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2002841116}
+  - component: {fileID: 2002841120}
+  - component: {fileID: 2002841119}
+  - component: {fileID: 2002841118}
+  - component: {fileID: 2002841117}
+  m_Layer: 0
+  m_Name: Lap2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2002841116
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2002841115}
+  m_LocalRotation: {x: -0, y: -0.2357549, z: -0, w: 0.97181255}
+  m_LocalPosition: {x: 15.7, y: -5.265, z: -59.9}
+  m_LocalScale: {x: 192.58281, y: 21.551619, z: 0.5}
+  m_Children: []
+  m_Father: {fileID: 1304883756}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: -27.272001, z: 0}
+--- !u!114 &2002841117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2002841115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3169e03c08610340848a42435306fd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsFinal: 0
+  Lap1: 0
+  Lap2: 1
+  ObstacleNumber: 3
+  gLap: {fileID: 589422484}
+  FinalPanel: {fileID: 270708385}
+  FinalPanelText: {fileID: 721246281}
+  Countdown: {fileID: 1983505860}
+--- !u!65 &2002841118
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2002841115}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &2002841119
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2002841115}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &2002841120
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2002841115}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &2041072565 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000014014178478, guid: 6577377bae7db18429e690f8f8f57881,
@@ -5499,7 +5717,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsFinal: 0
+  Lap1: 0
+  Lap2: 0
   ObstacleNumber: 1
+  gLap: {fileID: 0}
   FinalPanel: {fileID: 270708385}
   FinalPanelText: {fileID: 721246281}
   Countdown: {fileID: 1983505860}

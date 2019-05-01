@@ -6,7 +6,10 @@ using UnityEngine.UI;
 public class CheckPoint : MonoBehaviour {
 
     public bool IsFinal;
+    public bool Lap1;
+    public bool Lap2;
     public int ObstacleNumber;
+    public GameObject gLap;
 
     [HideInInspector]
     public GameObject FinalPanel;
@@ -15,7 +18,9 @@ public class CheckPoint : MonoBehaviour {
     [HideInInspector]
     public GameObject Countdown;
 
-    private float result;
+    private  static float result1;
+    private  static float result2;
+    private  static float result3;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -24,11 +29,26 @@ public class CheckPoint : MonoBehaviour {
             if(other.GetComponent<Register>().HowMany == ObstacleNumber-1)
             {
                 other.GetComponent<Register>().HowMany++;
-                //Debug.Log(ObstacleNumber);
+                if(Lap1)
+                {
+                    result1 = Countdown.GetComponent<Countdown>().laptime;
+                    other.GetComponent<Register>().HowMany = 0;
+                    gLap.SetActive(true);
+                    this.gameObject.SetActive(false);
+                }
+                if(Lap2)
+                {
+                    result2 = Countdown.GetComponent<Countdown>().laptime;
+                    other.GetComponent<Register>().HowMany = 0;
+                    gLap.SetActive(true);
+                    this.gameObject.SetActive(false);
+                }
                 if(IsFinal)
                 { Time.timeScale = 0f;
-                    result = Countdown.GetComponent<Countdown>().laptime;
-                    FinalPanelText.text = "Time: " + Mathf.Round(result);
+                    result3 = Countdown.GetComponent<Countdown>().laptime;
+                    FinalPanelText.text = "\n\nLap1: " + (Mathf.Round(result1*1000f)/1000f) + "\n" +
+                                          "Lap2: " + (Mathf.Round(result2*1000f)/1000f) + "\n" +
+                                          "Lap3: " + (Mathf.Round(result3*1000f)/1000f);
                     FinalPanel.SetActive(true);
                 }
             }

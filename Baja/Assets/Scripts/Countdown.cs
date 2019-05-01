@@ -10,12 +10,12 @@ public class Countdown : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         laptime = -0.02f;
-        timer.text = "Countdown: ";
+        timer.text = "Timer: ";
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        timer.text = "Countdown: " + laptime;
+        timer.text = "Timer: " + (Mathf.Round(laptime*1000f)/1000f);
         laptime += Time.deltaTime;
         //Debug.Log(laptime);
         /*if (laptime > 120)
