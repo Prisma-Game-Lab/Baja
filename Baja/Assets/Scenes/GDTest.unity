@@ -1118,7 +1118,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsFinal: 1
+  Lap1: 0
+  Lap2: 0
   ObstacleNumber: 3
+  gLap: {fileID: 0}
   FinalPanel: {fileID: 270708385}
   FinalPanelText: {fileID: 721246281}
   Countdown: {fileID: 1983505860}
@@ -3446,7 +3449,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -15, y: -44.2}
+  m_AnchoredPosition: {x: -15, y: -44.19995}
   m_SizeDelta: {x: 208.4, y: 127}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1116615607
@@ -3892,7 +3895,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsFinal: 0
+  Lap1: 0
+  Lap2: 0
   ObstacleNumber: 2
+  gLap: {fileID: 0}
   FinalPanel: {fileID: 270708385}
   FinalPanelText: {fileID: 721246281}
   Countdown: {fileID: 1983505860}
@@ -5313,7 +5319,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsFinal: 0
+  Lap1: 0
+  Lap2: 0
   ObstacleNumber: 1
+  gLap: {fileID: 0}
   FinalPanel: {fileID: 270708385}
   FinalPanelText: {fileID: 721246281}
   Countdown: {fileID: 1983505860}
