@@ -9,6 +9,7 @@ public GameObject StartMenu;
     public GameObject PauseMenu;
     public GameObject OptionMenu;
     public GameObject Timer;
+    public GameObject WinPanel;
 
     public bool IsPaused = true;
 
@@ -19,7 +20,9 @@ public GameObject StartMenu;
         StartMenu.SetActive(true);
         PauseMenu.SetActive(false);
         OptionMenu.SetActive(false);
+        WinPanel.SetActive(false);
         Timer.SetActive(false);
+        Countdown.laptime = -0.02f;
 	}
 	
 	// Update is called once per frame
@@ -36,8 +39,10 @@ public GameObject StartMenu;
     {
         IsPaused = false;
         StartMenu.SetActive(false);
+        WinPanel.SetActive(false);
         Timer.SetActive(true);
         Time.timeScale = 1.0f;
+        Countdown.laptime = -0.02f;
     }
 
 

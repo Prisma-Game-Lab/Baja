@@ -15,12 +15,10 @@ public class CheckPoint : MonoBehaviour {
     public GameObject FinalPanel;
     [HideInInspector]
     public Text FinalPanelText;
-    [HideInInspector]
-    public GameObject Countdown;
 
-    private  static float result1;
-    private  static float result2;
-    private  static float result3;
+    private float result1;
+    private float result2;
+    private float result3;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -31,21 +29,21 @@ public class CheckPoint : MonoBehaviour {
                 other.GetComponent<Register>().HowMany++;
                 if(Lap1)
                 {
-                    result1 = Countdown.GetComponent<Countdown>().laptime;
+                    result1 = Countdown.laptime;
                     other.GetComponent<Register>().HowMany = 0;
                     gLap.SetActive(true);
                     this.gameObject.SetActive(false);
                 }
                 if(Lap2)
                 {
-                    result2 = Countdown.GetComponent<Countdown>().laptime;
+                    result2 = Countdown.laptime;
                     other.GetComponent<Register>().HowMany = 0;
                     gLap.SetActive(true);
                     this.gameObject.SetActive(false);
                 }
                 if(IsFinal)
                 { Time.timeScale = 0f;
-                    result3 = Countdown.GetComponent<Countdown>().laptime;
+                    result3 = Countdown.laptime;
                     FinalPanelText.text = "\n\nLap1: " + (Mathf.Round(result1*1000f)/1000f) + "\n" +
                                           "Lap2: " + (Mathf.Round(result2*1000f)/1000f) + "\n" +
                                           "Lap3: " + (Mathf.Round(result3*1000f)/1000f);
