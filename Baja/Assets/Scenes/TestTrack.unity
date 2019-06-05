@@ -1540,6 +1540,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000013157825816, guid: 7dd8b689dff4b7b40b4657a66c3bcbb1,
     type: 2}
   m_PrefabInternal: {fileID: 493989411}
+--- !u!1 &497167808 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1570932323729664, guid: ade46bc1cf64e6244ac9d54a02f381c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1576154955}
 --- !u!1001 &512348291
 Prefab:
   m_ObjectHideFlags: 0
@@ -3652,6 +3657,11 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114765862277281730, guid: e479ba540bd4da7459c92d08e49fb3b6,
+        type: 2}
+      propertyPath: CheckPoint
+      value: 
+      objectReference: {fileID: 497167808}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e479ba540bd4da7459c92d08e49fb3b6, type: 2}
   m_IsPrefabAsset: 0
