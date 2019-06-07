@@ -11,9 +11,9 @@ public class CheckPoint : MonoBehaviour {
     public int ObstacleNumber;
     public GameObject gLap;
 
-    [HideInInspector]
+    
     public GameObject FinalPanel;
-    [HideInInspector]
+    
     public Text FinalPanelText;
 
     private static float ResultFirstLap;

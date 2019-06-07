@@ -2675,9 +2675,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114751018615184484, guid: ade46bc1cf64e6244ac9d54a02f381c5,
         type: 2}
-      propertyPath: gLap
+      propertyPath: FinalPanel
       value: 
       objectReference: {fileID: 270708385}
+    - target: {fileID: 114751018615184484, guid: ade46bc1cf64e6244ac9d54a02f381c5,
+        type: 2}
+      propertyPath: FinalPanelText
+      value: 
+      objectReference: {fileID: 1628480975}
+    - target: {fileID: 114751018615184484, guid: ade46bc1cf64e6244ac9d54a02f381c5,
+        type: 2}
+      propertyPath: gLap
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ade46bc1cf64e6244ac9d54a02f381c5, type: 2}
   m_IsPrefabAsset: 0
@@ -2717,6 +2727,12 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1624667570}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1628480975 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114581170197965368, guid: e479ba540bd4da7459c92d08e49fb3b6,
+    type: 2}
+  m_PrefabInternal: {fileID: 1753490084}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &1656225019
 GameObject:
   m_ObjectHideFlags: 0
@@ -2878,7 +2894,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1111160755812378, guid: e479ba540bd4da7459c92d08e49fb3b6, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224901607867334480, guid: e479ba540bd4da7459c92d08e49fb3b6,
         type: 2}
@@ -3190,17 +3206,17 @@ Prefab:
     - target: {fileID: 146000012133133230, guid: 6577377bae7db18429e690f8f8f57881,
         type: 2}
       propertyPath: m_SuspensionSpring.spring
-      value: 67844.195
+      value: 67844.21
       objectReference: {fileID: 0}
     - target: {fileID: 146000012133133230, guid: 6577377bae7db18429e690f8f8f57881,
         type: 2}
       propertyPath: m_SuspensionSpring.damper
-      value: 10855.072
+      value: 10855.073
       objectReference: {fileID: 0}
     - target: {fileID: 146000012133133230, guid: 6577377bae7db18429e690f8f8f57881,
         type: 2}
       propertyPath: m_SuspensionDistance
-      value: 0.19620003
+      value: 0.1962
       objectReference: {fileID: 0}
     - target: {fileID: 146000011612348708, guid: 6577377bae7db18429e690f8f8f57881,
         type: 2}
@@ -3259,12 +3275,12 @@ Prefab:
     - target: {fileID: 146000011699788318, guid: 6577377bae7db18429e690f8f8f57881,
         type: 2}
       propertyPath: m_SuspensionSpring.damper
-      value: 10722.281
+      value: 10722.28
       objectReference: {fileID: 0}
     - target: {fileID: 146000011699788318, guid: 6577377bae7db18429e690f8f8f57881,
         type: 2}
       propertyPath: m_SuspensionDistance
-      value: 0.19620001
+      value: 0.19619998
       objectReference: {fileID: 0}
     - target: {fileID: 146000011699788318, guid: 6577377bae7db18429e690f8f8f57881,
         type: 2}
