@@ -1016,7 +1016,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2294d1580284bff49931c1702bd9fb1c, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2294d1580284bff49931c1702bd9fb1c, type: 3}
@@ -2765,6 +2765,7 @@ MonoBehaviour:
   OptionMenu: {fileID: 420394179}
   Timer: {fileID: 17539082}
   WinPanel: {fileID: 270708385}
+  CheckPoint: {fileID: 852578317}
   IsPaused: 1
 --- !u!4 &1656225021
 Transform:
