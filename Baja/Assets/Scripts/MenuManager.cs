@@ -11,6 +11,8 @@ public GameObject StartMenu;
     public GameObject Timer;
     public GameObject WinPanel;
 
+    public GameObject CheckPoint;
+
     public bool IsPaused = true;
 
 
@@ -23,6 +25,9 @@ public GameObject StartMenu;
         WinPanel.SetActive(false);
         Timer.SetActive(false);
         Countdown.laptime = -0.02f;
+        CheckPoint.transform.GetChild(2).gameObject.SetActive(true);
+        CheckPoint.transform.GetChild(3).gameObject.SetActive(false);
+        CheckPoint.transform.GetChild(4).gameObject.SetActive(false);
 	}
 	
 	// Update is called once per frame

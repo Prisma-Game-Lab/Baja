@@ -44,6 +44,7 @@ public class CheckPoint : MonoBehaviour {
                 if(FinalLap) // Completou o terceiro lap
                 { Time.timeScale = 0f;
                     ResultFinalLap = Countdown.laptime; // Resultado terceiro lap
+                    other.GetComponent<Register>().HowMany = 0;
                     FinalPanelText.text = "\n\nLap1: " + (Mathf.Round(ResultFirstLap*1000f)/1000f) + "\n" +
                                           "Lap2: " + (Mathf.Round(ResultSecondLap*1000f)/1000f) + "\n" +
                                           "Lap3: " + (Mathf.Round(ResultFinalLap*1000f)/1000f);
