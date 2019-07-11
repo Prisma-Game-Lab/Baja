@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour {
 
+	public AudioMixer mixer;
+
 	public Sound[] sounds;
 
 	public static AudioManager instance;
@@ -33,6 +35,11 @@ public class AudioManager : MonoBehaviour {
 	}
 
 	void Start() {
+		//AudioMixer mixer = Resources.Load("MainMixer") as AudioMixer;
+		string _MasterMixer = "Master";
+
+		GetComponent<AudioSource>().outputAudioMixerGroup = mixer.FindMatchingGroups(_MasterMixer)[0];
+
 		Play("Theme");
 	}
 
