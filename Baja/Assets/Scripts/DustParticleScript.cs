@@ -13,7 +13,7 @@ public class DustParticleScript : MonoBehaviour
 
 	private void Update()
 	{
-		if (this.gameObject.GetComponent<Rigidbody>().velocity.magnitude > 1)
+		if (this.gameObject.GetComponent<Rigidbody>().velocity.magnitude > 3)
 			CarDustParticles.SetActive(true);
 		else
 			CarDustParticles.SetActive(false);

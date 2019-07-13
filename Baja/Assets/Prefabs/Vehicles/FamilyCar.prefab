@@ -138,11 +138,11 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.315
   m_SuspensionSpring:
-    spring: 67014.31
-    damper: 10722.291
+    spring: 67014.766
+    damper: 10722.362
     targetPosition: 0.5
-  m_SuspensionDistance: 0.19620003
-  m_ForceAppPointDistance: 0.67725265
+  m_SuspensionDistance: 0.1962
+  m_ForceAppPointDistance: 0.6772522
   m_Mass: 20
   m_WheelDampingRate: 0.25
   m_ForwardFriction:
@@ -292,11 +292,11 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.315
   m_SuspensionSpring:
-    spring: 57155.848
-    damper: 9144.937
+    spring: 57156.285
+    damper: 9145.006
     targetPosition: 0.5
-  m_SuspensionDistance: 0.19620003
-  m_ForceAppPointDistance: 0.67725265
+  m_SuspensionDistance: 0.19620001
+  m_ForceAppPointDistance: 0.6772522
   m_Mass: 20
   m_WheelDampingRate: 0.25
   m_ForwardFriction:
@@ -353,11 +353,11 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.315
   m_SuspensionSpring:
-    spring: 67844.14
-    damper: 10855.0625
+    spring: 67843.695
+    damper: 10854.991
     targetPosition: 0.5
   m_SuspensionDistance: 0.19620001
-  m_ForceAppPointDistance: 0.67725265
+  m_ForceAppPointDistance: 0.6772522
   m_Mass: 20
   m_WheelDampingRate: 0.25
   m_ForwardFriction:
@@ -577,7 +577,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b3ee163ff464a84c8625f7e13fbfa90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CarDustParticles: {fileID: 0}
+  CarDustParticles: {fileID: 948477064}
 --- !u!1 &1000014136951468
 GameObject:
   m_ObjectHideFlags: 0
@@ -619,11 +619,11 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.315
   m_SuspensionSpring:
-    spring: 57985.676
-    damper: 9277.708
+    spring: 57985.254
+    damper: 9277.641
     targetPosition: 0.5
   m_SuspensionDistance: 0.19620001
-  m_ForceAppPointDistance: 0.67725265
+  m_ForceAppPointDistance: 0.6772522
   m_Mass: 20
   m_WheelDampingRate: 0.25
   m_ForwardFriction:
@@ -982,6 +982,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4000012934762246}
     m_Modifications:
+    - target: {fileID: 4454823729234907562, guid: 700ba712b849ff24f8f816e2089c4016,
+        type: 3}
+      propertyPath: m_Name
+      value: Car Dust Particles
+      objectReference: {fileID: 0}
+    - target: {fileID: 4454823729234907562, guid: 700ba712b849ff24f8f816e2089c4016,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4454823729234907557, guid: 700ba712b849ff24f8f816e2089c4016,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1037,13 +1047,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4454823729234907562, guid: 700ba712b849ff24f8f816e2089c4016,
-        type: 3}
-      propertyPath: m_Name
-      value: Car Dust Particles
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 700ba712b849ff24f8f816e2089c4016, type: 3}
+--- !u!1 &948477064 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4454823729234907562, guid: 700ba712b849ff24f8f816e2089c4016,
+    type: 3}
+  m_PrefabInstance: {fileID: 4454823728304327970}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &948477063 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4454823729234907557, guid: 700ba712b849ff24f8f816e2089c4016,
