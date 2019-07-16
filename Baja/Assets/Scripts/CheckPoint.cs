@@ -24,6 +24,7 @@ public class CheckPoint : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
+            Debug.Log("Teste");
             if(other.GetComponent<Register>().HowMany == ObstacleNumber-1)
             {
                 other.GetComponent<Register>().HowMany++;

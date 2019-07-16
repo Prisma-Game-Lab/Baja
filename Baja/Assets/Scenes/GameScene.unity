@@ -1902,12 +1902,12 @@ PrefabInstance:
     - target: {fileID: 3873967374853777909, guid: bb16a982150a8b64d96f7b3bf51bbc35,
         type: 3}
       propertyPath: m_SuspensionSpring.damper
-      value: 11173.257
+      value: 11173.258
       objectReference: {fileID: 0}
     - target: {fileID: 3873967374853777909, guid: bb16a982150a8b64d96f7b3bf51bbc35,
         type: 3}
       propertyPath: m_SuspensionDistance
-      value: 0.1962
+      value: 0.19620001
       objectReference: {fileID: 0}
     - target: {fileID: 3873967374853777909, guid: bb16a982150a8b64d96f7b3bf51bbc35,
         type: 3}
@@ -1968,6 +1968,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ForceAppPointDistance
       value: 0.47380695
+      objectReference: {fileID: 0}
+    - target: {fileID: 3057227415242098462, guid: bb16a982150a8b64d96f7b3bf51bbc35,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb16a982150a8b64d96f7b3bf51bbc35, type: 3}
