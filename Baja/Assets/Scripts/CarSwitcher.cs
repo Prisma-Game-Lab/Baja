@@ -16,7 +16,7 @@ public class CarSwitcher : MonoBehaviour
 	
 	void Update () 
     {
-		/*if (Input.GetButtonDown("Switch"))	
+		if (Input.GetButtonDown("Switch"))	
 		{
 			// Disable the previous vehicle.
 			vehicles[m_VehicleId].SetActive(false);
@@ -39,8 +39,8 @@ public class CarSwitcher : MonoBehaviour
 			m_DriftCamera.lookAtTarget = camRig.Find("CamLookAtTarget");
 			m_DriftCamera.positionTarget = camRig.Find("CamPosition");
 			m_DriftCamera.sideView = camRig.Find("CamSidePosition");
-		}*/
-		
+		}
+		/*
 		if (Input.GetButtonDown("Restart"))
 		{
 			Transform vehicleTransform = vehicles[m_VehicleId].transform;
@@ -91,6 +91,6 @@ public class CarSwitcher : MonoBehaviour
 			vehicleBody.velocity = Vector3.zero;
 			vehicleBody.angularVelocity = Vector3.zero;
 		}
-		
+		*/
 	}
 }
