@@ -9,7 +9,8 @@ public class CheckPoint : MonoBehaviour {
     public bool SecondLap;
     public bool FinalLap;
     public int ObstacleNumber;
-    public GameObject gLap;
+    [Tooltip("O Lap Final eh vazio mesmo")]
+    public GameObject Next_Lap;
 
     
     public GameObject FinalPanel;
@@ -32,14 +33,14 @@ public class CheckPoint : MonoBehaviour {
                 {
                     ResultFirstLap = Countdown.laptime; // Resultado primero lap
                     other.GetComponent<Register>().HowMany = 0;
-                    gLap.SetActive(true);
+                    Next_Lap.SetActive(true);
                     this.gameObject.SetActive(false);
                 }
                 if(SecondLap) // Completou o segundo lap
                 {
                     ResultSecondLap = Countdown.laptime; // Resultado segundo lap
                     other.GetComponent<Register>().HowMany = 0;
-                    gLap.SetActive(true);
+                    Next_Lap.SetActive(true);
                     this.gameObject.SetActive(false);
                 }
                 if(FinalLap) // Completou o terceiro lap
