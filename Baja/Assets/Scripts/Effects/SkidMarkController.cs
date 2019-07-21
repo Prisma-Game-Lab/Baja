@@ -18,7 +18,7 @@ public class SkidMarkController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(tyre.steerAngle + " " + tyre.brakeTorque);
+        //Debug.Log(tyre.steerAngle + " " + tyre.brakeTorque);
         mark.emitting = IsCarMoving() && (Mathf.Abs(tyre.steerAngle) > minSteerAngleToMark || tyre.brakeTorque > minBrakeTorqueToMark);
     }
 
