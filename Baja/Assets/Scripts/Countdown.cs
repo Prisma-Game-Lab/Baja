@@ -4,29 +4,61 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Countdown : MonoBehaviour {
-    public Text timer;
 
-	public GameObject CheckPoint;
+    // ==== Referências externas  ==== 
+    public GameObject finalPanel;
+    public GameObject HUD;
+
+    // ==== Atributos internos ==== 
+    private Text finalPanelText;
     public static float laptime = 0;
-	// Use this for initialization
-	void Start () {
+    private static List<float> resultadosVoltas;
+    private int numVoltaAtual = 1;
+    private Text timer;
+
+    // ==== Funções ==== 
+    void Start () {
+        resultadosVoltas = new List<float>();
+        finalPanelText = finalPanel.transform.GetChild(1).GetComponent<Text>();
+        timer = HUD.transform.GetChild(0).GetComponent<Text>();
+
         laptime = -0.02f;
-        timer.text = "Timer: ";	
-	}
+        timer.text = "Timer: ";
+
+    }
 	
-	// Update is called once per frame
-void Update () {
-        timer.text = "Timer: " + (Mathf.Round(laptime*1000f)/1000f) + "\nLap: ";
-		if(CheckPoint.transform.GetChild(2).gameObject.activeSelf) {
-			timer.text += "1";
-		}
-		if(CheckPoint.transform.GetChild(3).gameObject.activeSelf) {
-			timer.text += "2";
-		}
-		if(CheckPoint.transform.GetChild(4).gameObject.activeSelf) {
-			timer.text += "3";
-		}
+    void Update () {
+        timer.text = $"Timer: " + ArredondaTempo(laptime) + 
+                    "\nLap: " + numVoltaAtual;
+		
         laptime += Time.deltaTime;
 	}
+
+    // Arredonda o float do tempo para reduzir o número de casas decimais
+    public float ArredondaTempo(float tempoOriginal)
+    {
+        return (Mathf.Round(tempoOriginal * 1000f) / 1000f);
+    }
+
+    // Salva o valor do cronômetro e o reseta
+    public void CompletaVolta(int numVolta)
+    {
+        resultadosVoltas.Add(laptime);
+        laptime = 0f;
+        numVoltaAtual = numVolta + 1;
+    }
+
+    // Apresenta os resultados do jogador e dá a opção de retornar ao menu ou jogar novamente
+    public void CompletaCircuito()
+    {
+        int numVolta = 0;
+        foreach(float resultadoVolta in resultadosVoltas)
+        {
+            finalPanelText.text = string.Concat(finalPanelText.text, (numVolta+1)+"ª volta: " + ArredondaTempo(resultadosVoltas[numVolta]) + "\n");
+            numVolta++;
+        }
+        HUD.SetActive(false);
+        finalPanel.SetActive(true);
+    }
 }
 
