@@ -49,13 +49,15 @@ public class LinhaDeChegada : MonoBehaviour
                 {
                     etapa.playerPassouAqui = false;
                 }
-                countdown.CompletaVolta(numVoltasCompletas);
+                //countdown.CompletaVolta(numVoltasCompletas);
                 
+                /*
                 // Se o jogador tiver completado todas as voltas necessárias, termina o jogo
                 if(numVoltasCompletas == numVoltasNecessárias)
                 {
                     countdown.CompletaCircuito();
                 }
+                */
             }
         }
     }
