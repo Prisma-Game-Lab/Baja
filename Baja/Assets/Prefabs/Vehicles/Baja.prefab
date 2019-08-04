@@ -112,7 +112,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1969238675449112522}
   m_LocalRotation: {x: -0, y: 0.0000032484531, z: -0, w: 1}
-  m_LocalPosition: {x: -2.8660753, y: -0.91100025, z: 5.3344274}
+  m_LocalPosition: {x: 0, y: -0.284, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3537997779234245362}
@@ -785,11 +785,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5880975786956906832}
     m_Modifications:
-    - target: {fileID: 9191655463962773844, guid: e1d5beea0b9e79d4bbbd252c960b8ae6,
-        type: 3}
-      propertyPath: m_Name
-      value: SkidMark (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 1657811768845770902, guid: e1d5beea0b9e79d4bbbd252c960b8ae6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -845,6 +840,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9191655463962773844, guid: e1d5beea0b9e79d4bbbd252c960b8ae6,
+        type: 3}
+      propertyPath: m_Name
+      value: SkidMark (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 3287689558688868593, guid: e1d5beea0b9e79d4bbbd252c960b8ae6,
         type: 3}
       propertyPath: tyre
@@ -865,11 +865,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5880975786956906832}
     m_Modifications:
-    - target: {fileID: 9191655463962773844, guid: e1d5beea0b9e79d4bbbd252c960b8ae6,
-        type: 3}
-      propertyPath: m_Name
-      value: SkidMark
-      objectReference: {fileID: 0}
     - target: {fileID: 1657811768845770902, guid: e1d5beea0b9e79d4bbbd252c960b8ae6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -925,6 +920,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9191655463962773844, guid: e1d5beea0b9e79d4bbbd252c960b8ae6,
+        type: 3}
+      propertyPath: m_Name
+      value: SkidMark
+      objectReference: {fileID: 0}
     - target: {fileID: 3287689558688868593, guid: e1d5beea0b9e79d4bbbd252c960b8ae6,
         type: 3}
       propertyPath: tyre
@@ -945,16 +945,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4988495168649267527}
     m_Modifications:
-    - target: {fileID: 4454823729234907562, guid: 700ba712b849ff24f8f816e2089c4016,
-        type: 3}
-      propertyPath: m_Name
-      value: Car Dust Particles
-      objectReference: {fileID: 0}
-    - target: {fileID: 4454823729234907562, guid: 700ba712b849ff24f8f816e2089c4016,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4454823729234907557, guid: 700ba712b849ff24f8f816e2089c4016,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1010,6 +1000,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4454823729234907562, guid: 700ba712b849ff24f8f816e2089c4016,
+        type: 3}
+      propertyPath: m_Name
+      value: Car Dust Particles
+      objectReference: {fileID: 0}
+    - target: {fileID: 4454823729234907562, guid: 700ba712b849ff24f8f816e2089c4016,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 700ba712b849ff24f8f816e2089c4016, type: 3}
 --- !u!1 &8290043491429656464 stripped
@@ -1031,10 +1031,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4988495168649267527}
     m_Modifications:
-    - target: {fileID: 100830, guid: 45ae1721b460abd449b9ee87fb91780a, type: 3}
-      propertyPath: m_Name
-      value: NAJA
-      objectReference: {fileID: 0}
     - target: {fileID: 400830, guid: 45ae1721b460abd449b9ee87fb91780a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
@@ -1078,6 +1074,10 @@ PrefabInstance:
     - target: {fileID: 400830, guid: 45ae1721b460abd449b9ee87fb91780a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100830, guid: 45ae1721b460abd449b9ee87fb91780a, type: 3}
+      propertyPath: m_Name
+      value: NAJA
       objectReference: {fileID: 0}
     - target: {fileID: 400668, guid: 45ae1721b460abd449b9ee87fb91780a, type: 3}
       propertyPath: m_RootOrder
@@ -1402,11 +1402,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5880975786956906832}
     m_Modifications:
-    - target: {fileID: 9191655463962773844, guid: e1d5beea0b9e79d4bbbd252c960b8ae6,
-        type: 3}
-      propertyPath: m_Name
-      value: SkidMark (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1657811768845770902, guid: e1d5beea0b9e79d4bbbd252c960b8ae6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1462,6 +1457,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9191655463962773844, guid: e1d5beea0b9e79d4bbbd252c960b8ae6,
+        type: 3}
+      propertyPath: m_Name
+      value: SkidMark (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 3287689558688868593, guid: e1d5beea0b9e79d4bbbd252c960b8ae6,
         type: 3}
       propertyPath: tyre
@@ -1482,11 +1482,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5880975786956906832}
     m_Modifications:
-    - target: {fileID: 9191655463962773844, guid: e1d5beea0b9e79d4bbbd252c960b8ae6,
-        type: 3}
-      propertyPath: m_Name
-      value: SkidMark (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 1657811768845770902, guid: e1d5beea0b9e79d4bbbd252c960b8ae6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1541,6 +1536,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9191655463962773844, guid: e1d5beea0b9e79d4bbbd252c960b8ae6,
+        type: 3}
+      propertyPath: m_Name
+      value: SkidMark (3)
       objectReference: {fileID: 0}
     - target: {fileID: 3287689558688868593, guid: e1d5beea0b9e79d4bbbd252c960b8ae6,
         type: 3}
