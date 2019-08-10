@@ -54,7 +54,7 @@ public GameObject StartMenu;
             PauseMenu.SetActive(false);
             IsPaused = false;
         }
-        else
+        else if(!WinPanel.activeInHierarchy && !OptionMenu.activeInHierarchy && !StartMenu.activeInHierarchy)
         {
             Time.timeScale = 0.0f;
             PauseMenu.SetActive(true);
