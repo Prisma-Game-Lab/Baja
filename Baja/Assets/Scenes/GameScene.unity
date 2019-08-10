@@ -2213,6 +2213,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: '-----Environment-----'
       objectReference: {fileID: 0}
+    - target: {fileID: 3627914003767882831, guid: bb16a982150a8b64d96f7b3bf51bbc35,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -58.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 3627914003767882831, guid: bb16a982150a8b64d96f7b3bf51bbc35,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 56.28
+      objectReference: {fileID: 0}
     - target: {fileID: 5229346669837626446, guid: bb16a982150a8b64d96f7b3bf51bbc35,
         type: 3}
       propertyPath: m_LocalPosition.x
