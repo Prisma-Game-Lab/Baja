@@ -683,6 +683,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: '-----UI-----'
       objectReference: {fileID: 0}
+    - target: {fileID: 1900587117950168, guid: e479ba540bd4da7459c92d08e49fb3b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8629247265767712112, guid: e479ba540bd4da7459c92d08e49fb3b6,
         type: 3}
       propertyPath: car
@@ -919,12 +923,12 @@ PrefabInstance:
     - target: {fileID: 3873967374853777909, guid: bb16a982150a8b64d96f7b3bf51bbc35,
         type: 3}
       propertyPath: m_SuspensionDistance
-      value: 0.19620001
+      value: 0.19620003
       objectReference: {fileID: 0}
     - target: {fileID: 3873967374853777909, guid: bb16a982150a8b64d96f7b3bf51bbc35,
         type: 3}
       propertyPath: m_ForceAppPointDistance
-      value: 0.48322347
+      value: 0.48322353
       objectReference: {fileID: 0}
     - target: {fileID: 3873967372862148769, guid: bb16a982150a8b64d96f7b3bf51bbc35,
         type: 3}
@@ -944,22 +948,22 @@ PrefabInstance:
     - target: {fileID: 3873967372862148769, guid: bb16a982150a8b64d96f7b3bf51bbc35,
         type: 3}
       propertyPath: m_ForceAppPointDistance
-      value: 0.48322347
+      value: 0.48322353
       objectReference: {fileID: 0}
     - target: {fileID: 3873967373034466203, guid: bb16a982150a8b64d96f7b3bf51bbc35,
         type: 3}
       propertyPath: m_SuspensionSpring.spring
-      value: 53273.754
+      value: 53273.746
       objectReference: {fileID: 0}
     - target: {fileID: 3873967373034466203, guid: bb16a982150a8b64d96f7b3bf51bbc35,
         type: 3}
       propertyPath: m_SuspensionSpring.damper
-      value: 8523.801
+      value: 8523.8
       objectReference: {fileID: 0}
     - target: {fileID: 3873967373034466203, guid: bb16a982150a8b64d96f7b3bf51bbc35,
         type: 3}
       propertyPath: m_ForceAppPointDistance
-      value: 0.48322347
+      value: 0.48322353
       objectReference: {fileID: 0}
     - target: {fileID: 3873967373034466203, guid: bb16a982150a8b64d96f7b3bf51bbc35,
         type: 3}
@@ -984,7 +988,7 @@ PrefabInstance:
     - target: {fileID: 3873967371267365419, guid: bb16a982150a8b64d96f7b3bf51bbc35,
         type: 3}
       propertyPath: m_ForceAppPointDistance
-      value: 0.48322347
+      value: 0.48322353
       objectReference: {fileID: 0}
     - target: {fileID: 3057227415242098462, guid: bb16a982150a8b64d96f7b3bf51bbc35,
         type: 3}
@@ -1311,6 +1315,11 @@ PrefabInstance:
       propertyPath: m_SpriteSortPoint
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5225135339322856550, guid: bb16a982150a8b64d96f7b3bf51bbc35,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.1
+      objectReference: {fileID: 0}
     - target: {fileID: 5232393473382214100, guid: bb16a982150a8b64d96f7b3bf51bbc35,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -1370,7 +1379,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: f95bd36b40c90a94abf5500c48470ea6, type: 3}
+      objectReference: {fileID: 2100000, guid: 03b4eec34e151364abcbbaa2b10de46d, type: 2}
     - target: {fileID: 5232245207215772858, guid: bb16a982150a8b64d96f7b3bf51bbc35,
         type: 3}
       propertyPath: m_LocalPosition.x
