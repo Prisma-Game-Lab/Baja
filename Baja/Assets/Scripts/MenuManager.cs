@@ -10,6 +10,8 @@ public GameObject StartMenu;
     public GameObject OptionMenu;
     public GameObject Timer;
     public GameObject WinPanel;
+    public GameObject TutorialPanel;
+    public GameObject HUD;
 
     public bool IsPaused = true;
 
@@ -37,12 +39,18 @@ public GameObject StartMenu;
     public void StartGame ()
 
     {
+        TutorialPanel.SetActive(false);
+        HUD.SetActive(true);
         IsPaused = false;
-        StartMenu.SetActive(false);
-        WinPanel.SetActive(false);
         Timer.SetActive(true);
         Time.timeScale = 1.0f;
         Countdown.laptime = -0.02f;
+    }
+
+    public void OpenInstructions(){
+        StartMenu.SetActive(false);
+        WinPanel.SetActive(false);
+        TutorialPanel.SetActive(true);
     }
 
 
