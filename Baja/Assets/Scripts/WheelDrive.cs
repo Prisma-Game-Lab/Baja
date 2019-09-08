@@ -55,6 +55,9 @@ public class WheelDrive : MonoBehaviour
 	// This helps us to figure our which wheels are front ones and which are rear.
 	void Update()
 	{
+		if(!CountdownBeforeGame.acabou) {
+            return;
+        }
 		m_Wheels[0].ConfigureVehicleSubsteps(criticalSpeed, stepsBelow, stepsAbove);
 
 		float angle = maxAngle * Input.GetAxis("Horizontal");
