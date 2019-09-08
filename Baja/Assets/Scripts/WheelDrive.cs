@@ -63,7 +63,7 @@ public class WheelDrive : MonoBehaviour
 		float angle = maxAngle * Input.GetAxis("Horizontal");
 		float torque = maxTorque * Input.GetAxis("Vertical");
 
-		float handBrake = Input.GetKey(KeyCode.X) ? brakeTorque : 0;
+		float handBrake = Input.GetButton("HandBrake") ? brakeTorque : 0;
 
 		foreach (WheelCollider wheel in m_Wheels)
 		{
