@@ -14,6 +14,7 @@ public GameObject StartMenu;
     public GameObject HUD;
 
     public bool IsPaused = true;
+    public static bool AfterCountdown = false;
 
 
 	// Use this for initialization
@@ -37,7 +38,6 @@ public GameObject StartMenu;
 	}
 
     public void StartGame ()
-
     {
         TutorialPanel.SetActive(false);
         HUD.SetActive(true);
@@ -45,6 +45,7 @@ public GameObject StartMenu;
         Timer.SetActive(true);
         Time.timeScale = 1.0f;
         Countdown.laptime = -0.02f;
+        AfterCountdown = true;
     }
 
     public void OpenInstructions(){

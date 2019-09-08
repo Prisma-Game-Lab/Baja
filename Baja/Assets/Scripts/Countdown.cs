@@ -29,9 +29,9 @@ public class Countdown : MonoBehaviour {
 	
     void Update () {
         timer.text = $"Timer: " + ArredondaTempo(laptime) + "\nLap: " + numVoltaAtual;
-;
-		
-        laptime += Time.deltaTime;
+		if(CountdownBeforeGame.acabou) {
+            laptime += Time.deltaTime;
+        }
 	}
 
     // Arredonda o float do tempo para reduzir o número de casas decimais
