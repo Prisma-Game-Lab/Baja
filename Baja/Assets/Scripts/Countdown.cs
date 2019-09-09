@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class Countdown : MonoBehaviour {
 
@@ -59,6 +60,7 @@ public class Countdown : MonoBehaviour {
         }
         HUD.SetActive(false);
         finalPanel.SetActive(true);
+        EventSystem.current.SetSelectedGameObject(MenuManager.instance.FirstSelectedOptionOnResultMenu);
     }
 }
 

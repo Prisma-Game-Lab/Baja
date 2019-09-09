@@ -5,6 +5,7 @@ using Luminosity.IO;
 
 public class MenuManager : MonoBehaviour
 {
+    public static MenuManager instance;
 	public GameObject StartMenu;
 	public GameObject PauseMenu;
 	public GameObject OptionMenu;
@@ -17,10 +18,14 @@ public class MenuManager : MonoBehaviour
 	public bool IsPaused = true;
 	public static bool AfterCountdown = false;
 
-    public GameObject FirstSelectedOptionOnStartMenu, FirstSelectedOptionOnPauseMenu, FirstSelectedOptionOnOptionsMenu; 
+    public GameObject FirstSelectedOptionOnStartMenu, FirstSelectedOptionOnPauseMenu, FirstSelectedOptionOnOptionsMenu, FirstSelectedOptionOnResultMenu, 
+    FirstSelectedOptionOnControllerInstructionsMenu, FirstSelectedOptionOnKeyboardInstructionsMenu; 
 
 
 	// Use this for initialization
+    void Awake(){
+        instance = this;
+    }
 	void Start()
 	{
 		Time.timeScale = 0.0f;
@@ -73,6 +78,7 @@ public class MenuManager : MonoBehaviour
 		{
 			Time.timeScale = 0.0f;
 			PauseMenu.SetActive(true);
+            EventSystem.current.SetSelectedGameObject(FirstSelectedOptionOnPauseMenu);
 			IsPaused = true;
 		}
 	}
@@ -80,6 +86,7 @@ public class MenuManager : MonoBehaviour
 	public void OptionsMenu()
 	{
 		OptionMenu.SetActive(true);
+        EventSystem.current.SetSelectedGameObject(FirstSelectedOptionOnOptionsMenu);
 		StartMenu.SetActive(false);
 	}
 
@@ -93,6 +100,7 @@ public class MenuManager : MonoBehaviour
 	{
 		OptionMenu.SetActive(false);
 		StartMenu.SetActive(true);
+        EventSystem.current.SetSelectedGameObject(FirstSelectedOptionOnStartMenu);
 	}
 
 	public void BackFromPause()
@@ -108,9 +116,13 @@ public class MenuManager : MonoBehaviour
 	// Check to see if theres a controller conected or not
 	private void CheckInputMethod(bool state)
 	{
-		if (Input.GetJoystickNames().Length > 0)
+		if (Input.GetJoystickNames().Length > 0){
 			ControllerInstructions.SetActive(state);
-		else
+            EventSystem.current.SetSelectedGameObject(FirstSelectedOptionOnControllerInstructionsMenu);
+        }
+		else {
 			KeyboardInstructions.SetActive(state);
+            EventSystem.current.SetSelectedGameObject(FirstSelectedOptionOnKeyboardInstructionsMenu);
+        }
 	}
 }
