@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
+using Luminosity.IO;
 
 public class CarSwitcher : MonoBehaviour
 {
@@ -41,7 +42,7 @@ public class CarSwitcher : MonoBehaviour
 			m_DriftCamera.sideView = camRig.Find("CamSidePosition");
 		}*/
 		
-		if (Input.GetButtonDown("Restart"))
+		if (InputManager.GetButtonDown("Restart"))
 		{
 			Transform vehicleTransform = vehicles[m_VehicleId].transform;
 			vehicleTransform.rotation = Quaternion.identity;

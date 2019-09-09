@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems;
+using Luminosity.IO;
 
 public class MenuManager : MonoBehaviour
 {
@@ -15,6 +17,10 @@ public class MenuManager : MonoBehaviour
 	public bool IsPaused = true;
 	public static bool AfterCountdown = false;
 
+    public GameObject FirstSelectedOptionOnStartMenu, FirstSelectedOptionOnPauseMenu, FirstSelectedOptionOnOptionsMenu; 
+
+
+	// Use this for initialization
 	void Start()
 	{
 		Time.timeScale = 0.0f;
@@ -25,13 +31,13 @@ public class MenuManager : MonoBehaviour
 		Timer.SetActive(false);
 		Countdown.laptime = -0.02f;
 	}
-
-	void Update()
-	{
-		if (Input.GetButtonDown("Pause"))
-		{
-			PauseGame();
-		}
+	
+	// Update is called once per frame
+	void Update () {
+        if(InputManager.GetButtonDown("Pause"))
+        {
+            PauseGame();
+        }
 	}
 
 	public void StartGame()
