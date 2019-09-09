@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using Luminosity.IO;
 
 public class DriftCamera : MonoBehaviour
 {
@@ -27,7 +28,7 @@ public class DriftCamera : MonoBehaviour
 
     private void Update ()
     {
-        if (Input.GetButtonDown("ChangeCamera"))
+        if (InputManager.GetButtonDown("ChangeCamera"))
             m_ShowingSideView = !m_ShowingSideView;
 
         if(advancedOptions.updateCameraInUpdate)

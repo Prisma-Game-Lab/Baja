@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System;
+using Luminosity.IO;
 
 [Serializable]
 public enum DriveType
@@ -60,10 +61,10 @@ public class WheelDrive : MonoBehaviour
         }
 		m_Wheels[0].ConfigureVehicleSubsteps(criticalSpeed, stepsBelow, stepsAbove);
 
-		float angle = maxAngle * Input.GetAxis("Horizontal");
-		float torque = maxTorque * Input.GetAxis("Vertical");
+		float angle = maxAngle * InputManager.GetAxis("Horizontal");
+		float torque = maxTorque * InputManager.GetAxis("Vertical");
 
-		float handBrake = Input.GetButton("HandBrake") ? brakeTorque : 0;
+		float handBrake = InputManager.GetButton("HandBrake") ? brakeTorque : 0;
 
 		foreach (WheelCollider wheel in m_Wheels)
 		{

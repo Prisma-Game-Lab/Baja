@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems;
+using Luminosity.IO;
 
 public class MenuManager : MonoBehaviour {
 
@@ -12,6 +14,8 @@ public GameObject StartMenu;
     public GameObject WinPanel;
     public GameObject TutorialPanel;
     public GameObject HUD;
+
+    public GameObject FirstSelectedOptionOnStartMenu, FirstSelectedOptionOnPauseMenu, FirstSelectedOptionOnOptionsMenu; 
 
     public bool IsPaused = true;
     public static bool AfterCountdown = false;
@@ -30,7 +34,7 @@ public GameObject StartMenu;
 	
 	// Update is called once per frame
 	void Update () {
-        if(Input.GetButtonDown("Pause"))
+        if(InputManager.GetButtonDown("Pause"))
         {
             PauseGame();
         }
