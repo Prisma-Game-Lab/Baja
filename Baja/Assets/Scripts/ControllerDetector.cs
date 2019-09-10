@@ -50,6 +50,8 @@ public class ControllerDetector : MonoBehaviour
     }
 
     public static float GetAxis(string button){
-        return Mathf.Max(InputManager.GetAxis(button, PlayerID.One), InputManager.GetAxis(button, PlayerID.Two));
+        float inputController = InputManager.GetAxis(button, PlayerID.One);
+        float inputKeyboard = InputManager.GetAxis(button, PlayerID.Two);
+        return Mathf.Abs(inputController) > Mathf.Abs(inputKeyboard) ? inputController : inputKeyboard;
     }
 }
