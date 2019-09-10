@@ -25,10 +25,12 @@ public class ControllerDetector : MonoBehaviour
             if(name.ToLower().Contains("xbox one")){ //checa se é controle do xbox one (o ToLower é pra evitar problemas com case sensitive)
                 InputManager.SetControlScheme("XboxOne", PlayerID.One);
             }
-            else if(name.ToLower().Contains("playstation 4")){ //checa se é controle do xbox one (o ToLower é pra evitar problemas com case sensitive)
+            else if(name.ToLower().Contains("playstation 4") || name.ToLower().Contains("wireles")){ //checa se é controle do xbox one (o ToLower é pra evitar problemas com case sensitive)
                 InputManager.SetControlScheme("PS4", PlayerID.One);
+                name.ToLower().Contains("wireless");
             }
-            else{ //se não for, usa o esquema de xbox/ps3
+            else
+            { //se não for, usa o esquema de xbox/ps3
                 InputManager.SetControlScheme("PS3/XBOX360", PlayerID.One);
             }
         }
