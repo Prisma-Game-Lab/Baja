@@ -52,7 +52,7 @@ namespace Luminosity.IO.Examples
 
 		private void Update()
 		{
-			if(InputManager.GetButtonDown("PauseMenu"))
+			if(ControllerDetector.GetButtonDown("PauseMenu"))
 			{
 				if(!m_isOpen)
 					Open();

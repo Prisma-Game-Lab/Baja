@@ -39,7 +39,7 @@ public class MenuManager : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update () {
-        if(InputManager.GetButtonDown("Pause"))
+        if(ControllerDetector.GetButtonDown("Pause"))
         {
             PauseGame();
         }

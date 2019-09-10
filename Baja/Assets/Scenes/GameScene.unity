@@ -2901,6 +2901,56 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1953449530424760701, guid: 5bec26bce97b0454e9a75deccf3adef2,
+        type: 3}
+      propertyPath: m_controlSchemes.Array.data[1].m_actions.Array.data[6].m_bindings.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953449530424760701, guid: 5bec26bce97b0454e9a75deccf3adef2,
+        type: 3}
+      propertyPath: m_controlSchemes.Array.data[2].m_actions.Array.data[0].m_bindings.Array.data[0].m_positive
+      value: 338
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953449530424760701, guid: 5bec26bce97b0454e9a75deccf3adef2,
+        type: 3}
+      propertyPath: m_controlSchemes.Array.data[3].m_isExpanded
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953449530424760701, guid: 5bec26bce97b0454e9a75deccf3adef2,
+        type: 3}
+      propertyPath: m_controlSchemes.Array.data[1].m_actions.Array.data[6].m_bindings.Array.data[1].m_gravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953449530424760701, guid: 5bec26bce97b0454e9a75deccf3adef2,
+        type: 3}
+      propertyPath: m_controlSchemes.Array.data[1].m_actions.Array.data[6].m_bindings.Array.data[1].m_sensitivity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953449530424760701, guid: 5bec26bce97b0454e9a75deccf3adef2,
+        type: 3}
+      propertyPath: m_controlSchemes.Array.data[1].m_actions.Array.data[6].m_bindings.Array.data[1].m_scale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953449530424760701, guid: 5bec26bce97b0454e9a75deccf3adef2,
+        type: 3}
+      propertyPath: m_controlSchemes.Array.data[1].m_actions.Array.data[6].m_bindings.Array.data[2].m_gravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953449530424760701, guid: 5bec26bce97b0454e9a75deccf3adef2,
+        type: 3}
+      propertyPath: m_controlSchemes.Array.data[1].m_actions.Array.data[6].m_bindings.Array.data[2].m_sensitivity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953449530424760701, guid: 5bec26bce97b0454e9a75deccf3adef2,
+        type: 3}
+      propertyPath: m_controlSchemes.Array.data[1].m_actions.Array.data[6].m_bindings.Array.data[2].m_scale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1953449530424760701, guid: 5bec26bce97b0454e9a75deccf3adef2,
+        type: 3}
+      propertyPath: m_playerTwoDefault
+      value: 605f0e5aa6c14a05b62e9362d3fcb73d
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5bec26bce97b0454e9a75deccf3adef2, type: 3}
 --- !u!1001 &1096046300

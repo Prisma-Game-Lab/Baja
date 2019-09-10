@@ -36,6 +36,20 @@ public class ControllerDetector : MonoBehaviour
         }
         else{ //não há controles conectados
             InputManager.SetControlScheme("Teclado", PlayerID.One);
+            InputManager.SetControlScheme("Teclado", PlayerID.Two);
         }
+    }
+
+
+    public static bool GetButton(string button){
+        return InputManager.GetButton(button, PlayerID.One) || InputManager.GetButton(button, PlayerID.Two);
+    }
+
+    public static bool GetButtonDown(string button){
+        return InputManager.GetButtonDown(button, PlayerID.One) || InputManager.GetButtonDown(button, PlayerID.Two);
+    }
+
+    public static float GetAxis(string button){
+        return Mathf.Max(InputManager.GetAxis(button, PlayerID.One), InputManager.GetAxis(button, PlayerID.Two));
     }
 }

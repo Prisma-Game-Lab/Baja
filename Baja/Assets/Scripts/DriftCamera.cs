@@ -28,7 +28,7 @@ public class DriftCamera : MonoBehaviour
 
     private void Update ()
     {
-        if (InputManager.GetButtonDown("ChangeCamera"))
+        if (ControllerDetector.GetButtonDown("ChangeCamera"))
             m_ShowingSideView = !m_ShowingSideView;
 
         if(advancedOptions.updateCameraInUpdate)

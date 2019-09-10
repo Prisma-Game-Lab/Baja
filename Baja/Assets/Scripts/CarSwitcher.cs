@@ -42,7 +42,7 @@ public class CarSwitcher : MonoBehaviour
 			m_DriftCamera.sideView = camRig.Find("CamSidePosition");
 		}*/
 		
-		if (InputManager.GetButtonDown("Restart"))
+		if (ControllerDetector.GetButtonDown("Restart"))
 		{
 			Transform vehicleTransform = vehicles[m_VehicleId].transform;
 			vehicleTransform.rotation = Quaternion.identity;
