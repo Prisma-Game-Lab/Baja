@@ -70,6 +70,7 @@ public class MenuManager : MonoBehaviour
 
 	private void PauseGame()
 	{
+		if(StartMenu.activeSelf || OptionMenu.activeSelf || WinPanel.activeSelf) return;
 		if (IsPaused == true)
 		{
 			Time.timeScale = 1.0f;
