@@ -14,4 +14,8 @@ public class SettingsMenu : MonoBehaviour {
 
 		//manager.Awake();
 	}
+
+	public void SetSFXVolume(float volume){
+		AudioManager.instance.carSound.volume = volume;
+	}
 }
