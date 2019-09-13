@@ -49,7 +49,7 @@ public class MenuManager : MonoBehaviour
 	{
 		//TutorialPanel.SetActive(false);
 		CheckInputMethod(false);
-		HUD.SetActive(true);
+		//HUD.SetActive(true);
 		IsPaused = false;
 		Timer.SetActive(true);
 		Time.timeScale = 1.0f;
@@ -106,6 +106,8 @@ public class MenuManager : MonoBehaviour
 	public void BackFromPause()
 	{
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		CountdownBeforeGame.acabou = false;
+		HUD.SetActive(false);
 	}
 
 	public void Continue()

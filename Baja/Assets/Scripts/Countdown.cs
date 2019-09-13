@@ -31,6 +31,7 @@ public class Countdown : MonoBehaviour {
     void Update () {
         timer.text = $"Timer: " + ArredondaTempo(laptime) + "\nLap: " + numVoltaAtual;
 		if(CountdownBeforeGame.acabou) {
+            if(!HUD.activeSelf) HUD.SetActive(true);
             laptime += Time.deltaTime;
         }
 	}
@@ -58,6 +59,7 @@ public class Countdown : MonoBehaviour {
             finalPanelText.text = string.Concat(finalPanelText.text, (numVolta+1)+"ª volta: " + ArredondaTempo(resultadosVoltas[numVolta]) + "\n");
             numVolta++;
         }
+        CountdownBeforeGame.acabou = false;
         HUD.SetActive(false);
         finalPanel.SetActive(true);
         EventSystem.current.SetSelectedGameObject(MenuManager.instance.FirstSelectedOptionOnResultMenu);
