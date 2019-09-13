@@ -6155,6 +6155,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 12800000, guid: b702ddc9afd339e459b8893ffeb04a9f,
         type: 3}
+    - target: {fileID: 4467000876046225710, guid: e479ba540bd4da7459c92d08e49fb3b6,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 224877909547455596, guid: e479ba540bd4da7459c92d08e49fb3b6,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -6201,7 +6206,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: '>>CIRCUITO COMPLETO!<<
-
 
         Resultados:'
       objectReference: {fileID: 0}
