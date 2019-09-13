@@ -61,6 +61,7 @@ public class Countdown : MonoBehaviour {
         }
         CountdownBeforeGame.acabou = false;
         AudioManager.instance.carSound.Stop();
+        Debug.Log("A");
         HUD.SetActive(false);
         finalPanel.SetActive(true);
         EventSystem.current.SetSelectedGameObject(MenuManager.instance.FirstSelectedOptionOnResultMenu);
