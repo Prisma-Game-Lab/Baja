@@ -63,6 +63,8 @@ public class MenuManager : MonoBehaviour
 		WinPanel.SetActive(false);
 		CheckInputMethod(true);
 		//TutorialPanel.SetActive(true);
+		AudioManager.instance.Play("Theme");
+		AudioManager.instance.Stop("Menu");
 	}
 
 
@@ -108,6 +110,8 @@ public class MenuManager : MonoBehaviour
 	public void BackFromPause()
 	{
 		AudioManager.instance.carSound.Stop();
+		AudioManager.instance.Stop("Theme");
+		AudioManager.instance.Play("Menu");
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 		CountdownBeforeGame.acabou = false;
 		HUD.SetActive(false);

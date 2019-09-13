@@ -902,6 +902,18 @@ MonoBehaviour:
     pitch: 1
     loop: 1
     source: {fileID: 0}
+  - name: Menu
+    clip: {fileID: 8300000, guid: 9cf44ab3c4050ad40b0012ad4030cfac, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Credits
+    clip: {fileID: 8300000, guid: 9cf44ab3c4050ad40b0012ad4030cfac, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
   carSound: {fileID: 1544654606}
 --- !u!1001 &366486080
 PrefabInstance:
