@@ -31,7 +31,7 @@ public class Countdown : MonoBehaviour {
     void Update () {
         timer.text = $"Timer: " + ArredondaTempo(laptime) + "\nLap: " + numVoltaAtual;
 		if(CountdownBeforeGame.acabou) {
-            if(!HUD.activeSelf) HUD.SetActive(true);
+            if(!HUD.activeSelf && !finalPanel.activeSelf) HUD.SetActive(true);
             laptime += Time.deltaTime;
         }
 	}
