@@ -196,12 +196,12 @@ namespace Luminosity.IO
                 return false;
 
             var shouldActivate = m_ForceModuleActive;
-            shouldActivate |= ControllerDetector.GetButtonDown(m_SubmitButton);
-            shouldActivate |= ControllerDetector.GetButtonDown(m_CancelButton);
-            shouldActivate |= ControllerDetector.GetButtonDown(m_UpButton);
-            shouldActivate |= ControllerDetector.GetButtonDown(m_DownButton);
-            shouldActivate |= ControllerDetector.GetButtonDown(m_LeftButton);
-            shouldActivate |= ControllerDetector.GetButtonDown(m_RightButton);
+            shouldActivate |= input.GetButtonDown(m_SubmitButton);
+            shouldActivate |= input.GetButtonDown(m_CancelButton);
+            shouldActivate |= input.GetButtonDown(m_UpButton);
+            shouldActivate |= input.GetButtonDown(m_DownButton);
+            shouldActivate |= input.GetButtonDown(m_LeftButton);
+            shouldActivate |= input.GetButtonDown(m_RightButton);
             shouldActivate |= (m_MousePosition - m_LastMousePosition).sqrMagnitude > 0.0f;
             shouldActivate |= input.GetMouseButtonDown(0);
 
@@ -409,10 +409,10 @@ namespace Luminosity.IO
                 return false;
 
             var data = GetBaseEventData();
-            if(ControllerDetector.GetButtonDown(m_SubmitButton))
+            if(input.GetButtonDown(m_SubmitButton))
                 ExecuteEvents.Execute(eventSystem.currentSelectedGameObject, data, ExecuteEvents.submitHandler);
 
-            if(ControllerDetector.GetButtonDown(m_CancelButton))
+            if(input.GetButtonDown(m_CancelButton))
                 ExecuteEvents.Execute(eventSystem.currentSelectedGameObject, data, ExecuteEvents.cancelHandler);
             return data.used;
         }
@@ -420,13 +420,13 @@ namespace Luminosity.IO
         private Vector2 GetRawMoveVector()
         {
             Vector2 move = Vector2.zero;
-            if(ControllerDetector.GetButtonDown(m_LeftButton))
+            if(input.GetButtonDown(m_LeftButton))
                 move.x = -1.0f;
-            if(ControllerDetector.GetButtonDown(m_RightButton))
+            if(input.GetButtonDown(m_RightButton))
                 move.x = 1.0f;
-            if(ControllerDetector.GetButtonDown(m_UpButton))
+            if(input.GetButtonDown(m_UpButton))
                 move.y = 1.0f;
-            if(ControllerDetector.GetButtonDown(m_DownButton))
+            if(input.GetButtonDown(m_DownButton))
                 move.y = -1.0f;
 
             return move;

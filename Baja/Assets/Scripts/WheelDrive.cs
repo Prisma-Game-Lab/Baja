@@ -33,6 +33,17 @@ public class WheelDrive : MonoBehaviour
 
     private WheelCollider[] m_Wheels;
 
+	public float maxRpm {
+		get {
+			float max = Mathf.NegativeInfinity;
+			foreach (WheelCollider wheel in m_Wheels)
+			{
+				if(wheel.rpm > max) max = wheel.rpm;
+			}
+			return max;
+		}
+	} 
+
     // Find all the WheelColliders down in the hierarchy.
 	void Start()
 	{

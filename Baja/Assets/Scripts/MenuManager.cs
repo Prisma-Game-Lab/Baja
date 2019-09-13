@@ -63,6 +63,8 @@ public class MenuManager : MonoBehaviour
 		WinPanel.SetActive(false);
 		CheckInputMethod(true);
 		//TutorialPanel.SetActive(true);
+		AudioManager.instance.Play("Theme");
+		AudioManager.instance.Stop("Menu");
 	}
 
 
@@ -73,6 +75,7 @@ public class MenuManager : MonoBehaviour
 			Time.timeScale = 1.0f;
 			PauseMenu.SetActive(false);
 			IsPaused = false;
+			AudioManager.instance.carSound.Play();
 		}
 		else if (!WinPanel.activeInHierarchy && !OptionMenu.activeInHierarchy && !StartMenu.activeInHierarchy)
 		{
@@ -80,6 +83,7 @@ public class MenuManager : MonoBehaviour
 			PauseMenu.SetActive(true);
             EventSystem.current.SetSelectedGameObject(FirstSelectedOptionOnPauseMenu);
 			IsPaused = true;
+			AudioManager.instance.carSound.Stop();
 		}
 	}
 
@@ -105,6 +109,9 @@ public class MenuManager : MonoBehaviour
 
 	public void BackFromPause()
 	{
+		AudioManager.instance.carSound.Stop();
+		AudioManager.instance.Stop("Theme");
+		AudioManager.instance.Play("Menu");
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 		CountdownBeforeGame.acabou = false;
 		HUD.SetActive(false);

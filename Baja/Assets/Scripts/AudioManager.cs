@@ -7,6 +7,7 @@ public class AudioManager : MonoBehaviour {
 	public AudioMixer mixer;
 
 	public Sound[] sounds;
+	public AudioSource carSound;
 
 	public static AudioManager instance;
 
@@ -40,7 +41,7 @@ public class AudioManager : MonoBehaviour {
 
 		GetComponent<AudioSource>().outputAudioMixerGroup = mixer.FindMatchingGroups(_MasterMixer)[0];
 
-		Play("Theme");
+		Play("Menu");
 	}
 
 	public void Play (string name) {
@@ -50,5 +51,14 @@ public class AudioManager : MonoBehaviour {
 			return;
 		}
 		s.source.Play();
+	}
+
+	public void Stop(string name){
+		Sound s = Array.Find(sounds, sound => sound.name == name);
+		if (s == null) {
+			Debug.Log("Sound " + name + " not found!");
+			return;
+		}
+		s.source.Stop();
 	}
 }
