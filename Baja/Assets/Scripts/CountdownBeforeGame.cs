@@ -21,6 +21,7 @@ public class CountdownBeforeGame : MonoBehaviour
     void FixedUpdate()
     {
         if(MenuManager.AfterCountdown) {
+            if(!AudioManager.instance.carSound.isPlaying) AudioManager.instance.carSound.Play();
             countdown.gameObject.SetActive(true);
             numero -= Time.deltaTime;
             countdown.text = Mathf.RoundToInt((numero-1)).ToString();
