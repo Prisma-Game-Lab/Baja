@@ -23,6 +23,8 @@ public class AudioManager : MonoBehaviour {
 
 		DontDestroyOnLoad(gameObject);
 
+		string _MasterMixer = "Master";
+
 		foreach (Sound s in sounds) {
 			//Adiciona um audiosource no array presente no objeto
 			s.source = gameObject.AddComponent<AudioSource>();
@@ -32,14 +34,13 @@ public class AudioManager : MonoBehaviour {
 			s.source.volume = s.volume;
 			s.source.pitch = s.pitch;
 			s.source.loop = s.loop;
+
+			s.source.outputAudioMixerGroup = mixer.FindMatchingGroups(_MasterMixer)[0];
 		}
 	}
 
 	void Start() {
 		//AudioMixer mixer = Resources.Load("MainMixer") as AudioMixer;
-		string _MasterMixer = "Master";
-
-		GetComponent<AudioSource>().outputAudioMixerGroup = mixer.FindMatchingGroups(_MasterMixer)[0];
 
 		Play("Menu");
 	}
