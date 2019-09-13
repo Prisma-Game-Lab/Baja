@@ -7,6 +7,7 @@ public class AudioManager : MonoBehaviour {
 	public AudioMixer mixer;
 
 	public Sound[] sounds;
+	public AudioSource carSound;
 
 	public static AudioManager instance;
 

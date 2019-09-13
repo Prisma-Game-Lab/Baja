@@ -60,6 +60,7 @@ public class Countdown : MonoBehaviour {
             numVolta++;
         }
         CountdownBeforeGame.acabou = false;
+        AudioManager.instance.carSound.Stop();
         HUD.SetActive(false);
         finalPanel.SetActive(true);
         EventSystem.current.SetSelectedGameObject(MenuManager.instance.FirstSelectedOptionOnResultMenu);
