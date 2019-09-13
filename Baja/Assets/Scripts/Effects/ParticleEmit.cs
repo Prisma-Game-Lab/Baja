@@ -4,18 +4,15 @@ using UnityEngine;
 
 public class ParticleEmit : MonoBehaviour
 {
-    ParticleSystem particles;
+    public ParticleSystem[] particles;
     public WheelDrive wheels;
     public float minRpmToPlay = 10f;
-    void Start() {
-        particles = GetComponent<ParticleSystem>();
-    }
     void Update()
     {
         if(wheels.maxRpm >= minRpmToPlay){
-            particles.Play();
+            foreach(var particle in particles) particle.Play();
         }else{
-            particles.Stop();
+            foreach(var particle in particles) particle.Stop();
         }
     }
 }
